@@ -8,7 +8,7 @@ on:
 
 jobs:
   run_script:
-    runs-on: ubuntu-latest  # Use Ubuntu as the operating system
+    runs-on: ubuntu-22.04  # Explicitly use Ubuntu 22.04
 
     steps:
       # Step 1: Checkout the repository
