@@ -28,7 +28,7 @@ jobs:
 
       # Step 4: Run the script
       - name: Run translation script
-        run: python script.py
+        run: python cryptonews_translator.py
 
       # Step 5: Commit and push changes back to the repository
       - name: Commit and push changes
