@@ -31,11 +31,10 @@ jobs:
       - name: Run translation script
         run: python cryptonews_translator.py
 
-      # Step 5: Commit and push changes back to the repository
+      # Step 5: Commit and push changes back to the repository (only if there are changes)
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add translated_news.json
-          git commit -m "Update translated news"
-          git push origin main
+          git diff --cached --quiet || (git commit -m "Update translated news" && git push origin main)
