@@ -7,8 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1w_hiCELjwbo-3ZY0w0AzjD8Dm2bTYq-o
 """
 
-# Install required libraries
-!pip install transformers requests
+
 
 # Import required libraries
 import requests
