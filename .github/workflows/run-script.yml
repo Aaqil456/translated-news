@@ -31,7 +31,18 @@ jobs:
       - name: Run translation script
         run: python cryptonews_translator.py
 
-      # Step 5: Commit and push changes back to the repository (only if there are changes)
+      # Step 5: Debug authentication
+      - name: Debug Authentication
+        env:
+          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+        run: |
+          echo "Current repository: ${{ github.repository }}"
+          echo "Current branch: ${{ github.ref_name }}"
+          git remote -v
+          echo "Testing token authentication:"
+          curl -H "Authorization: token ${{ secrets.ACTIONS_PAT }}" https://api.github.com/repos/${{ github.repository }}
+
+      # Step 6: Commit and push changes back to the repository (only if there are changes)
       - name: Commit and push changes
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
@@ -41,4 +52,3 @@ jobs:
           git add translated_news.json
           git diff --cached --quiet || git commit -m "Update translated news"
           git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
-
