@@ -27,11 +27,24 @@ jobs:
           pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install transformers requests sentencepiece
 
-      # Step 4: Run the script
+      # Step 4: Test if ACTIONS_PAT is set
+      - name: Test ACTIONS_PAT Secret
+        env:
+          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+        run: |
+          echo "Testing if ACTIONS_PAT is available..."
+          if [ -z "${ACTIONS_PAT}" ]; then
+            echo "ACTIONS_PAT is not set!"
+            exit 1
+          else
+            echo "ACTIONS_PAT is set and available."
+          fi
+
+      # Step 5: Run the script
       - name: Run translation script
         run: python cryptonews_translator.py
 
-      # Step 5: Debug authentication
+      # Step 6: Debug authentication
       - name: Debug Authentication
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
@@ -42,7 +55,7 @@ jobs:
           echo "Testing token authentication:"
           curl -H "Authorization: token ${{ secrets.ACTIONS_PAT }}" https://api.github.com/repos/${{ github.repository }}
 
-      # Step 6: Commit and push changes back to the repository (only if there are changes)
+      # Step 7: Commit and push changes back to the repository (only if there are changes)
       - name: Commit and push changes
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
