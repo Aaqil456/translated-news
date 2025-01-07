@@ -24,7 +24,8 @@ jobs:
       # Step 3: Install required Python libraries
       - name: Install dependencies
         run: |
-          pip install transformers requests sentencepiece  # Added sentencepiece
+          pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers requests sentencepiece
 
       # Step 4: Run the script
       - name: Run translation script
