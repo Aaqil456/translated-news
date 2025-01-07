@@ -36,6 +36,7 @@ def setup_translation_model():
     model_name = "facebook/m2m100_418M"
     tokenizer = M2M100Tokenizer.from_pretrained(model_name)
     model = M2M100ForConditionalGeneration.from_pretrained(model_name)
+    model.to("cpu")  # Ensure the model runs on CPU
     tokenizer.src_lang = "en"  # Set source language
     return tokenizer, model
 
