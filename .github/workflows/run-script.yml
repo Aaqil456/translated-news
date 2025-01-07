@@ -38,3 +38,4 @@ jobs:
           git add translated_news.json
           git commit -m "Update translated news"
           git push origin main
+
