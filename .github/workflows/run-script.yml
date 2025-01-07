@@ -24,7 +24,7 @@ jobs:
       # Step 3: Install required Python libraries
       - name: Install dependencies
         run: |
-          pip install transformers requests
+          pip install transformers requests sentencepiece  # Added sentencepiece
 
       # Step 4: Run the script
       - name: Run translation script
@@ -38,4 +38,3 @@ jobs:
           git add translated_news.json
           git commit -m "Update translated news"
           git push origin main
-
