@@ -42,8 +42,3 @@ jobs:
           git diff --cached --quiet || git commit -m "Update translated news"
           git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
 
-     - name: Debug Authentication
-       run: |
-        git remote -v
-        echo "Authenticating with token"
-        echo ${ACTIONS_PAT}
