@@ -44,10 +44,12 @@
         <!-- News will be dynamically added here -->
     </div>
     <script>
-        fetch('translated_news.json')
+        // Fetch the latest news JSON with cache busting
+        fetch(`translated_news.json?timestamp=${new Date().getTime()}`)
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('news-container');
+                container.innerHTML = ''; // Clear old content
                 data.forEach(news => {
                     const newsItem = document.createElement('div');
                     newsItem.classList.add('news-item');
