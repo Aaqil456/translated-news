@@ -45,7 +45,7 @@
     </div>
     <script>
         // Fetch the latest news JSON with cache busting
-        fetch(`translated_news.json?timestamp=${new Date().getTime()}`)
+        fetch(`https://aaqil456.github.io/translated-news/translated_news.json?timestamp=${new Date().getTime()}`)
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('news-container');
