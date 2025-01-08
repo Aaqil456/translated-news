@@ -76,3 +76,11 @@ jobs:
           echo "Clearing cached files..."
           rm -rf .cache
           echo "Cache cleared successfully."
+
+
+        # Step 9: Trigger GitHub Pages Rebuild
+      - name: Trigger GitHub Pages Rebuild
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.ACTIONS_PAT }}" \
+          https://api.github.com/repos/${{ github.repository }}/pages/builds
+
