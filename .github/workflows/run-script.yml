@@ -6,6 +6,10 @@ on:
     - cron: "0 * * * *"  # Run every hour
   workflow_dispatch:  # Allows manual execution from the Actions tab
 
+# Explicitly set permissions for the workflow
+permissions:
+  contents: write  # Ensure write access to the repository
+
 jobs:
   run_script:
     runs-on: ubuntu-22.04  # Explicitly use Ubuntu 22.04
