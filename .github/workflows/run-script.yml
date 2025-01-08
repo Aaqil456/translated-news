@@ -1,4 +1,4 @@
-name: Run Translation Script
+name: Run Translation Script and Deploy to Pages
 
 # Triggers: Schedule and manual execution
 on:
@@ -44,22 +44,11 @@ jobs:
             echo "ACTIONS_PAT is set and available."
           fi
 
-      # Step 5: Run the script
+      # Step 5: Run the Python script to generate translated_news.json
       - name: Run translation script
         run: python cryptonews_translator.py
 
-      # Step 6: Debug authentication
-      - name: Debug Authentication
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
-        run: |
-          echo "Current repository: ${{ github.repository }}"
-          echo "Current branch: ${{ github.ref_name }}"
-          git remote -v
-          echo "Testing token authentication:"
-          curl -H "Authorization: token ${{ secrets.ACTIONS_PAT }}" https://api.github.com/repos/${{ github.repository }}
-
-      # Step 7: Commit and push changes back to the repository (only if there are changes)
+      # Step 6: Commit and push the latest changes back to the repository
       - name: Commit and push changes
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
@@ -70,17 +59,12 @@ jobs:
           git diff --cached --quiet || git commit -m "Update translated news"
           git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/${{ github.repository }}.git main
 
-      # Step 8: Cache Invalidation
-      - name: Clear GitHub Pages Cache (if applicable)
-        run: |
-          echo "Clearing cached files..."
-          rm -rf .cache
-          echo "Cache cleared successfully."
-
-
-        # Step 9: Trigger GitHub Pages Rebuild
+      # Step 7: Trigger GitHub Pages build
       - name: Trigger GitHub Pages Rebuild
+        env:
+          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
         run: |
+          echo "Triggering GitHub Pages build..."
           curl -X POST -H "Authorization: token ${{ secrets.ACTIONS_PAT }}" \
           https://api.github.com/repos/${{ github.repository }}/pages/builds
-
+          echo "GitHub Pages rebuild triggered successfully."
