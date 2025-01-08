@@ -50,21 +50,38 @@
     <script>
         // Fetch the latest news JSON with cache busting
         fetch(`https://aaqil456.github.io/translated-news/translated_news.json?timestamp=${new Date().getTime()}`)
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
             .then(data => {
+                console.log("Fetched data:", data); // Debugging: Log the fetched data
                 const container = document.getElementById('news-container');
                 container.innerHTML = ''; // Clear old content
-                data.forEach(news => {
-                    const newsItem = document.createElement('div');
-                    newsItem.classList.add('news-item');
-                    newsItem.innerHTML = `
-                        <div class="news-title">${news.title}</div>
-                        <a href="${news.url}" class="news-link" target="_blank">Read more</a>
-                    `;
-                    container.appendChild(newsItem);
-                });
+                
+                // Ensure the data is an array
+                if (Array.isArray(data)) {
+                    data.forEach(news => {
+                        const newsItem = document.createElement('div');
+                        newsItem.classList.add('news-item');
+                        newsItem.innerHTML = `
+                            <div class="news-title">${news.title}</div>
+                            <a href="${news.url}" class="news-link" target="_blank">Read more</a>
+                        `;
+                        container.appendChild(newsItem);
+                    });
+                } else {
+                    console.error("Fetched data is not an array:", data);
+                    container.innerHTML = '<div>Error: The fetched data is not in the expected format.</div>';
+                }
             })
-            .catch(err => console.error('Error loading news:', err));
+            .catch(err => {
+                console.error('Error loading news:', err);
+                const container = document.getElementById('news-container');
+                container.innerHTML = '<div>Error loading news. Please try again later.</div>';
+            });
     </script>
 </body>
 </html>
