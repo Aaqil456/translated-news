@@ -60,10 +60,11 @@
                 console.log("Fetched data:", data); // Debugging: Log the fetched data
                 const container = document.getElementById('news-container');
                 container.innerHTML = ''; // Clear old content
-                
-                // Ensure the data is an array
-                if (Array.isArray(data)) {
-                    data.forEach(news => {
+
+                // Access the "news" key in the fetched JSON
+                const newsArray = data.news;
+                if (Array.isArray(newsArray)) {
+                    newsArray.forEach(news => {
                         const newsItem = document.createElement('div');
                         newsItem.classList.add('news-item');
                         newsItem.innerHTML = `
@@ -73,7 +74,7 @@
                         container.appendChild(newsItem);
                     });
                 } else {
-                    console.error("Fetched data is not an array:", data);
+                    console.error("Fetched data.news is not an array:", newsArray);
                     container.innerHTML = '<div>Error: The fetched data is not in the expected format.</div>';
                 }
             })
