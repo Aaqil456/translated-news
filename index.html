@@ -12,12 +12,12 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f9f9f9;
+            background-color: black;
         }
         .news-container {
             max-width: 800px;
             margin: auto;
-            background-color: white;
+            background-color: black;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,9 +33,10 @@
         .news-title {
             font-size: 18px;
             font-weight: bold;
+            color: white;
         }
         .news-link {
-            color: #0073e6;
+            color: #00e2b1;
             text-decoration: none;
         }
         .news-link:hover {
@@ -69,7 +70,7 @@
                         newsItem.classList.add('news-item');
                         newsItem.innerHTML = `
                             <div class="news-title">${news.title}</div>
-                            <a href="${news.url}" class="news-link" target="_blank">Read more</a>
+                            <a href="${news.url}" class="news-link" target="_blank">Baca Lagi</a>
                         `;
                         container.appendChild(newsItem);
                     });
