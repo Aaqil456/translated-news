@@ -13,6 +13,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: black;
+            overflow-y: scroll; /* Ensure scrollbar appears */
         }
         .news-container {
             max-width: 800px;
@@ -42,6 +43,28 @@
         .news-link:hover {
             text-decoration: underline;
         }
+
+        /* Custom Scrollbar Styles */
+        ::-webkit-scrollbar {
+            width: 10px; /* Width of the scrollbar */
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a; /* Background of the scrollbar track */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #00e2b1; /* Color of the scrollbar handle */
+            border-radius: 5px; /* Rounded corners for the handle */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00c08a; /* Color when hovered */
+        }
+
+        /* Firefox Scrollbar */
+        scrollbar-width: thin; /* Set scrollbar width */
+        scrollbar-color: #00e2b1 #1a1a1a; /* Handle and track color */
     </style>
 </head>
 <body>
