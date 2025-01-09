@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-"""CryptoNews_Translator"""
-
 # Import required libraries
 import requests
 import json
@@ -34,17 +31,20 @@ def translate_text_easypeasy(api_key, text):
         "x-api-key": api_key
     }
     payload = {
-        "message": text,
+        "message": "translate this " + text,
         "history": [],
         "stream": False
     }
 
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
-        return response.json().get("message", "Translation failed")
+        response_data = response.json()
+        print("Response:", response_data)  # Debugging
+        return response_data.get("bot", {}).get("text", "Translation failed")  # Fetch correct key
     else:
         print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
+
 
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
