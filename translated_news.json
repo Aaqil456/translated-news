@@ -1,6 +1,18 @@
 {
-    "timestamp": "2025-01-09 05:17:44",
+    "timestamp": "2025-01-09 05:30:10",
     "news": [
+        {
+            "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525222/"
+        },
+        {
+            "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525217/"
+        },
+        {
+            "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525243/"
+        },
         {
             "title": "Translation failed",
             "url": "https://cryptopanic.com/news/click/20525194/"
@@ -8,6 +20,10 @@
         {
             "title": "Translation failed",
             "url": "https://cryptopanic.com/news/click/20525190/"
+        },
+        {
+            "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525242/"
         },
         {
             "title": "Translation failed",
@@ -35,6 +51,10 @@
         },
         {
             "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525241/"
+        },
+        {
+            "title": "Translation failed",
             "url": "https://cryptopanic.com/news/click/20524996/"
         },
         {
@@ -43,43 +63,23 @@
         },
         {
             "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525240/"
+        },
+        {
+            "title": "Translation failed",
+            "url": "https://cryptopanic.com/news/click/20525239/"
+        },
+        {
+            "title": "Translation failed",
             "url": "https://cryptopanic.com/news/click/20524995/"
         },
         {
             "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524894/"
+            "url": "https://cryptopanic.com/news/click/20525238/"
         },
         {
             "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524910/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524891/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524889/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524859/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524852/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524834/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524832/"
-        },
-        {
-            "title": "Translation failed",
-            "url": "https://cryptopanic.com/news/click/20524829/"
+            "url": "https://cryptopanic.com/news/click/20525237/"
         }
     ]
 }
