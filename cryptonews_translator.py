@@ -24,23 +24,24 @@ def fetch_news(api_key):
         return []
 
 # Function to translate text using Easy Peasy API
-def translate_text_easypeasy(api_key, text, target_lang="ms"):
+def translate_text_easypeasy(api_key, text):
     """
     Translate text using Easy Peasy API.
     """
-    url = "https://api.easypeasy.ai/translate"
+    url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
     headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
+        "content-type": "application/json",
+        "x-api-key": api_key
     }
     payload = {
-        "text": text,
-        "target_lang": target_lang
+        "message": text,
+        "history": [],
+        "stream": False
     }
 
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
-        return response.json().get("translated_text", "Translation failed")
+        return response.json().get("message", "Translation failed")
     else:
         print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
