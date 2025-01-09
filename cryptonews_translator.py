@@ -5,7 +5,6 @@
 import requests
 import json
 from datetime import datetime
-from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 
 # Function to fetch news from CryptoPanic
 def fetch_news(api_key):
@@ -24,20 +23,27 @@ def fetch_news(api_key):
         print(f"Failed to fetch news: {response.status_code}")
         return []
 
-# Function to set up the M2M100 model
-def setup_translation_model():
-    model_name = "facebook/m2m100_418M"
-    tokenizer = M2M100Tokenizer.from_pretrained(model_name)
-    model = M2M100ForConditionalGeneration.from_pretrained(model_name)
-    model.to("cpu")  # Ensure the model runs on CPU
-    tokenizer.src_lang = "en"  # Set source language
-    return tokenizer, model
+# Function to translate text using Easy Peasy API
+def translate_text_easypeasy(api_key, text, target_lang="ms"):
+    """
+    Translate text using Easy Peasy API.
+    """
+    url = "https://api.easypeasy.ai/translate"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "text": text,
+        "target_lang": target_lang
+    }
 
-# Function to translate text using M2M100
-def translate_text(text, tokenizer, model, target_lang="ms"):
-    inputs = tokenizer(text, return_tensors="pt")
-    outputs = model.generate(**inputs, forced_bos_token_id=tokenizer.get_lang_id(target_lang))
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+    response = requests.post(url, json=payload, headers=headers)
+    if response.status_code == 200:
+        return response.json().get("translated_text", "Translation failed")
+    else:
+        print(f"Translation API error: {response.status_code}, {response.text}")
+        return "Translation failed"
 
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
@@ -55,31 +61,30 @@ def save_to_json(data, filename="translated_news.json"):
 # Main script
 def main():
     # Set your CryptoPanic API Key
-    API_KEY = "b07d7003878406ba6c40ccd64b044855e2e96c8b"
+    CRYPTOPANIC_API_KEY = "b07d7003878406ba6c40ccd64b044855e2e96c8b"
+
+    # Set your Easy Peasy API Key
+    EASY_PEASY_API_KEY = "a4cc18de-8311-429d-9948-ed0045cf7b45"
 
     # Step 1: Fetch news
     print("Fetching news from CryptoPanic...")
-    news_list = fetch_news(API_KEY)
+    news_list = fetch_news(CRYPTOPANIC_API_KEY)
 
     if not news_list:
         print("No news fetched. Exiting.")
         return
 
-    # Step 2: Set up the translation model
-    print("Setting up the translation model...")
-    tokenizer, model = setup_translation_model()
-
-    # Step 3: Translate news titles and prepare the final list
+    # Step 2: Translate news titles and prepare the final list
     print("Translating news titles...")
     translated_news = []
     for news in news_list:
-        malay_title = translate_text(news["title"], tokenizer, model)
+        malay_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
         translated_news.append({"title": malay_title, "url": news["url"]})
 
-    # Step 4: Save translated news to JSON
+    # Step 3: Save translated news to JSON
     save_to_json(translated_news)
 
-    # Step 5: Print translated news (Optional for debugging/logging)
+    # Step 4: Print translated news (Optional for debugging/logging)
     print("\nTranslated News:")
     for news in translated_news:
         print(f"Title: {news['title']}\nURL: {news['url']}\n")
