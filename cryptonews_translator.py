@@ -31,7 +31,7 @@ def translate_text_easypeasy(api_key, text):
         "x-api-key": api_key
     }
     payload = {
-        "message": "translate this " + text,
+        "message": "translate this title"+text+ " into malay language. Take note that your job is just to translate this title into malay " ,
         "history": [],
         "stream": False
     }
