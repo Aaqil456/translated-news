@@ -1,4 +1,5 @@
 # Import required libraries
+import os
 import requests
 import json
 from datetime import datetime
@@ -31,7 +32,7 @@ def translate_text_easypeasy(api_key, text):
         "x-api-key": api_key
     }
     payload = {
-        "message": "translate this title"+text+ " into malay language. Take note that your job is just to translate this title into malay " ,
+        "message": f"translate this title '{text}' into Malay language. Your job is just to translate this title into Malay.",
         "history": [],
         "stream": False
     }
@@ -39,12 +40,10 @@ def translate_text_easypeasy(api_key, text):
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
         response_data = response.json()
-        print("Response:", response_data)  # Debugging
         return response_data.get("bot", {}).get("text", "Translation failed")  # Fetch correct key
     else:
         print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
-
 
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
@@ -61,11 +60,14 @@ def save_to_json(data, filename="translated_news.json"):
 
 # Main script
 def main():
-    # Set your CryptoPanic API Key
-    CRYPTOPANIC_API_KEY = "b07d7003878406ba6c40ccd64b044855e2e96c8b"
+    # Fetch API keys from environment variables
+    CRYPTOPANIC_API_KEY = os.getenv("CRYPTOPANIC_API_KEY")
+    EASY_PEASY_API_KEY = os.getenv("EASY_PEASY_API_KEY")
 
-    # Set your Easy Peasy API Key
-    EASY_PEASY_API_KEY = "a4cc18de-8311-429d-9948-ed0045cf7b45"
+    # Ensure API keys are available
+    if not CRYPTOPANIC_API_KEY or not EASY_PEASY_API_KEY:
+        print("API keys are missing! Please set them as environment variables.")
+        return
 
     # Step 1: Fetch news
     print("Fetching news from CryptoPanic...")
