@@ -1,125 +1,125 @@
 {
-    "timestamp": "2025-01-13 16:19:46",
+    "timestamp": "2025-01-13 17:14:31",
     "news": [
         {
-            "title": "MoonPay Mengembangkan Infrastruktur Pembayaran Kripto dengan Pengambilalihan Helio bernilai $175J.",
+            "title": "Tether sedia untuk berpindah ke El Salvador.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544270/",
+            "image": "https://protos-media.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/01/13171859/Protos-Artwork-TetherSalvador-SIMG.jpg"
+        },
+        {
+            "title": "Bolehkah Sekatan Eksport AS Menghentikan Ledakan AI?",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544272/",
+            "image": "https://tokenist.com/wp-content/uploads/2022/06/TheTokenist.png"
+        },
+        {
+            "title": "BitsLab’s ScaleBit menunjukkan kelemahan 'membimbangkan' dalam Dompet Uniswap.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544265/",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/0194603b-3a91-7a19-a23f-eb910ae9e552"
+        },
+        {
+            "title": "'Justin Sun Pindahkan $320J dalam Ethereum ketika Pasaran Kripto Menghadapi Tekanan'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544221/",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/justin-sun-poloniex.jpg"
+        },
+        {
+            "title": "Bitcoin – Kenapa ‘Tamakan vs. Takut’ akan menjadi keputusan perdagangan yang membentuk Q1.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544248/",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Ritika2-1-1-1000x600.webp"
+        },
+        {
+            "title": "MicroStrategy Membeli Bitcoin Tambahan Bernilai $243 Juta",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544188/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/02/Microstrategy-Bitcoin-shutterstock_2017041662-gID_7.jpg"
+        },
+        {
+            "title": "Permintaan perlombongan Bitcoin di Rusia meningkat tiga kali ganda di tengah perubahan peraturan dan kenaikan harga.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544134/",
+            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/bitcoin-russia.jpg"
+        },
+        {
+            "title": "Ramalan Harga ARTFI dan Analisis Token ARTFI (2025–2030)",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544127/",
+            "image": "https://droomdroom.com/wp-content/uploads/2025/01/Artfi-Price.jpg"
+        },
+        {
+            "title": "'Tether memindahkan ibu pejabat ke El Salvador selepas mendapatkan lesen operasi.'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544121/",
+            "image": "https://i0.wp.com/atlas21.com/wp-content/uploads/2023/10/atlas21.png?fit=2400%2C1350&ssl=1"
+        },
+        {
+            "title": "'Dogecoin Turun, Tetapi Koin Meme Utama Ini Turun Lebih Teruk.'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544125/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/04/dogecoin-price-trading-gID_7.jpeg"
+        },
+        {
+            "title": "Tether memindahkan ibu pejabat ke El Salvador selepas kelulusan lesen DASP.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544119/",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/13112513/61146908-f5a9-4fc2-8a73-368078fccadf-800x420.jpg"
+        },
+        {
+            "title": "Pasaran Aset Global, Karpous Melancarkan Alpha Tertutup bagi Platform cDe-Fi Baharunya.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544114/",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/13220351/karpous.webp"
+        },
+        {
+            "title": "'Tether Pindahkan Seluruh Operasi ke El Salvador — Apa Makna Ini untuk USDT?'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544109/",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/01/CEFEAT4-4.png"
+        },
+        {
+            "title": "On: blockchain inovatif yang menyelesaikan batasan Ethereum.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544120/",
+            "image": "https://cryptonomist.ch/wp-content/uploads/2024/09/sui-blockchain.png"
+        },
+        {
+            "title": "Berita Saman XRP: Pakar Menjelaskan Mengapa SEC Tidak Akan Terlepas Tarikh Akhir 15 Januari dan Berisiko Dismissal.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544058/",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/12/13190458/Big-Breaking-SECs-Gensler-Threatens-Elon-Musk-with-Charges-Unless-He-Settles-in-48-Hours-1.webp"
+        },
+        {
+            "title": "Syarikat Pembayaran Kripto MoonPay Mengambil Alih Helio dengan Harga $175J.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544269/",
+            "image": "h"
+        },
+        {
+            "title": "'Reserve pertukaran Bitcoin jatuh ke tahap terendah dalam 7 tahun.'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20544056/",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Bitcoin-exchange-reserves-7-year-low-1.webp"
+        },
+        {
+            "title": "MoonPay Memperluas Infrastruktur Pembayaran Kripto dengan Akuisisi Helio bernilai $175M.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20544010/",
             "image": "https://www.nftgators.com/wp-content/uploads/2022/01/moonpay3926.jpg"
         },
         {
-            "title": "Spot XRP ETF Akan Diluluskan Tahun Ini, Kata Penganalisis Teratas; Ahli Kongres AS Dedah Pegangan XRP, SOL dan BTC; 8.32 Trillion Dalam 24 Jam, Shiba Inu OI Meningkat: Berita Kripto oleh U.Today",
+            "title": "ETF Spot XRP Dijangka Diluluskan Tahun Ini, Kata Penganalisis Teratas; Ahli Kongres AS Dedahkan Pegangan XRP, SOL dan BTC; 8.32 Trilion dalam 24 Jam, OI Shiba Inu Melonjak: Ringkasan Berita Kripto oleh U.Today.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20543990/",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55293.jpg"
         },
         {
-            "title": "'Token ANIME Berkait Azuki Dilancarkan di Ethereum Bulan Ini'",
+            "title": "'Token ANIME yang Berkaitan dengan Azuki Dilancarkan di Ethereum Bulan Ini'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20543953/",
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/04/anime-chain-gID_7.png"
-        },
-        {
-            "title": "Kesukaran Melombong Bitcoin Mencapai Tahap Tertinggi Rekod Ketika Rangkaian Menguat.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543902/",
-            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/06/Bitcoin_Profitable-scaled.webp"
-        },
-        {
-            "title": "'Chainalysis memperoleh syarikat permulaan pengesanan penipuan AI dengan harga $150 juta: Laporan'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543995/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946048-7be6-7981-98cc-0a66f94683d9"
-        },
-        {
-            "title": "Stok Edison International Mencapai Rendah 52-Minggu di Tengah Siasatan Kebakaran California.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543905/",
-            "image": "https://tokenist.com/wp-content/uploads/2022/06/TheTokenist.png"
-        },
-        {
-            "title": "MicroStrategy milik Michael Saylor membeli 2,530 Bitcoin lagi bernilai $243 juta.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543955/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Michael-Saylor-MicroStrategy-buys-2530-Bitcoin-243-million-1.webp"
-        },
-        {
-            "title": "'Bitcoin (BTC) Di Bawah $90,000, Ini Tahap Utama Seterusnya'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543878/",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5607.jpg"
-        },
-        {
-            "title": "Semler Scientific Meningkatkan Kepemilikan Bitcoin kepada 2,321 BTC Dengan Pembelian Terbaru.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543860/",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5604.jpg"
-        },
-        {
-            "title": "'Tindakan membeli Bitcoin selama 10 minggu oleh MicroStrategy melebihi IBIT BlackRock dengan hampir 200,000 BTC ditambah.'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543838/",
-            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/microstrategy-bitcoin-1.jpg"
-        },
-        {
-            "title": "MoonPay Mengambil Alih Helio dengan Harga $175J, Bertujuan untuk Meningkatkan Pembayaran Blockchain.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543822/",
-            "image": "https://crypto-economy.com//wp-content/uploads/2025/01/CEFEAT3-6.png"
-        },
-        {
-            "title": "Tether akan memindahkan ibu pejabat ke El Salvador selepas mendapatkan lesen.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543832/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946044-6c26-7b35-8936-c80e3ff20da5"
-        },
-        {
-            "title": "Revolusi Bitcoin 2024: ETP menggandakan Modal Pasaran Kripto, Pemenang Besar Muncul.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543885/",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/Commodities--Bonds-And-Global-Equity-Mar.jpeg?width=1200&height=800&fit=crop"
-        },
-        {
-            "title": "Kesukaran perlombongan Bitcoin meningkat untuk kali kelapan berturut-turut melebihi 110 Trilion.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543823/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Bitcoin-mining-difficulty-increased-for-the-eighth-consecutive-time-to-over-110-T.webp"
-        },
-        {
-            "title": "CEO JPMorgan Chase, Jamie Dimon, terus mengkritik Bitcoin dan nilainya.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543757/",
-            "image": "https://coincu.com/wp-content/uploads/2025/01/On_White_94_optimized_2000-1024x576.jpg"
-        },
-        {
-            "title": "MicroStrategy Mengumumkan Pembelian Bitcoin Ketika Harga BTC Menurun",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543806/",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5596.jpg"
-        },
-        {
-            "title": "BlackRock memperkenalkan ETF Bitcoin spot baru di Kanada.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543778/",
-            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/13102908/90ca3ad5-ae13-48f9-9008-f532d25c6968-800x420.jpg"
-        },
-        {
-            "title": "Harga XRP Melonjak Keluar Dari Pola Segitiga Simetri, Mengapa Sasaran Adalah $8.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543734/",
-            "image": "https://www.newsbtc.com/wp-content/uploads/2024/11/XRP-Gears-Up.jpg?fit=1792%2C1024"
-        },
-        {
-            "title": "'Bitcoin Menyerupai Corak 2016 yang Membawa kepada Kenaikan 20x, Menurut Guru Makro Raoul Pal – Ini Pandangannya'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543749/",
-            "image": "https://dailyhodl.com/wp-content/uploads/2024/10/Bitcoin-Nearing-New-All.jpg"
-        },
-        {
-            "title": "MoonPay Mengambil Alih Helio dengan $175J untuk Saing Coinbase Commerce dalam Pembayaran Kripto.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20543563/",
-            "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F4e86b919-c7e7-49ac-a7d9-5b30da7728c6"
         }
     ]
 }
