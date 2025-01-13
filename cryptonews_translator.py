@@ -10,12 +10,17 @@ def fetch_news(api_key):
     response = requests.get(url)
     if response.status_code == 200:
         news_data = response.json()
-        # Extract relevant headlines and construct "click" URLs
+        # Extract relevant metadata and construct "click" URLs
         news_list = []
         for news in news_data.get("results", []):
             # Construct the "click" URL
             click_url = f"https://cryptopanic.com/news/click/{news['id']}/"
-            news_list.append({"title": news["title"], "url": click_url})
+            news_list.append({
+                "title": news["title"],
+                "url": click_url,
+                "description": news.get("description", ""),
+                "image": news.get("metadata", {}).get("image", "")
+            })
         return news_list
     else:
         print(f"Failed to fetch news: {response.status_code}")
@@ -26,13 +31,15 @@ def translate_text_easypeasy(api_key, text):
     """
     Translate text using Easy Peasy API.
     """
+    if not text:
+        return ""  # Return empty if the text is missing
     url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
     headers = {
         "content-type": "application/json",
         "x-api-key": api_key
     }
     payload = {
-        "message": f"translate this title '{text}' into Malay language. Your job is just to translate this title into Malay.",
+        "message": f"translate this text '{text}' into Malay language. Your job is just to translate this text into Malay.",
         "history": [],
         "stream": False
     }
@@ -40,7 +47,7 @@ def translate_text_easypeasy(api_key, text):
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
         response_data = response.json()
-        return response_data.get("bot", {}).get("text", "Translation failed")  # Fetch correct key
+        return response_data.get("bot", {}).get("text", "Translation failed")
     else:
         print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
@@ -77,12 +84,18 @@ def main():
         print("No news fetched. Exiting.")
         return
 
-    # Step 2: Translate news titles and prepare the final list
-    print("Translating news titles...")
+    # Step 2: Translate news titles and descriptions
+    print("Translating news titles and descriptions...")
     translated_news = []
     for news in news_list:
         malay_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        translated_news.append({"title": malay_title, "url": news["url"]})
+        malay_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        translated_news.append({
+            "title": malay_title,
+            "description": malay_description,
+            "url": news["url"],
+            "image": news["image"]
+        })
 
     # Step 3: Save translated news to JSON
     save_to_json(translated_news)
@@ -90,7 +103,7 @@ def main():
     # Step 4: Print translated news (Optional for debugging/logging)
     print("\nTranslated News:")
     for news in translated_news:
-        print(f"Title: {news['title']}\nURL: {news['url']}\n")
+        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\n")
 
 # Run the main script
 if __name__ == "__main__":
