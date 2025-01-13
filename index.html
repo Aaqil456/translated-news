@@ -13,19 +13,18 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: black;
-            overflow-y: scroll; /* Ensure scrollbar appears */
+            color: white;
         }
         .news-container {
             max-width: 800px;
             margin: auto;
-            background-color: black;
+            background-color: #1a1a1a;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .news-item {
             margin-bottom: 20px;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #333;
             padding-bottom: 10px;
         }
         .news-item:last-child {
@@ -34,7 +33,10 @@
         .news-title {
             font-size: 18px;
             font-weight: bold;
-            color: white;
+        }
+        .news-description {
+            font-size: 14px;
+            margin: 10px 0;
         }
         .news-link {
             color: #00e2b1;
@@ -43,28 +45,11 @@
         .news-link:hover {
             text-decoration: underline;
         }
-
-        /* Custom Scrollbar Styles */
-        ::-webkit-scrollbar {
-            width: 10px; /* Width of the scrollbar */
+        .news-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
         }
-
-        ::-webkit-scrollbar-track {
-            background: #1a1a1a; /* Background of the scrollbar track */
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #00e2b1; /* Color of the scrollbar handle */
-            border-radius: 5px; /* Rounded corners for the handle */
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #00c08a; /* Color when hovered */
-        }
-
-        /* Firefox Scrollbar */
-        scrollbar-width: thin; /* Set scrollbar width */
-        scrollbar-color: #00e2b1 #1a1a1a; /* Handle and track color */
     </style>
 </head>
 <body>
@@ -81,11 +66,9 @@
                 return response.json();
             })
             .then(data => {
-                console.log("Fetched data:", data); // Debugging: Log the fetched data
                 const container = document.getElementById('news-container');
                 container.innerHTML = ''; // Clear old content
 
-                // Access the "news" key in the fetched JSON
                 const newsArray = data.news;
                 if (Array.isArray(newsArray)) {
                     newsArray.forEach(news => {
@@ -93,17 +76,17 @@
                         newsItem.classList.add('news-item');
                         newsItem.innerHTML = `
                             <div class="news-title">${news.title}</div>
+                            <img src="${news.image}" alt="${news.title}" class="news-image">
+                            <div class="news-description">${news.description}</div>
                             <a href="${news.url}" class="news-link" target="_blank">Baca Lagi</a>
                         `;
                         container.appendChild(newsItem);
                     });
                 } else {
-                    console.error("Fetched data.news is not an array:", newsArray);
-                    container.innerHTML = '<div>Error: The fetched data is not in the expected format.</div>';
+                    container.innerHTML = '<div>Error: Data format is invalid.</div>';
                 }
             })
             .catch(err => {
-                console.error('Error loading news:', err);
                 const container = document.getElementById('news-container');
                 container.innerHTML = '<div>Error loading news. Please try again later.</div>';
             });
