@@ -1,44 +1,68 @@
 {
-    "timestamp": "2025-01-13 10:46:12",
+    "timestamp": "2025-01-13 11:03:50",
     "news": [
         {
-            "title": "Upbit memberi amaran kepada IOST untuk berhati-hati sebelum peralihan lapisan-2.",
+            "title": "Meta: cadangan pemegang saham untuk mempertimbangkan pelaburan dalam Bitcoin.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20542335/",
+            "image": "https://i0.wp.com/atlas21.com/wp-content/uploads/2023/10/atlas21.png?fit=2400%2C1350&ssl=1"
+        },
+        {
+            "title": "HashKey memperluas jejak global dengan kelulusan lesen aset maya di Dubai.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20542324/",
+            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/hashkey-dubai.jpg"
+        },
+        {
+            "title": "Justin Sun telah memindahkan $1.1 bilion Ether ke HTX sejak bulan November.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20542315/",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Justin-Sun-moved-1.1-billion-of-Ether-to-HTX-since-November.webp"
+        },
+        {
+            "title": "'3 Senario Harga Bitcoin Yang Mungkin Membentuk 2025 Didedahkan oleh Peter Brandt'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20542290/",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5577.jpg"
+        },
+        {
+            "title": "Upbit memberi amaran tentang IOST untuk berhati-hati menjelang peralihan lapisan-2.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542267/",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01945ec8-6116-7d8a-9f0e-f4478d21e111"
         },
         {
-            "title": "'Polymarket Diharamkan di Singapura di Bawah Langkah Kawalan Perjudian Baru'",
+            "title": "'Polymarket Diharamkan di Singapura Di Bawah Langkah Kawalan Perjudian Baharu'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542250/",
             "image": "https://res.coinpaper.com/coinpaper/image/upload/v1736761682/cp6225_computer_screen_with_a_red_X_on_it_3918c2a8_b2b5_4e84_a3b5_265b1e421a5c_c60ec6d550.webp"
         },
         {
-            "title": "Penganalisis Melihat Kebenaran ETF Spot XRP Di Hujung Pandangan",
+            "title": "\"Penganalisis Melihat Kelulusan ETF Spot XRP Akan Datang.\"",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542218/",
             "image": "https://res.coinpaper.com/coinpaper/image/upload/v1736761118/cp6225_a_blockchain_network_in_the_horizon_207574f7_0835_4b0c_b958_b53da39cd21f_09ed075e56.webp"
         },
         {
-            "title": "'Minat Terbuka XRP Mencapai ATH Baru: Apa Yang Boleh Diharapkan Dari Harga?'",
+            "title": "'Minat Terbuka XRP Mencapai ATH Baru: Apa yang Perlu Diharapkan Dari Harga?'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542222/",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
         },
         {
-            "title": "ONDO dan CONX memimpin pembukaan token bernilai $2.927 bilion minggu ini.",
+            "title": "ONDO dan CONX memimpin $2.927 bilion kunci token minggu ini.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542213/",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/ondo-and-conx-lead-2-927b-token-unlocks.webp"
         },
         {
-            "title": "Nodepay akan mengagihkan 11.5% daripada bekalan Token dalam Airdrop Permulaan.",
+            "title": "Nodepay akan mengedarkan 11.5% daripada bekalan Token dalam Airdrop Awal.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542210/",
             "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F62346980-6b36-4da7-a131-3f5f9ff56140"
         },
         {
-            "title": "Satu faktor sedang meningkatkan kemungkinan harga kripto naik, menurut platform analitik Santiment.",
+            "title": "Satu faktor sedang meningkatkan kemungkinan harga crypto akan naik, menurut platform analitik Santiment.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542183/",
             "image": "https://dailyhodl.com/wp-content/uploads/2022/07/the-Crypto-Bounce-Last.jpg"
@@ -50,7 +74,7 @@
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Arthur-Hayes-continues-divesting-Ethena-ENA.webp"
         },
         {
-            "title": "Berita BTC: Paus Kripto mempunyai pengaruh yang besar.",
+            "title": "Berita BTC: Paus Kripto mempunyai pengaruh besar.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542194/",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Kryptomarkte.jpg"
@@ -62,31 +86,31 @@
             "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/06155729/US-Economic-Events-This-Week-Key-Data-to-Watch-for-Market-Trends-and-Crypto-Impact-1.webp"
         },
         {
-            "title": "MicroStrategy Michael Saylor Menghadapi Risiko Jika Pemberi Pinjaman Bon Convertible 0% MSTR Meminta Semula Pinjaman Tanpa Sumber Kerana Pelanggaran Perjanjian: Inilah Apa Yang Ia Bermakna Untuk Pelabur.",
+            "title": "MicroStrategy Michael Saylor Menghadapi Risiko Jika Pemberi Pinjaman Bon Convertible 0% MSTR Memanggil Pinjaman Tanpa Tuntutan Disebabkan Pelanggaran Perjanjian: Ini Apa Yang Ia Bermaksud Untuk Pelabur.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542204/",
             "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/Shkreli-Advice-For-Saylor.jpeg?width=1200&height=800&fit=crop"
         },
         {
-            "title": "Bolehkah HODLers Ethereum menyelamatkan ETH daripada jatuh ke $3,169?",
+            "title": "Bolehkah pemegang HODL Ethereum menyelamatkan ETH daripada jatuh ke $3,169?",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542122/",
             "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Ritika-1-6-1000x600.webp"
         },
         {
-            "title": "Berita Bitcoin TERGILA pada tahun 2025 dan TIADA SIAPA yang Ambil Peduli mengenainya. SEDIAKAN DIRI UNTUK INI.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20542139/",
-            "image": "https://i4.ytimg.com/vi/k83V8HPxNr8/hqdefault.jpg"
-        },
-        {
-            "title": "Saham Asia merosot kerana data kuat dari AS memberi kesan kepada sentimen.",
+            "title": "Saham Asia menurun apabila data AS yang kuat memberi kesan kepada sentimen.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542078/",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/asian-stocks-decline-on-us-data-sentiment.webp"
         },
         {
-            "title": "'Mudrex Hentikan Pengeluaran Crypto, Menyebabkan Kebimbangan Komuniti'",
+            "title": "Skandal Bankless VC: syarikat itu secara terbuka mempromosikan crypto AICC dan menjual pengagihan mereka sendiri di hadapan komuniti.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20542330/",
+            "image": "https://en.cryptonomist.ch/wp-content/uploads/2025/01/bankless.jpg"
+        },
+        {
+            "title": "'Mudrex Menghentikan Pengeluaran Crypto, Menyebabkan Kebimbangan Komuniti'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542053/",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg"
@@ -96,30 +120,6 @@
             "description": "",
             "url": "https://cryptopanic.com/news/click/20542147/",
             "image": "https://beincrypto.com/wp-content/uploads/2023/03/bic_United-States-_neutral_4.png"
-        },
-        {
-            "title": "FTX akan mula mengagihkan $1.2B kepada pemiutang selepas angkat sumpah Trump.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20542026/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01945ecc-1ec2-7849-9bc2-8b59d892dc4b"
-        },
-        {
-            "title": "Kemandirian Fed, inflasi, dan pasaran tenaga kerja tidak akan terjejas di bawah Trump, kata bekas Naib Pengerusi Fed, Randal Quarles.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20542014/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/fed-markets-wont-be-in-jeopardy-under-trump.webp"
-        },
-        {
-            "title": "Cabaran UX Web3: Mengapa Menyelesaikannya Adalah Kunci kepada Penerimaan Secara Besar-besaran.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20542003/",
-            "image": ""
-        },
-        {
-            "title": "\"Paun Ethereum Menyerah, 10,070 ETH Dijual\"",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20541944/",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5580.jpg"
         }
     ]
 }
