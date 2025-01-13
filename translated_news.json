@@ -1,8 +1,110 @@
 {
-    "timestamp": "2025-01-13 21:13:42",
+    "timestamp": "2025-01-13 22:14:05",
     "news": [
         {
-            "title": "Ethereum jatuh di bawah $3,000 ketika beruang mengambil lebih banyak kawasan – Pasaran kripto dalam masalah.",
+            "title": "\"Penambangan Bitcoin Kini Lebih Sukar Dari Sebelumnya.\"",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545320/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/07/bitcoin-mining-stocks-gID_7.png"
+        },
+        {
+            "title": "'BlackRock Memperluas Bitcoin ETF ke Kanada'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545316/",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/canada-to-regulate-crypto.jpg"
+        },
+        {
+            "title": "Pengguna Polymarket bertaruh sama ada Trump akan menyebut ‘bitcoin’ atau ‘dogecoin’ dalam ucapan perasmiannya.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545301/",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
+        },
+        {
+            "title": "'Tether akan berpindah ke El Salvador dalam usaha pengembangan kripto.'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545297/",
+            "image": "https://a.storyblok.com/f/182479/1792x1024/30276f8800/dall-e-2025-01-13-22-58-27-a-2_1-ratio-image-of-the-el-salvador-flag-completely-reimagined-using-only-red-shades-the-central-emblem-is-detailed-in-darker-red-tones-while-the-1.webp"
+        },
+        {
+            "title": "'Shiba Inu’s WHY Combinator dan Token BONE Baru: Semua yang Perlu Anda Tahu'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545287/",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
+        },
+        {
+            "title": "'Bitcoin, Ethereum, XRP, Dogecoin Membalikkan 'Isnin Merah' Dengan Berita Positif Trump'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545319/",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/Cryptocurrency-Photo-by-SvetlanaParnikov.jpeg?width=1200&height=800&fit=crop"
+        },
+        {
+            "title": "Perintah eksekutif hari pertama Trump boleh membatalkan buletin perakaunan kontroversi SEC: Washington Post.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545251/",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
+        },
+        {
+            "title": "Permintaan XRP Meningkat atas ‘Optimisme’ ETF sementara Dana Ethereum Mengalami Kerugian $255 Juta.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545266/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/12/xrp-coins-gID_7.png"
+        },
+        {
+            "title": "NYDFS melancarkan program pertukaran dengan Bank of England tentang kepakaran kripto.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545281/",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946039-84fa-7e58-b41f-790f9a015c65"
+        },
+        {
+            "title": "Permintaan untuk peralatan perlombongan Bitcoin meningkat tiga kali ganda di Rusia selepas perlombongan menjadi sah.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545267/",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Mining-BTC-1.webp"
+        },
+        {
+            "title": "'Trump Mungkin Akan Tandatangani Perintah Eksekutif Berkaitan Crypto Pada Hari Pertama: Laporan'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545296/",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/As-Trumps-Chances-Of-Presidency-Improve-.jpeg?width=1200&height=800&fit=crop"
+        },
+        {
+            "title": "'Rally Dogecoin Besar Akan Datang? Pakar Tunjuk Lebih Dari 1,000% Kenaikan'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545222/",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/a_b82313.jpg?fit=1280%2C731"
+        },
+        {
+            "title": "MoonPay memulakan tahun 2025 dengan pengambilalihan Helio untuk memajukan masa depan pembayaran kripto.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545235/",
+            "image": "https://coinjournal.net/wp-content/uploads/2022/08/03-Business.jpg"
+        },
+        {
+            "title": "'Bagaimana hype AI semakin menjangkau dunia crypto'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545288/",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjEyMDAzNzY3OTU0OTc0MjQz/bill-melting-51.png"
+        },
+        {
+            "title": "Presidensi Trump dijadualkan bermula dengan arahan eksekutif yang fokus kepada kripto.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545186/",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/13161029/b67a7ac4-76ea-4abd-b1dc-1f6e55c77cf0-800x420.jpg"
+        },
+        {
+            "title": "\"Peraturan perakaunan Bitcoin baru mencetuskan lombong emas kripto korporat.\"",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545252/",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjAyMTg3NjAzMDIwNjIwODY4/cryptocurrency-mining-concept-with-golden-bitcoin-2021-08-26-17-04-32-utc.jpg"
+        },
+        {
+            "title": "'Coinbase Mendapat Kemenangan Lagi Terhadap Perintah SEC yang 'Sembarangan dan Tidak Menentu''",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545177/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/03/legal-court-judge-ruling-gID_4.jpeg"
+        },
+        {
+            "title": "Ethereum jatuh di bawah $3,000 apabila beruang mendapat lebih banyak kawasan – Pasaran kripto dalam masalah.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545098/",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/ETH-price.webp"
@@ -14,112 +116,10 @@
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
         },
         {
-            "title": "Ringkasan Berita Shib: Isnin",
+            "title": "\"Ringkasan Berita Shib: Isnin\"",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545077/",
             "image": "https://news.shib.io/wp-content/uploads/2025/01/The-Shib-Daily-Recap-Jan.-13.png"
-        },
-        {
-            "title": "Mahkamah AS mengarahkan SEC untuk menjelaskan mengapa ia menolak permohonan Coinbase untuk peraturan khusus kripto.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545074/",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
-        },
-        {
-            "title": "Pasaran Bitcoin Boleh Menampung Pelupusan BTC Bernilai $6,500,000,000 Yang Dirancang DOJ Tanpa Gangguan Besar: IntoTheBlock",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545041/",
-            "image": "https://dailyhodl.com/wp-content/uploads/2024/05/Coins-Liquidated-As-BTC.jpg"
-        },
-        {
-            "title": "Penganalisis Kripto Mengeluarkan Amaran Bitcoin, Meramalkan BTC Mungkin Jatuh Lebih Lanjut Jika Tahap Sokongan Kritikal Runtuh.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545033/",
-            "image": "https://dailyhodl.com/wp-content/uploads/2023/04/bitcoin-new-forecast-price.jpg"
-        },
-        {
-            "title": "Tether sedang berpindah ke El Salvador kerana dasar-dasar yang menyokong Bitcoin.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545030/",
-            "image": "h"
-        },
-        {
-            "title": "Harga Bitcoin jatuh di bawah $90K disebabkan oleh pelabur yang bersiap sedia untuk risiko ekonomi yang akan datang.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545009/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/0194614a-2920-79d2-9a02-26d693bb066a"
-        },
-        {
-            "title": "Ejen AI Mendapat Vagina Buatan—Kamu Tahu Apa Yang Akan Berlaku Seterusnya.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544994/",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/ElizAI16z-gID_7.jpg"
-        },
-        {
-            "title": "Coinbase mendapat kemenangan undang-undang, SEC mesti menjelaskan kekurangan peraturan kripto.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544986/",
-            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/coinbase-subpoena.jpg"
-        },
-        {
-            "title": "JPMorgan meramalkan aliran masuk $3–$8 billion untuk ETF XRP yang berpotensi.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544995/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/XRP-etf.webp"
-        },
-        {
-            "title": "Pengurus Hedge Fund Legendari Mengkritik Bitcoin",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545014/",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/3242432132.png"
-        },
-        {
-            "title": "Pembetulan Bitcoin semakin teruk ketika kripto bersedia untuk saat penting dalam dasar monetari.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545034/",
-            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjExMzQ5Mjc2NDExMjQyNDg0/gold-bitcoin-cryptocurrency-on-pile-silver-coins-a-2023-11-27-04-53-43-utc.jpg"
-        },
-        {
-            "title": "Bitcoin Menemui Dilema apabila BTC Bernilai $2.1 Bilion Keluar dari Pertukaran di Tengah Pasaran Bear yang Menanti.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544976/",
-            "image": "https://zycrypto.com/wp-content/uploads/2022/09/Bitcoin-Struggles-To-Stay-Above-20000-As-BTC-Balance-On-Exchanges-Hits-Critical-Low.jpg"
-        },
-        {
-            "title": "Ahli Kongres Yang Ingin Nama Lapangan Terbang Selepas Trump Membeli Bitcoin, Solana, Token XRP Sebelum Majlis Pelantikan.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545010/",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/Trump-Bitcoin-Shutterstock-copy.png?width=1200&height=800&fit=crop"
-        },
-        {
-            "title": "Penganalisis Kata Harga Bitcoin Boleh Naik 72%, Bolehkah Ia?",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544943/",
-            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
-        },
-        {
-            "title": "'Binance dan Changpeng Zhao kalah dalam rayuan Mahkamah Agung AS'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544940/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Binance-and-Changpeng-Zhao-lose-US-Supreme-Court-appeal.webp"
-        },
-        {
-            "title": "Seminggu selepas berkomitmen kepada kebebasan bersuara, Meta menyekat pesaing terdesentralisasi.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544939/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019460d4-c887-7fc0-a2ef-5ac0520084c8"
-        },
-        {
-            "title": "'Justin Sun Pindahkan Lebih $320J dalam Crypto ke HTX: Perincian Deposit Terbarunya'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544908/",
-            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
-        },
-        {
-            "title": "Azuki Mendedahkan Tokenomik ANIME dengan 37% Diperuntukkan kepada Pemegang NFT.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20544904/",
-            "image": "h"
         }
     ]
 }
