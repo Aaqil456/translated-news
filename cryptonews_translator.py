@@ -4,9 +4,11 @@ import requests
 import json
 from datetime import datetime
 
-# Function to fetch news from CryptoPanic with metadata and Panic Score
-def fetch_news(api_key):
+# Function to fetch news from CryptoPanic with metadata and optional filters
+def fetch_news(api_key, filter_type=None):
     url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true"
+    if filter_type:
+        url += f"&filter={filter_type}"
     response = requests.get(url)
     if response.status_code == 200:
         news_data = response.json()
@@ -19,7 +21,8 @@ def fetch_news(api_key):
                 "description": news.get("description", ""),
                 "image": news.get("metadata", {}).get("image", ""),
                 "panic_score": news.get("panic_score"),
-                "timestamp": datetime.now().isoformat()
+                "timestamp": datetime.now().isoformat(),
+                "is_hot": False  # Default is not hot
             })
         return news_list
     else:
@@ -52,8 +55,8 @@ def translate_text_easypeasy(api_key, text):
 def load_existing_data(filename="translated_news.json"):
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
-            return json.load(f).get("news", [])
-    return []
+            return json.load(f)
+    return {"all_news": [], "hot_news": []}
 
 # Function to remove duplicates
 def remove_duplicates(news_list):
@@ -67,7 +70,7 @@ def remove_duplicates(news_list):
 
 # Function to save news to JSON
 def save_to_json(data, filename="translated_news.json"):
-    output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "news": data}
+    output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), **data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     print(f"Translated news saved to {filename}")
@@ -81,43 +84,34 @@ def main():
         print("API keys are missing! Please set them as environment variables.")
         return
 
-    # Fetch new news
-    print("Fetching news from CryptoPanic...")
-    new_news = fetch_news(CRYPTOPANIC_API_KEY)
+    # Fetch all news and hot news
+    print("Fetching all news from CryptoPanic...")
+    all_news = fetch_news(CRYPTOPANIC_API_KEY)
+    print("Fetching hot news from CryptoPanic...")
+    hot_news = fetch_news(CRYPTOPANIC_API_KEY, filter_type="hot")
 
-    if not new_news:
-        print("No new news fetched.")
-        return
+    # Mark hot news in all news
+    hot_urls = {news["url"] for news in hot_news}
+    for news in all_news:
+        if news["url"] in hot_urls:
+            news["is_hot"] = True
 
     # Translate news titles and descriptions
     print("Translating news titles and descriptions...")
-    translated_news = []
-    for news in new_news:
-        malay_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        malay_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
-        news["title"] = malay_title
-        news["description"] = malay_description
-        translated_news.append(news)
+    for news in all_news:
+        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
 
-    # Load existing data
-    existing_news = load_existing_data()
+    # Load existing data and merge
+    existing_data = load_existing_data()
+    combined_all_news = remove_duplicates(all_news + existing_data.get("all_news", []))
+    combined_hot_news = remove_duplicates(hot_news + existing_data.get("hot_news", []))
 
-    # Identify and print only new news
-    existing_urls = {news["url"] for news in existing_news}
-    newly_added_news = [news for news in translated_news if news["url"] not in existing_urls]
+    # Save combined data to JSON
+    save_to_json({"all_news": combined_all_news, "hot_news": combined_hot_news})
 
-    print("\nNewly Added News:")
-    for news in newly_added_news:
-        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\nPanic Score: {news['panic_score']}\nTimestamp: {news['timestamp']}\n")
-
-    # Merge and deduplicate data
-    combined_news = newly_added_news + existing_news  # Add new news at the top
-    combined_news = remove_duplicates(combined_news)  # Remove duplicates
-
-    # Save combined news to JSON
-    save_to_json(combined_news)
-
-    print(f"Total news items: {len(combined_news)}")
+    print(f"Total all news items: {len(combined_all_news)}")
+    print(f"Total hot news items: {len(combined_hot_news)}")
 
 # Run the main script
 if __name__ == "__main__":
