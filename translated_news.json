@@ -1,26 +1,104 @@
 {
-    "timestamp": "2025-01-13 23:13:57",
+    "timestamp": "2025-01-14 01:04:59",
     "news": [
         {
-            "title": "TVL SEI Crypto Mengatasi Penurunan, Menunjukkan Kenaikan 400%",
+            "title": "'Ethereum Bersedia untuk Perhimpunan ‘Membakar Muka’ Pada Akhir Tahun Ini, Menurut Pedagang Kripto – Tetapi Ada Satu Perkara.'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545760/",
+            "image": "https://dailyhodl.com/wp-content/uploads/2024/08/Bottom-Says-Ethereum-Low.jpg"
+        },
+        {
+            "title": "Kenaikan XRP kepada $4 mungkin berlaku selepas pasangan XRP/BTC melepasi tahap rintangan 30 hari.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545750/",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946035-de57-76de-b214-7f00997ce960"
+        },
+        {
+            "title": "Perintah Eksekutif Crypto Hari Pertama Trump Mungkin Yang Pertama Dari Banyak: Sumber",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545744/",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/05/Donald-Trump_shutterstock_2430067439-gID_7.jpg"
+        },
+        {
+            "title": "\"Tron Mencapai Tahap Harga Utama Sementara Pendapatan dan Penerimaan Meningkat: Apa Seterusnya?\"",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545682/",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/DALL·E-2025-01-13-13.51.14-A-dynamic-and-visually-engaging-digital-illustration-representing-the-cryptocurrency-Tron-TRX-reaching-significant-price-levels.-The-image-features-.jpg?fit=1024%2C1024"
+        },
+        {
+            "title": "\"Whale PEPE Coin Mengumpul, Masa untuk Beli?\"",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545678/",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
+        },
+        {
+            "title": "'Adakah Pengkomputeran Kuantum Akan Menjatuhkan BTC?'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545674/",
+            "image": "https://bankless.ghost.io/content/images/2025/01/Screenshot-2025-01-13-at-7.17.37-PM.png"
+        },
+        {
+            "title": "Coinbase menambah sokongan untuk Peanut (PNUT) di Solana, memberi amaran tentang pemindahan rangkaian yang salah.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545647/",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Coinbase-Peanut.webp"
+        },
+        {
+            "title": "\"Jumlah OTC kripto institusi berganda pada 2024 selepas kemenangan Trump, ETF: Finery\"",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545645/",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946194-04f4-7081-841c-a349b7dd6e32"
+        },
+        {
+            "title": "Melindungi Koin Anda daripada Bencana Fizikal",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545648/",
+            "image": "https://bankless.ghost.io/content/images/2025/01/lu.ma._bitcoin_on_fire_84d43781-aebb-41f1-ab66-ca8f9fbf074c.webp"
+        },
+        {
+            "title": "Penerimaan Bitcoin lebih cepat daripada internet dan telefon bimbit – BlackRock",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545604/",
+            "image": "https://cryptoslate.com/wp-content/uploads/2024/08/blackrock-outflow.jpg"
+        },
+        {
+            "title": "Menganalisis kemungkinan pemulihan FLOKI selepas harga memecoin jatuh ke paras terendah dalam 3 minggu.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545576/",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/FLOKI-1-1000x600.webp"
+        },
+        {
+            "title": "Bank-bank AS Boleh Memegang Bitcoin dan Kripto Di Bawah Perintah Eksekutif Trump Yang Akan Datang: Laporan",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545585/",
+            "image": "https://dailyhodl.com/wp-content/uploads/2022/03/white-house-signs.jpg"
+        },
+        {
+            "title": "'Solana (SOL) Jatuh 20% apabila Pasaran Mengalami Tekanan Jual yang Tinggi'",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20545746/",
+            "image": "https://beincrypto.com/wp-content/uploads/2023/12/bic_-Solana_SOL_5-covers_bearish.png"
+        },
+        {
+            "title": "\"TVL Crypto SEI Mengatasi Penurunan, Menunjukkan Keuntungan 400%\"",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545483/",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png"
         },
         {
-            "title": "MicroStrategy Kini Memegang 450,000 BTC Selepas Memperoleh BTC Bernilai $243,000,000 Dalam Pembelian Terbaru.",
+            "title": "MicroStrategy Kini Memegang 450,000 BTC Selepas Membeli BTC Bernilai $243,000,000 Dalam Pembelian Terbaru.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545466/",
             "image": "https://dailyhodl.com/wp-content/uploads/2022/05/microstrategy-intention-bitcoin.jpg"
         },
         {
-            "title": "\"Bitcoin: Mengapa bilangan alamat aktif BTC yang rendah boleh menandakan masalah\"",
+            "title": "Bitcoin: Mengapa bilangan alamat aktif BTC yang rendah boleh menandakan masalah",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545458/",
             "image": "https://ambcrypto.com/wp-content/uploads/2025/01/BTC-12-1000x600.webp"
         },
         {
-            "title": "'Solana Menguat Dalam Corak Meningkat – Satu Pecahan 'Boleh Menggerakkan 40%' '",
+            "title": "'Solana Mengukuhkan Dalam Corak Bullish – Satu Pecahan ‘Boleh Mendorong Pergerakan 40%’'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545434/",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Untitled-design-19.jpg?fit=1792%2C1024"
@@ -32,94 +110,16 @@
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/06/Tesla_Elon-Musk_Rokas-Tenys_shutterstock_2147719465-gID_7.jpg"
         },
         {
-            "title": "'Token Ejen AI Menurun Ketika Pembetulan Pasaran'",
+            "title": "'Charles Hoskinson Mendakwa Cardano Akan Mengintegrasikan Stablecoin RLUSD Ripple'",
             "description": "",
-            "url": "https://cryptopanic.com/news/click/20545477/",
-            "image": "h"
+            "url": "https://cryptopanic.com/news/click/20545574/",
+            "image": "https://beincrypto.com/wp-content/uploads/2024/07/bic_Cardano-covers_ADA_bullish.png.webp"
         },
         {
-            "title": "Perjuangan untuk Kebebasan AI: Desentralisasi sebagai jawapan kepada monopoli.",
+            "title": "Memecoin yang perlu diperhatikan pada Januari 2025: DOGE, Ai16Z, ramalan harga Fartcoin.",
             "description": "",
-            "url": "https://cryptopanic.com/news/click/20545412/",
-            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/decentralized-ai.jpg"
-        },
-        {
-            "title": "Fisher Yu dari Babylon tentang staking Bitcoin, Bitcoin maxis, dan kes penggunaan asli seterusnya untuk BTC.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545410/",
-            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/bitcoin-staking.jpg"
-        },
-        {
-            "title": "\"Bankless Menghadapi Kecaman Selepas Anak Syarikat VC-nya Menjual Token Aiccelerate DAO\"",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545411/",
-            "image": "h"
-        },
-        {
-            "title": "lllustrious: Model AI yang Ingin Menguasai Generasi Seni Anime",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545356/",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Captura-de-pantalla-2025-01-13-172328-gID_7.png"
-        },
-        {
-            "title": "Microsoft melantik bekas eksekutif Meta untuk memimpin bahagian kejuruteraan AI yang baru.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545355/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Microsoft-appoints-former-Meta-executive-to-lead-new-AI-engineering-division.webp"
-        },
-        {
-            "title": "Presiden Trump merancang untuk mengumumkan arahan eksekutif crypto pada hari pertamanya.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545354/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Donald-Trump-2.webp"
-        },
-        {
-            "title": "Pengguna Web3 Harian Meningkat kepada 18 Juta pada Disember 2024: Laporan",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545352/",
-            "image": "h"
-        },
-        {
-            "title": "Firma forensik blockchain Chainalysis memperoleh platform pengesanan penipuan berkuasa AI, Alterya.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545346/",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
-        },
-        {
-            "title": "Senator Elizabeth Warren menguji calon Perbendaharaan Bessent mengenai dasar kripto.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545353/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Sen.-Cynthia-Lummis-2.webp"
-        },
-        {
-            "title": "Tendensi pasaran menunjukkan DEX telah menggantikan pasaran VC untuk penemuan harga token, sementara CEX terus berfungsi sebagai kecairan keluar.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545336/",
-            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/brutal-market.jpg"
-        },
-        {
-            "title": "Pembeli Bitcoin (BTC) berskala kecil melebihi ETF dengan pengumpulan yang lebih aktif.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545328/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Bitcoin-market-3.webp"
-        },
-        {
-            "title": "\"Bitcoin jatuh ke tahap terendah dalam dua bulan kerana kebimbangan pemotongan kadar Fed.\"",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545358/",
-            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjA5OTExNDI0NzA3NzMyOTQ1/selective-focus-shot-of-golden-bitcoin-standing-on-2023-11-27-05-05-01-utc.jpg"
-        },
-        {
-            "title": "\"Penambangan Bitcoin Sekarang Lebih Sukar Daripada Sebelumnya.\"",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545320/",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/07/bitcoin-mining-stocks-gID_7.png"
-        },
-        {
-            "title": "'BlackRock Memperluas Bitcoin ETF ke Kanada'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545316/",
-            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/canada-to-regulate-crypto.jpg"
+            "url": "https://cryptopanic.com/news/click/20545605/",
+            "image": "https://editorial.fxstreet.com/images/Markets/Currencies/Cryptocurrencies/Dogecoin/SHIB_DOGE_Coins_31_Large.jpg"
         }
     ]
 }
