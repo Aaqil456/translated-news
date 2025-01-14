@@ -99,9 +99,19 @@ def main():
         news["description"] = malay_description
         translated_news.append(news)
 
-    # Load existing data and merge
+    # Load existing data
     existing_news = load_existing_data()
-    combined_news = translated_news + existing_news  # Add new news at the top
+
+    # Identify and print only new news
+    existing_urls = {news["url"] for news in existing_news}
+    newly_added_news = [news for news in translated_news if news["url"] not in existing_urls]
+
+    print("\nNewly Added News:")
+    for news in newly_added_news:
+        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\nPanic Score: {news['panic_score']}\nTimestamp: {news['timestamp']}\n")
+
+    # Merge and deduplicate data
+    combined_news = newly_added_news + existing_news  # Add new news at the top
     combined_news = remove_duplicates(combined_news)  # Remove duplicates
 
     # Save combined news to JSON
