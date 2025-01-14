@@ -1,4 +1,5 @@
 # Import required libraries
+import random  # Import random module for shuffling
 import os
 import requests
 import json
@@ -108,6 +109,9 @@ def main():
     combined_news = hot_news + all_news  # Hot news first
     combined_news = remove_duplicates(combined_news)
 
+    # Randomize the order of the combined news
+    random.shuffle(combined_news)
+    
     # Load existing data and merge
     existing_data = load_existing_data()
     final_news_list = remove_duplicates(combined_news + existing_data.get("all_news", []))
