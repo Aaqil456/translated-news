@@ -5,6 +5,9 @@ from datetime import datetime, timedelta
 
 # Function to fetch news from CryptoPanic with metadata, Panic Score, and a since filter
 def fetch_news(api_key, since_timestamp=None):
+    """
+    Fetch news from CryptoPanic with optional 'since' parameter to get the latest updates.
+    """
     url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true"
     if since_timestamp:
         url += f"&since={since_timestamp}"
@@ -21,7 +24,7 @@ def fetch_news(api_key, since_timestamp=None):
                 "description": news.get("description", ""),
                 "image": news.get("metadata", {}).get("image", ""),
                 "panic_score": news.get("panic_score"),
-                "timestamp": datetime.now().isoformat()
+                "timestamp": datetime.now().isoformat()  # Add current timestamp
             })
         return news_list
     else:
@@ -30,6 +33,9 @@ def fetch_news(api_key, since_timestamp=None):
 
 # Function to remove duplicates
 def remove_duplicates(news_list):
+    """
+    Remove duplicate news items based on the 'url' key.
+    """
     seen_urls = set()
     unique_news = []
     for news in news_list:
@@ -40,6 +46,9 @@ def remove_duplicates(news_list):
 
 # Function to load existing JSON data
 def load_existing_data(filename="translated_news.json"):
+    """
+    Load existing data from the JSON file.
+    """
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
             return json.load(f).get("news", [])
@@ -47,6 +56,9 @@ def load_existing_data(filename="translated_news.json"):
 
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
+    """
+    Save the combined news data to a JSON file.
+    """
     output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "news": data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
@@ -54,6 +66,9 @@ def save_to_json(data, filename="translated_news.json"):
 
 # Main function
 def main():
+    """
+    Main function to fetch, deduplicate, and save CryptoPanic news.
+    """
     CRYPTOPANIC_API_KEY = os.getenv("CRYPTOPANIC_API_KEY")
 
     if not CRYPTOPANIC_API_KEY:
@@ -76,6 +91,9 @@ def main():
 
     # Save to JSON
     save_to_json(combined_news)
+
+    # Debugging: Print the total number of news items
+    print(f"Total news items after update: {len(combined_news)}")
 
 # Run the main script
 if __name__ == "__main__":
