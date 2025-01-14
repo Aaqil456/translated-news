@@ -60,22 +60,32 @@
             display: inline-block;
             margin-top: 10px;
         }
+        .hot-badge {
+            background-color: #ff9800;
+            color: black;
+            padding: 5px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
         /* Custom Scrollbar Styles */
         ::-webkit-scrollbar {
-            width: 10px; /* Width of the scrollbar */
+            width: 10px;
         }
 
         ::-webkit-scrollbar-track {
-            background: #1a1a1a; /* Background of the scrollbar track */
+            background: #1a1a1a;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #00e2b1; /* Color of the scrollbar handle */
-            border-radius: 5px; /* Rounded corners for the handle */
+            background: #00e2b1;
+            border-radius: 5px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #00c08a; /* Color when hovered */
+            background: #00c08a;
         }
     </style>
 </head>
@@ -96,7 +106,7 @@
                 const container = document.getElementById('news-container');
                 container.innerHTML = ''; // Clear old content
 
-                const newsArray = data.news;
+                const newsArray = data.all_news;
                 if (Array.isArray(newsArray)) {
                     newsArray.forEach(news => {
                         const newsItem = document.createElement('div');
@@ -107,6 +117,7 @@
                             <div class="news-description">${news.description}</div>
                             <a href="${news.url}" class="news-link" target="_blank">Baca Lagi</a>
                             ${news.important === "Yes" ? '<div class="important-badge">Important</div>' : ''}
+                            ${news.is_hot ? '<div class="hot-badge">Hot News</div>' : ''}
                         `;
                         container.appendChild(newsItem);
                     });
