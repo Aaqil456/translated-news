@@ -21,8 +21,7 @@ def fetch_news(api_key, filter_type=None):
                 "description": news.get("description", ""),
                 "image": news.get("metadata", {}).get("image", ""),
                 "panic_score": news.get("panic_score"),
-                "timestamp": datetime.now().isoformat(),
-                "is_hot": filter_type == "hot"  # Mark as hot if fetched as hot news
+                "timestamp": datetime.now().isoformat()
             })
         return news_list
     else:
@@ -87,33 +86,38 @@ def main():
     # Fetch all news and hot news
     print("Fetching all news from CryptoPanic...")
     all_news = fetch_news(CRYPTOPANIC_API_KEY)
+
     print("Fetching hot news from CryptoPanic...")
     hot_news = fetch_news(CRYPTOPANIC_API_KEY, filter_type="hot")
 
-    # Mark hot news in all news
-    hot_urls = {news["url"] for news in hot_news}
-    for news in all_news:
-        if news["url"] in hot_urls:
-            news["is_hot"] = True
-        else:
-            news["is_hot"] = False
-
-    # Translate all news titles and descriptions
+    # Translate all news
     print("Translating all news titles and descriptions...")
     for news in all_news:
         news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
         news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        news["is_hot"] = False  # Default value
+
+    # Translate hot news and mark them
+    print("Translating hot news titles and descriptions...")
+    for news in hot_news:
+        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        news["is_hot"] = True
+
+    # Combine all news and hot news, ensuring hot news is part of all news
+    combined_news = hot_news + all_news  # Hot news first
+    combined_news = remove_duplicates(combined_news)
 
     # Load existing data and merge
     existing_data = load_existing_data()
-    combined_all_news = remove_duplicates(all_news + existing_data.get("all_news", []))
+    final_news_list = remove_duplicates(combined_news + existing_data.get("all_news", []))
 
     # Save combined data to JSON
-    save_to_json(combined_all_news)
+    save_to_json(final_news_list)
 
     # Print newly added news
     print("\nNewly Added News:")
-    new_news = [news for news in combined_all_news if news not in existing_data.get("all_news", [])]
+    new_news = [news for news in final_news_list if news not in existing_data.get("all_news", [])]
     for news in new_news:
         print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
 
