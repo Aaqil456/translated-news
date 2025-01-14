@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Function to fetch news from CryptoPanic with metadata and Panic Score
 def fetch_news(api_key):
-    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true&panic_score=true"
+    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true"
     response = requests.get(url)
     if response.status_code == 200:
         news_data = response.json()
