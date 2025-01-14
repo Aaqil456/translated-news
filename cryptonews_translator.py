@@ -61,6 +61,17 @@ def load_existing_data(filename="translated_news.json"):
             return json.load(f).get("news", [])
     return []
 
+# Ensure each news item has a timestamp
+def ensure_timestamps(news_list):
+    """
+    Ensure every news item in the list has a timestamp.
+    If not, add the current timestamp.
+    """
+    for news in news_list:
+        if "timestamp" not in news:
+            news["timestamp"] = datetime.now().isoformat()
+    return news_list
+
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
     """
@@ -102,6 +113,8 @@ def main():
 
     # Step 3: Load existing data and merge
     existing_news = load_existing_data()
+    existing_news = ensure_timestamps(existing_news)  # Ensure timestamps for existing data
+    translated_news = ensure_timestamps(translated_news)  # Ensure timestamps for new data
     combined_news = existing_news + translated_news  # Append new data to existing data
 
     # Step 4: Save combined news to JSON
