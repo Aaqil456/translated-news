@@ -2,7 +2,7 @@
 import os
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # Function to fetch news from CryptoPanic with metadata and Panic Score
 def fetch_news(api_key):
@@ -61,14 +61,6 @@ def load_existing_data(filename="translated_news.json"):
             return json.load(f).get("news", [])
     return []
 
-# Function to filter news older than 24 hours
-def filter_recent_news(news_list):
-    cutoff_time = datetime.now() - timedelta(hours=24)
-    return [
-        news for news in news_list
-        if datetime.fromisoformat(news["timestamp"]) >= cutoff_time
-    ]
-
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
     """
@@ -110,7 +102,7 @@ def main():
 
     # Step 3: Load existing data and merge
     existing_news = load_existing_data()
-    combined_news = filter_recent_news(existing_news + translated_news)
+    combined_news = existing_news + translated_news  # Append new data to existing data
 
     # Step 4: Save combined news to JSON
     save_to_json(combined_news)
