@@ -22,7 +22,7 @@ def fetch_news(api_key, filter_type=None):
                 "image": news.get("metadata", {}).get("image", ""),
                 "panic_score": news.get("panic_score"),
                 "timestamp": datetime.now().isoformat(),
-                "is_hot": False  # Default is not hot
+                "is_hot": filter_type == "hot"  # Mark as hot if fetched as hot news
             })
         return news_list
     else:
@@ -110,8 +110,16 @@ def main():
     # Save combined data to JSON
     save_to_json({"all_news": combined_all_news, "hot_news": combined_hot_news})
 
-    print(f"Total all news items: {len(combined_all_news)}")
-    print(f"Total hot news items: {len(combined_hot_news)}")
+    # Print newly added news
+    print("\nNewly Added All News:")
+    new_all_news = [news for news in combined_all_news if news not in existing_data.get("all_news", [])]
+    for news in new_all_news:
+        print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
+
+    print("\nNewly Added Hot News:")
+    new_hot_news = [news for news in combined_hot_news if news not in existing_data.get("hot_news", [])]
+    for news in new_hot_news:
+        print(f"Title: {news['title']}\nURL: {news['url']}\n")
 
 # Run the main script
 if __name__ == "__main__":
