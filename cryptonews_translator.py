@@ -2,7 +2,7 @@
 import os
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Function to fetch news from CryptoPanic with metadata and Panic Score
 def fetch_news(api_key):
@@ -20,7 +20,8 @@ def fetch_news(api_key):
                 "url": click_url,
                 "description": news.get("description", ""),
                 "image": news.get("metadata", {}).get("image", ""),
-                "panic_score": news.get("panic_score")  # Fetch Panic Score if available
+                "panic_score": news.get("panic_score"),  # Fetch Panic Score if available
+                "timestamp": datetime.now().isoformat()  # Add current timestamp
             })
         return news_list
     else:
@@ -53,15 +54,27 @@ def translate_text_easypeasy(api_key, text):
         print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
 
+# Function to load existing JSON data
+def load_existing_data(filename="translated_news.json"):
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f).get("news", [])
+    return []
+
+# Function to filter news older than 24 hours
+def filter_recent_news(news_list):
+    cutoff_time = datetime.now() - timedelta(hours=24)
+    return [
+        news for news in news_list
+        if datetime.fromisoformat(news["timestamp"]) >= cutoff_time
+    ]
+
 # Function to save translated news to JSON
 def save_to_json(data, filename="translated_news.json"):
     """
     Save the translated news to a JSON file.
     """
-    # Add a timestamp for uniqueness
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    output = {"timestamp": timestamp, "news": data}
-
+    output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "news": data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     print(f"Translated news saved to {filename}")
@@ -85,33 +98,27 @@ def main():
         print("No news fetched. Exiting.")
         return
 
-    # Step 2: Translate news titles, descriptions, and mark Panic Score
+    # Step 2: Translate news titles and descriptions
     print("Translating news titles and descriptions...")
     translated_news = []
     for news in news_list:
         malay_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
         malay_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
-        panic_score = news.get("panic_score", None)
+        news["title"] = malay_title
+        news["description"] = malay_description
+        translated_news.append(news)
 
-        # Mark the news if it has a Panic Score
-        is_important = "Yes" if panic_score is not None else "No"
+    # Step 3: Load existing data and merge
+    existing_news = load_existing_data()
+    combined_news = filter_recent_news(existing_news + translated_news)
 
-        translated_news.append({
-            "title": malay_title,
-            "description": malay_description,
-            "url": news["url"],
-            "image": news["image"],
-            "panic_score": panic_score,
-            "important": is_important
-        })
+    # Step 4: Save combined news to JSON
+    save_to_json(combined_news)
 
-    # Step 3: Save translated news to JSON
-    save_to_json(translated_news)
-
-    # Step 4: Print translated news (Optional for debugging/logging)
+    # Step 5: Print translated news (Optional for debugging/logging)
     print("\nTranslated News:")
-    for news in translated_news:
-        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\nPanic Score: {news['panic_score']}\nImportant: {news['important']}\n")
+    for news in combined_news:
+        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\nPanic Score: {news['panic_score']}\nTimestamp: {news['timestamp']}\n")
 
 # Run the main script
 if __name__ == "__main__":
