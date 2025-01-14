@@ -1,6 +1,38 @@
 {
-    "timestamp": "2025-01-14 06:53:47",
+    "timestamp": "2025-01-14 07:15:14",
     "news": [
+        {
+            "title": "'Bitcoin Di Atas Gelombang: Ketakutan, Penurunan, dan Ramalan'",
+            "url": "https://cryptopanic.com/news/click/20546682/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/12/26113517/Bitcoin-bear-and-bull.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T07:14:39.017800"
+        },
+        {
+            "title": "Akan Kah Anda Bertindak Sekarang? CEO Binance Menggesa Pengguna Kripto untuk Merebut Peluang Membeli Bitcoin.",
+            "url": "https://cryptopanic.com/news/click/20546667/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2023/11/22181643/CZ-Binance.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T07:14:39.017813"
+        },
+        {
+            "title": "Dana Amanah Hasil Tinggi untuk Pelabur Teknologi",
+            "url": "https://cryptopanic.com/news/click/20546638/",
+            "description": "",
+            "image": "https://sfctoday.com/wp-content/uploads/2025/01/High-Yield-Mutual-Funds-for-Tech-Investors.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T07:14:39.017815"
+        },
+        {
+            "title": "'Sony Melancarkan Soneium Mainnet, Sasaran untuk Pengembangan dalam Hiburan dan Kewangan Web3'",
+            "url": "https://cryptopanic.com/news/click/20546677/",
+            "description": "",
+            "image": "https://beincrypto.com/wp-content/uploads/2023/06/BIC_web3_marketing_5-covers_neutral.png",
+            "panic_score": null,
+            "timestamp": "2025-01-14T07:14:39.017827"
+        },
         {
             "title": "\"Bitcoin Melantun Kembali ke $95K apabila Sentimen Bullish Kembali.\"",
             "url": "https://cryptopanic.com/news/click/20546614/",
