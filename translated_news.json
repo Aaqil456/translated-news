@@ -1,53 +1,165 @@
 {
-    "timestamp": "2025-01-14 05:39:42",
+    "timestamp": "2025-01-14 06:42:26",
     "news": [
         {
-            "title": "NYDFS dan Bank of England bersatu dalam program pertukaran untuk pengawalan kripto.",
+            "title": "Pengeluaran Bitcoin Spot ETF Mencapai $284J Dengan Aliran Masuk Campuran.",
+            "url": "https://cryptopanic.com/news/click/20546591/",
             "description": "",
+            "image": "https://coincu.com/wp-content/uploads/2025/01/image-58-4.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973072"
+        },
+        {
+            "title": "'Perdagangan Altcoin Binance Mencapai 78%: Adakah Larian Bul Bull Crypto 2025 Akan Tiba?'",
+            "url": "https://cryptopanic.com/news/click/20546577/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/12/coin_thumb_1200x630_binance-big.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973092"
+        },
+        {
+            "title": "Perintah Kripto Hari Pertama Trump: Apa Maksudnya untuk Pelabur Bitcoin",
+            "url": "https://cryptopanic.com/news/click/20546561/",
+            "description": "",
+            "image": "https://icogemhunters.com/storage/2025/01/thumbnail-2025-01-14T120138.208.png",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973096"
+        },
+        {
+            "title": "Sekatan eksport cip AI baru Biden mencetuskan reaksi negatif dari industri.",
+            "url": "https://cryptopanic.com/news/click/20546560/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946298-be95-7714-9e10-aabc45dee573",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973100"
+        },
+        {
+            "title": "AS Menguatkuasakan Sekatan Eksport Cip AI Menjelang Majlis Angkat Sumpah Trump.",
+            "url": "https://cryptopanic.com/news/click/20546532/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/09/white-house-us-gID_7.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973104"
+        },
+        {
+            "title": "'Bagaimana Seekor Paus Bitcoin Kehilangan $13 Juta Dalam Hanya 6 Hari'",
+            "url": "https://cryptopanic.com/news/click/20546530/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/11/bitcoin2311.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973107"
+        },
+        {
+            "title": "UAE meningkat sebagai pemimpin crypto global sementara Trumps memerhati dengan teliti.",
+            "url": "https://cryptopanic.com/news/click/20546522/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/UAE-crypto-1000x600.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973111"
+        },
+        {
+            "title": "Sygnum Bank mencapai status Unicorn selepas pusingan pembiayaan $58 juta untuk memperluas fokus Bitcoin.",
+            "url": "https://cryptopanic.com/news/click/20546527/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973114"
+        },
+        {
+            "title": "Bank kripto Sygnum mencapai status unicorn dengan pengumpulan dana baru sebanyak $58 juta.",
+            "url": "https://cryptopanic.com/news/click/20546524/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01945fc0-8470-74f1-bb4b-519e81d3c0ff",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973118"
+        },
+        {
+            "title": "Remixpoint dari Jepun membeli 33.3 bitcoin tambahan, meningkatkan pegangan kepada hampir $32 juta.",
+            "url": "https://cryptopanic.com/news/click/20546500/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973127"
+        },
+        {
+            "title": "China mungkin akan menjual TikTok kepada Musk jika larangan AS dilaksanakan: Laporan",
+            "url": "https://cryptopanic.com/news/click/20546502/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019462fe-1892-7b54-a59c-81dbd02b1fc8",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973131"
+        },
+        {
+            "title": "'ETF Bitcoin BlackRock Masuk Pasaran Kanada Dengan Perdagangan Dua Mata Wang'",
+            "url": "https://cryptopanic.com/news/click/20546498/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2021/08/shutterstock_1485247838-1-gID_7.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973135"
+        },
+        {
+            "title": "'Sony Masuk Permainan Blockchain dengan Pelancaran “Soneium”'",
+            "url": "https://cryptopanic.com/news/click/20546492/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/08/23115853/Sonys-Web3-Plan-Unveiled-What-to-Expect-from-Soneium-Blockchain.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973138"
+        },
+        {
+            "title": "Robinhood Menghadapi Denda $45J dari SEC kerana Pelanggaran Peraturan",
+            "url": "https://cryptopanic.com/news/click/20546491/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2023/08/02164514/Image-2023-08-02T163943.502.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:41:48.973142"
+        },
+        {
+            "title": "'NYDFS dan Bank of England bersatu dalam program pertukaran untuk pengaturan kripto.'",
             "url": "https://cryptopanic.com/news/click/20546471/",
+            "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Nydfs-bank-of-England_20250114_022859_0000.webp",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973146"
         },
         {
-            "title": "'Wallet Uniswap Menghadapi Amaran Keselamatan kerana Kecacatan Kritikal Didedahkan'",
-            "description": "",
+            "title": "'Wallet Uniswap Menghadapi Amaran Keselamatan kerana Kecacatan Kritikal Terbongkar'",
             "url": "https://cryptopanic.com/news/click/20546450/",
+            "description": "",
             "image": "https://res.coinpaper.com/coinpaper/image/upload/v1736828674/cp6225_a_warning_siren_next_to_a_wallet_5647e58e_9658_49c4_a13f_e388e85647cd_64a56ebc31.webp",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973150"
         },
         {
-            "title": "'Bank Terbesar di Itali Melabur $1M dalam Bitcoin: Era Baru untuk Crypto di Itali.'",
-            "description": "",
+            "title": "\"Bank Terbesar di Italy Melabur $1J dalam Bitcoin: Era Baru untuk Crypto di Italy.\"",
             "url": "https://cryptopanic.com/news/click/20546462/",
+            "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2024/10/16181247/Italy-Crypto-Tax-Government-To-Increase-Capital-Gain-Tax-From-26-to-Massive-42-1.webp",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973153"
         },
         {
-            "title": "Pasaran cryptocurrency jatuh kerana kebimbangan terhadap kadar faedah.",
-            "description": "",
+            "title": "Pasaran cryptocurrency terjejas di tengah kebimbangan kadar faedah.",
             "url": "https://cryptopanic.com/news/click/20546442/",
+            "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Bitcoin-stumbles.webp",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973157"
         },
         {
-            "title": "'Tutup Harian Bitcoin Dekat Untuk 'Menentukan Langkah Seterusnya', Adakah Penurunan Harga Lain Akan Datang?'",
-            "description": "",
+            "title": "\"Penutupan Harian Bitcoin Hampir 'Menentukan Langkah Seterusnya', Adakah Penurunan Harga Lain Akan Datang?\"",
             "url": "https://cryptopanic.com/news/click/20546394/",
+            "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-Lta5b8mPytw-unsplash.jpeg?fit=1920%2C1277",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973160"
         },
         {
             "title": "Meta menyekat pautan Pixelfed, menimbulkan kebimbangan tentang kebebasan bersuara.",
-            "description": "",
             "url": "https://cryptopanic.com/news/click/20546393/",
+            "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Meta-pixelfed_20250114_024431_0000.webp",
             "panic_score": null,
-            "important": "No"
+            "timestamp": "2025-01-14T06:41:48.973167"
         },
         {
             "title": "'Pengasas Bersama DWF Menyoroti Sentimen Pasaran Dan Peluang'",
