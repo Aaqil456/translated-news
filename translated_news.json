@@ -1,6 +1,30 @@
 {
-    "timestamp": "2025-01-14 06:42:26",
+    "timestamp": "2025-01-14 06:53:47",
     "news": [
+        {
+            "title": "\"Bitcoin Melantun Kembali ke $95K apabila Sentimen Bullish Kembali.\"",
+            "url": "https://cryptopanic.com/news/click/20546614/",
+            "description": "",
+            "image": "https://cryptopotato.com/wp-content/uploads/2024/01/bitcoin_green_cover-2.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:53:07.835873"
+        },
+        {
+            "title": "'Dompet Perkakasan Paling Selamat untuk Kriptowang'",
+            "url": "https://cryptopanic.com/news/click/20546619/",
+            "description": "",
+            "image": "https://sfctoday.com/wp-content/uploads/2025/01/Most-Secure-Hardware-Wallets-for-Cryptocurrencies.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:53:07.835888"
+        },
+        {
+            "title": "Ramalan Harga Monero: Para pelabur XMR kekal kuat, menantikan keuntungan dua digit.",
+            "url": "https://cryptopanic.com/news/click/20546595/",
+            "description": "",
+            "image": "https://editorial.fxstreet.com/images/Markets/Currencies/Cryptocurrencies/Coins/Monero/monero_Large.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-14T06:53:07.835916"
+        },
         {
             "title": "Pengeluaran Bitcoin Spot ETF Mencapai $284J Dengan Aliran Masuk Campuran.",
             "url": "https://cryptopanic.com/news/click/20546591/",
