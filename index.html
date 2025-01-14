@@ -61,7 +61,6 @@
             margin-top: 10px;
         }
         .hot-badge {
-            background-color: #ff9800;
             color: black;
             padding: 5px 10px;
             font-size: 12px;
@@ -116,7 +115,7 @@
                             <img src="${news.image}" alt="${news.title}" class="news-image">
                             <div class="news-description">${news.description}</div>
                             <a href="${news.url}" class="news-link" target="_blank">Baca Lagi</a>
-                            ${news.is_hot ? '<div class="hot-badge"><span>🔥</span>Hot News</div>' : ''}
+                            ${news.is_hot ? '<div class="hot-badge"><span>🔥</span></div>' : ''}
                         `;
                         container.appendChild(newsItem);
                     });
