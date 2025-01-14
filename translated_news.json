@@ -1,125 +1,165 @@
 {
-    "timestamp": "2025-01-14 04:17:21",
+    "timestamp": "2025-01-14 04:53:35",
     "news": [
         {
-            "title": "Harga XRP Menguasai: Mengatasi Bitcoin Dengan Keyakinan",
+            "title": "Robinhood akan membayar $45 juta dalam penalti sivil untuk menyelesaikan tuduhan SEC.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20546325/",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946295-ba3a-7a39-bdd4-62d94fc08e97",
+            "panic_score": null,
+            "important": "No"
+        },
+        {
+            "title": "Tom Lee Meramalkan Bitcoin Mungkin Turun Kepada $50K, Tetapi Kekal Dengan Sasaran Jangka Panjang $250K Di Tengah Ketidaktentuan Pasaran.",
+            "description": "",
+            "url": "https://cryptopanic.com/news/click/20546295/",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/13/Bitcoins-Value-Skyrockets_0.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "important": "No"
+        },
+        {
+            "title": "Harga XRP Menguasai: Mengungguli Bitcoin Dengan Yakin",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546212/",
-            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/XRP-Price-Dominates.jpg?fit=1792%2C1024"
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/XRP-Price-Dominates.jpg?fit=1792%2C1024",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "'BTC vs ETH ETF: Kenapa pelabur lebih memilih Bitcoin sekarang'",
+            "title": "'BTC vs ETH ETFs: Mengapa pelabur lebih menyukai Bitcoin sekarang'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546194/",
-            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/BTC_ETH_ETF-1-1000x600.webp"
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/BTC_ETH_ETF-1-1000x600.webp",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Sony melancarkan platform blockchainnya Soneium.",
+            "title": "'Sony melancarkan platform blockchainnya Soneium.'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546210/",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Sony-Soneium.webp"
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Sony-Soneium.webp",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "'Binance akan menghadapi tindakan kelas selepas Mahkamah Agung AS menolak petisyen untuk semakan.'",
+            "title": "'Binance akan berhadapan dengan tindakan kolektif selepas Mahkamah Agung AS menolak petisyen untuk semakan.'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546183/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946277-0ec3-7e20-8f1b-ae933ebd59a1"
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946277-0ec3-7e20-8f1b-ae933ebd59a1",
+            "panic_score": null,
+            "important": "No"
         },
         {
             "title": "Kekalahan Besar untuk Gensler dari SEC: Coinbase Mendapat Kemenangan Sebahagian",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546147/",
-            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/08153132/Coinbase-Secures-Legal-Victory-as-Court-Approves-Interlocutory-Appeal-in-SEC-Case-2.webp"
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/08153132/Coinbase-Secures-Legal-Victory-as-Court-Approves-Interlocutory-Appeal-in-SEC-Case-2.webp",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Harga Ethereum Menguji Had: Bolehkah Ia Menakluk Tugas yang Sukar?",
+            "title": "Harga Ethereum Menguji Had: Bolehkah Ia Menangani Tugas Yang Sukar?",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546100/",
-            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Ethereum-Price-Maintains-Stability-1.jpg?fit=1792%2C1024"
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Ethereum-Price-Maintains-Stability-1.jpg?fit=1792%2C1024",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Senator Warren mendesak calon Menteri Kewangan Trump untuk mempertimbangkan peraturan crypto yang lebih ketat.",
+            "title": "Senator Warren mendesak pilihan Trump untuk Jabatan Perbendaharaan agar mempertimbangkan peraturan kripto yang lebih ketat.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546098/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019461ff-8893-7796-8f1f-388b43eb8e93"
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019461ff-8893-7796-8f1f-388b43eb8e93",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Penyelidik Keselamatan Apple Kata Malware Crypto MacOS Terkini Terlalu Diperbesar.",
+            "title": "Penyelidik Keselamatan Apple Kata Malware Crypto MacOS Terkini Terlalu Diperbesarkan",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546093/",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/06/shutterstock_1050436496-gID_7.jpg"
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/06/shutterstock_1050436496-gID_7.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Inaugurasi Donald Trump Akan Memaparkan Peraturan Kripto dan Pemimpin Teknologi.",
+            "title": "Inaugurasi Donald Trump Akan Menampilkan Peraturan Kripto dan Pemimpin Teknologi.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546074/",
-            "image": "https://coincu.com/wp-content/uploads/2025/01/On_White_96_optimized_2000-1024x576.jpg"
+            "image": "https://coincu.com/wp-content/uploads/2025/01/On_White_96_optimized_2000-1024x576.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Mahkamah AS Menyokong Petisyen Coinbase, Menuntut Justifikasi untuk Penolakan Peraturan SEC.",
+            "title": "Mahkamah AS Sokong Petisyen Coinbase, Menuntut Penjelasan untuk Penolakan Peraturan SEC.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546190/",
-            "image": "https://www.coinspeaker.com/wp-content/themes/cs/images/coinlogo3.png"
+            "image": "https://www.coinspeaker.com/wp-content/themes/cs/images/coinlogo3.png",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "\"Donald Trump boleh mengeluarkan arahan eksekutif crypto pada hari pertama: Laporan\"",
+            "title": "'Donald Trump mungkin akan mengeluarkan arahan eksekutif crypto pada hari pertama: Laporan'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546056/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019461cd-9e02-7182-93c0-7a92e7ac4543"
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019461cd-9e02-7182-93c0-7a92e7ac4543",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Harga Bitcoin Menunjukkan Petunjuk Pemulihan: Tanda Awal Pemulihan Muncul.",
+            "title": "Harga Bitcoin Menunjukkan Tanda Pemulihan: Tanda Awal Pemulihan Muncul",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546024/",
-            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Bitcoin-Price-Hints-at-Rebound.jpg"
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Bitcoin-Price-Hints-at-Rebound.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "'Bitcoin mungkin akan turun ke $70K, tetapi harga semasa adalah 'titik masuk yang baik' — Fundstrat'",
+            "title": "'Bitcoin mungkin jatuh ke $70K, tetapi harga semasa adalah ‘titik masuk yang baik’ — Fundstrat'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546026/",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946206-595a-728a-9e39-7b5febf26c35"
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01946206-595a-728a-9e39-7b5febf26c35",
+            "panic_score": null,
+            "important": "No"
         },
         {
             "title": "Pasaran Ramalan Polymarket Diharamkan di Singapura.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20546021/",
-            "image": "h"
+            "image": "h",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "'Sony Melancarkan Soneium Mainnet, Memajukan Ethereum Lapisan 2 untuk Hiburan'",
+            "title": "'Sony Melancarkan Soneium Mainnet, Maju ke Ethereum Layer 2 untuk Hiburan'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545961/",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Sony-sign-atop-of-Sony-Interactive-Entertainment-SIE-headquarters-in-Silicon-Valley-San-Mateo-California-gID_7.jpg"
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Sony-sign-atop-of-Sony-Interactive-Entertainment-SIE-headquarters-in-Silicon-Valley-San-Mateo-California-gID_7.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
             "title": "Platform blockchain awam Sony, Soneium, dilancarkan di mainnet.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545958/",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg"
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "'Kontrak Niaga Hadapan Crypto.com yang Terkait dengan Super Bowl Dalam Semakan untuk Kesahan'",
+            "title": "'Kontrak Niaga Hadapan Crypto.com Berkaitan dengan Super Bowl Dalam Semakan untuk Kesahihan'",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545955/",
-            "image": "https://coincu.com/wp-content/uploads/2025/01/On-White-95.jpg"
+            "image": "https://coincu.com/wp-content/uploads/2025/01/On-White-95.jpg",
+            "panic_score": null,
+            "important": "No"
         },
         {
-            "title": "Ethena: Menganalisis kesan tindakan ikan paus bernilai $6.46M ke atas harga ENA.",
+            "title": "Ethena: Menganalisis kesan tindakan whale $6.46M ke atas harga ENA.",
             "description": "",
             "url": "https://cryptopanic.com/news/click/20545944/",
-            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Erastus-39-min-min-1000x600.png"
-        },
-        {
-            "title": "Walaupun Bitcoin mengalami kemerosotan, para penyokong jangka panjang masih percaya bahawa $5 juta akan terjadi.",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545928/",
-            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjExMDMwNTAwNzE2ODQ4NjI4/bitcoin.jpg"
-        },
-        {
-            "title": "'Kadar Pembakaran SHIB Kini Melonjak 300% Dalam 24 Jam'",
-            "description": "",
-            "url": "https://cryptopanic.com/news/click/20545883/",
-            "image": "https://franknez.com/wp-content/uploads/2025/01/SHIB-Burn-Rates-Now-Soar-By-300-Within-24-Hours.jpg"
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Erastus-39-min-min-1000x600.png",
+            "panic_score": null,
+            "important": "No"
         }
     ]
 }
