@@ -1,67 +1,85 @@
 {
-    "timestamp": "2025-01-14 08:39:33",
+    "timestamp": "2025-01-14 08:52:38",
     "all_news": [
         {
-            "title": "Trump: sektor crypto menjadi tumpuan pada hari pertamanya di White House.",
+            "title": "Harga Pepe bersedia untuk satu lonjakan baru yang meletup, didorong oleh minat baru dari ikan paus.",
+            "url": "https://cryptopanic.com/news/click/20547044/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/12/30153349/PEPE-Price-Prediction-for-December-28-Rally-Imminent.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T08:51:59.098793",
+            "is_hot": false
+        },
+        {
+            "title": "BlackRock membeli 318 Bitcoin manakala Fidelity menjual 1,210 Bitcoin.",
+            "url": "https://cryptopanic.com/news/click/20547016/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Blackrock-Fidelity-bitcoin-2983.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-14T08:51:59.098806",
+            "is_hot": false
+        },
+        {
+            "title": "Trump: sektor crypto menjadi tumpuan pada hari pertamanya di Rumah Putih.",
             "url": "https://cryptopanic.com/news/click/20546990/",
             "description": "",
             "image": "https://i0.wp.com/atlas21.com/wp-content/uploads/2023/10/atlas21.png?fit=2400%2C1350&ssl=1",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494069",
+            "timestamp": "2025-01-14T08:51:59.098808",
             "is_hot": false
         },
         {
-            "title": "\"Meta Disarankan untuk Melabur dalam Bitcoin sebagai Lindungan Terhadap Inflasi\"",
+            "title": "Meta Disarankan untuk Melabur dalam Bitcoin sebagai Lindung Nilai Terhadap Inflasi.",
             "url": "https://cryptopanic.com/news/click/20546989/",
             "description": "",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494083",
+            "timestamp": "2025-01-14T08:51:59.098810",
             "is_hot": false
         },
         {
-            "title": "'Trump Bersedia untuk Mengubah Dasar Kripto A.S. pada Hari Pertama'",
+            "title": "'Trump Bersedia Untuk Mengubah Polisi Kripto A.S. Pada Hari Pertama'",
             "url": "https://cryptopanic.com/news/click/20546998/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/04/donald-trump53515.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494085",
+            "timestamp": "2025-01-14T08:51:59.098812",
             "is_hot": false
         },
         {
-            "title": "'Cardano dalam perbincangan untuk mengintegrasikan stablecoin RLUSD Ripple'",
+            "title": "'Cardano sedang berbincang untuk mengintegrasikan stablecoin RLUSD dari Ripple.'",
             "url": "https://cryptopanic.com/news/click/20546963/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/56cc67f141/dall-e-2025-01-14-09-27-09-a-2_1-image-of-a-modern-office-interior-in-shades-of-red-featuring-a-man-in-a-suit-standing-confidently-with-his-face-intentionally-not-shown-the-o-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494087",
+            "timestamp": "2025-01-14T08:51:59.098814",
             "is_hot": false
         },
         {
-            "title": "Selepas waktu masalah: Metaverse hari ini dan impian pemilikan digital.",
+            "title": "Selepas zaman masalah: Metaverse hari ini dan impian pemilikan digital.",
             "url": "https://cryptopanic.com/news/click/20546993/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019463e4-f2df-7121-850a-b14177290c03",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494089",
+            "timestamp": "2025-01-14T08:51:59.098816",
             "is_hot": false
         },
         {
-            "title": "Meneroka Web3 pada tahun 2025: Ondřej Kavka membincangkan impak BitDCA ke atas kripto dan simpanan Bitcoin.",
+            "title": "Meneroka Web3 pada tahun 2025: Ondřej Kavka membincangkan kesan BitDCA terhadap crypto dan simpanan Bitcoin.",
             "url": "https://cryptopanic.com/news/click/20546959/",
             "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Ondrej-Kavka-CTO-and-cofounder-at-BitDCA.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494091",
+            "timestamp": "2025-01-14T08:51:59.098817",
             "is_hot": false
         },
         {
-            "title": "Mahkamah Agung Menolak Rayuan Binance, Saman Diteruskan.",
+            "title": "Mahkamah Agung Menolak Rayuan Binance, Saman Teruskan.",
             "url": "https://cryptopanic.com/news/click/20546948/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/23b1bf948b/dall-e-2025-01-14-09-22-39-a-realistic-2_1-image-of-a-usa-courtroom-designed-entirely-in-shades-of-red-featuring-a-judge-s-bench-jury-box-and-legal-elements-like-the-american-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494093",
+            "timestamp": "2025-01-14T08:51:59.098821",
             "is_hot": false
         },
         {
@@ -70,52 +88,52 @@
             "description": "",
             "image": "https://cryptovalleyjournal.com/wp-content/uploads/2025/01/CVJ.CH-Sygnum-Kapitalerhoehung-1-Milliarde-Unicorn.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494094",
+            "timestamp": "2025-01-14T08:51:59.098825",
             "is_hot": false
         },
         {
-            "title": "'Bitcoin Tonton: Dolar Mencapai Tinggi 26-Bulan, Pergerakan Besar Akan Datang?'",
+            "title": "Tonton Bitcoin: Dolar Mencapai Tinggi 26 Bulan, Pergerakan Besar Akan Datang?",
             "url": "https://cryptopanic.com/news/click/20546895/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/f6db64976e/dall-e-2025-01-14-09-09-35-a-2_1-image-of-a-bold-investing-chart-with-red-arrows-pointing-upward-symbolizing-financial-growth-with-a-sharp-modern-design-the-background-featu-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494098",
+            "timestamp": "2025-01-14T08:51:59.098827",
             "is_hot": false
         },
         {
-            "title": "'Coinbase Menang Kemenangan Sebahagian Dalam Cabaran Peraturan SEC, Mahkamah Menyebut Pendapat Agensi Sebagai 'Arbitrari''",
+            "title": "Coinbase Memenangi Kemenangan Sebahagian Dalam Cabaran Peraturan SEC, Mahkamah Menyebut Pendirian Agensi Itu 'Arbitari'.",
             "url": "https://cryptopanic.com/news/click/20546943/",
             "description": "",
             "image": "https://cdn.benzinga.com/files/images/story/2025/01/14/The-Coinbase-Trade.jpeg?width=1200&height=800&fit=crop",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494100",
+            "timestamp": "2025-01-14T08:51:59.098828",
             "is_hot": false
         },
         {
-            "title": "'Bitcoin Mungkin Tidak Akan Diperdagangkan Di Bawah $43,000 Lagi'",
+            "title": "'Bitcoin Mungkin Tidak Akan Pernah Diperdagangkan Di Bawah $43,000 Lagi'",
             "url": "https://cryptopanic.com/news/click/20546894/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55296.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494103",
+            "timestamp": "2025-01-14T08:51:59.098830",
             "is_hot": false
         },
         {
-            "title": "Kalshi melantik Donald Trump Jr ke jawatan penasihat, mengambil langkah strategik sebelum Polymarket.",
+            "title": "Kalshi melantik Donald Trump Jr ke jawatan penasihat, mengambil langkah strategik menjelang Polymarket.",
             "url": "https://cryptopanic.com/news/click/20546880/",
             "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/kalshi-donald-trump-jr-polymarket.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494105",
+            "timestamp": "2025-01-14T08:51:59.098832",
             "is_hot": false
         },
         {
-            "title": "'Bitcoin Mungkin Akan Jatuh Sebelum Memulakan Kenaikan 119%, Menurut Penganalisis Yang Meramalkan Kejatuhan Pasaran 2021'",
+            "title": "'Bitcoin Mungkin Jatuh Sebelum Memulakan Kenaikan 119%, Menurut Penganalisis Yang Meramalkan Kejatuhan Pasaran 2021'",
             "url": "https://cryptopanic.com/news/click/20546874/",
             "description": "",
             "image": "https://dailyhodl.com/wp-content/uploads/2025/01/Bitcoin-Could-Collapse-Before.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494107",
+            "timestamp": "2025-01-14T08:51:59.098833",
             "is_hot": false
         },
         {
@@ -124,16 +142,16 @@
             "description": "",
             "image": "",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494108",
+            "timestamp": "2025-01-14T08:51:59.098835",
             "is_hot": false
         },
         {
-            "title": "'JPMorgan Meramalkan Aliran Masuk Signifikan untuk Potensi ETF Spot XRP'",
+            "title": "'JPMorgan Meramalkan Aliran Masuk yang Signifikan untuk Potensi ETF Spot XRP'",
             "url": "https://cryptopanic.com/news/click/20546836/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/12/coin_xrp-big-1.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494110",
+            "timestamp": "2025-01-14T08:51:59.098837",
             "is_hot": false
         },
         {
@@ -142,25 +160,25 @@
             "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/btc_61de83.png?fit=1792%2C1024",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494112",
+            "timestamp": "2025-01-14T08:51:59.098839",
             "is_hot": false
         },
         {
-            "title": "Ramalan Harga Ripple (XRP) yang Optimis, Perkembangan Akan Datang Shiba Inu (SHIB), dan Lain-lain: Rumusan Bits 14 Jan",
+            "title": "Ramalan Harga Ripple (XRP) yang Optimis, Perkembangan Akan Datang Shiba Inu (SHIB), dan Lain-lain: Ringkasan Bits 14 Jan",
             "url": "https://cryptopanic.com/news/click/20546800/",
             "description": "",
             "image": "https://cryptopotato.com/wp-content/uploads/2025/01/Recap_CB-34.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494113",
+            "timestamp": "2025-01-14T08:51:59.098840",
             "is_hot": false
         },
         {
-            "title": "'Bitcoin Mungkin Menjadi Pelaku Terbaik pada 2025, Tetapi Ini Yang Perlu Berlaku Dahulu – Tom Lee Terangkan'",
+            "title": "'Bitcoin Mungkin Menjadi Pelakon Utama Pada Tahun 2025, Tetapi Berikut Adalah Apa Yang Perlu Berlaku Dahulu – Tom Lee Terangkan'",
             "url": "https://cryptopanic.com/news/click/20546804/",
             "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2024/12/16164618/Bitcoin-Price-Prediction-Today-14th-Dec-2024.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:50.494115",
+            "timestamp": "2025-01-14T08:51:59.098842",
             "is_hot": false
         },
         {
@@ -189,8 +207,8 @@
             "description": "",
             "image": "https://crypto-economy.com//wp-content/uploads/2025/01/CardanoFounderRLUSD.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008299",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216827",
+            "is_hot": true
         },
         {
             "title": "Shiba Inu Unveils WHY Combinator to Boost Web3 Growth",
@@ -198,8 +216,8 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/d967b68c9a/dall-e-2025-01-13-10-05-35-a-sleek-and-modern-depiction-of-the-shiba-inu-logo-prominently-centered-on-a-vibrant-red-background-the-design-is-minimalist-featuring-the-shiba-inu.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008309",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216834",
+            "is_hot": true
         },
         {
             "title": "Crypto ETFs to Boom in 2025: 50 Launches Predicted",
@@ -207,8 +225,8 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/0edc55c2b5/dall-e-2025-01-13-09-40-30-a-striking-modern-corporate-building-designed-with-sleek-angular-architecture-set-against-a-red-toned-background-the-entire-image-uses-varying-sha-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008311",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216836",
+            "is_hot": true
         },
         {
             "title": "Ethereum Price Eyes $4,811 And $8,550 Targets After Breakout",
@@ -216,8 +234,8 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008313",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216838",
+            "is_hot": true
         },
         {
             "title": "Enormous XRP Breakout to Launch Skyrocketing Rally, Shiba Inu (SHIB): Pattern You Don't Avoid, Bitcoin (BTC) Still Sleeping",
@@ -225,8 +243,8 @@
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5568.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008315",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216840",
+            "is_hot": true
         },
         {
             "title": "Bitcoin (BTC USD): Analyst Predicts Bull Pennant Breakout, Targeting $140,000",
@@ -234,8 +252,8 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008317",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216841",
+            "is_hot": true
         },
         {
             "title": "XRP price eyes 60% gain ahead of Gary Gensler&#039;s SEC exit",
@@ -243,8 +261,8 @@
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01945afb-570b-7436-8883-bc6266ecaa5e",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008318",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216843",
+            "is_hot": true
         },
         {
             "title": "Cardano Price Recovers With 9% Gains In 24 Hours, What Next?",
@@ -252,8 +270,8 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008320",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216845",
+            "is_hot": true
         },
         {
             "title": "New Hampshire and North Dakota Push for Bitcoin Reserves in State Funds",
@@ -261,8 +279,8 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/e26e6d45d5/dall-e-2025-01-11-16-50-59-a-visually-striking-2_1-image-of-the-usa-flag-on-a-bold-red-background-the-flag-is-centered-crisp-and-clear-with-vibrant-red-white-and-blue-colo.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008322",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216846",
+            "is_hot": true
         },
         {
             "title": "Cardano’s Charles Hoskinson praises XRP for strong community, leadership, and purpose",
@@ -270,8 +288,8 @@
             "description": "",
             "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Charles-Hoskinson-praises-XRP-community.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008323",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216848",
+            "is_hot": true
         },
         {
             "title": "XRP ‘just days’ away from all-time high breakout, according to analyst",
@@ -279,8 +297,8 @@
             "description": "",
             "image": "https://assets.finbold.com/uploads/2025/01/XRP-‘just-days-away-from-all-time-high-breakout-according-to-analyst.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008327",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216850",
+            "is_hot": true
         },
         {
             "title": "Cardano Teams Up with FC Barcelona to Revolutionize Fan Engagement",
@@ -288,8 +306,8 @@
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/02/IMAGE-2024-02-21-121300.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008328",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216851",
+            "is_hot": true
         },
         {
             "title": "Trump to Launch First Senate Crypto Subcommittee",
@@ -297,8 +315,8 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1536x768/c96837a1e7/u5184394776_httpss-mj-runa3ip-bby78s_create_image_which_shows_5fb8b38e-af51-4d50-b5e1-26ee05cb9ac3_0_11zon.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008330",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216853",
+            "is_hot": true
         },
         {
             "title": "Crypto Giants Back Trump with Millions",
@@ -306,8 +324,8 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1536x768/3e4cb8ca33/u5184394776_httpss-mj-runa3ip-bby78s_create_image_which_shows_66e692ae-4abe-4374-81e5-66710bbef736_3_11zon.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008333",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216858",
+            "is_hot": true
         },
         {
             "title": "Bitcoin USD Falls to $92K as Indicators Point to Increasing Demand",
@@ -315,8 +333,8 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008335",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216860",
+            "is_hot": true
         },
         {
             "title": "U.S. DOJ Approved to Sell 69,370 Bitcoin, Sparking a Crypto Crash",
@@ -324,8 +342,8 @@
             "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2024/09/04160738/Crypto-Crash-Why-Crypto-Whales-are-Selling-Bitcoin-Ethereum-and-XRP.webp",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008337",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216861",
+            "is_hot": true
         },
         {
             "title": "XRP price prediction for Trump’s Inauguration Day",
@@ -333,8 +351,8 @@
             "description": "",
             "image": "https://assets.finbold.com/uploads/2025/01/XRP-price-prediction-for-Trumps-Inauguration-Day.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008338",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216863",
+            "is_hot": true
         },
         {
             "title": "XRP ETF likely to launch after Bitcoin and Ether ETFs, says Ripple President",
@@ -342,8 +360,8 @@
             "description": "",
             "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/08084426/8de8dd78-90e7-49ff-8f77-c4c54b0f08d0-800x420.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008340",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216865",
+            "is_hot": true
         },
         {
             "title": "Ripple’s RLUSD stablecoin to list ‘imminently’ on more exchanges — Exec",
@@ -351,8 +369,8 @@
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019445b6-cee7-76b0-9d92-84ebfe19b8da",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008341",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216866",
+            "is_hot": true
         },
         {
             "title": "RLUSD Meets Chainlink: Will This Partnership Skyrocket Ripple’s Stablecoin?",
@@ -360,8 +378,8 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-14T08:38:51.008343",
-            "is_hot": false
+            "timestamp": "2025-01-14T08:52:00.216868",
+            "is_hot": true
         }
     ]
 }
