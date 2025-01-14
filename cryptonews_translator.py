@@ -56,7 +56,7 @@ def load_existing_data(filename="translated_news.json"):
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"all_news": [], "hot_news": []}
+    return {"all_news": []}
 
 # Function to remove duplicates
 def remove_duplicates(news_list):
@@ -70,7 +70,7 @@ def remove_duplicates(news_list):
 
 # Function to save news to JSON
 def save_to_json(data, filename="translated_news.json"):
-    output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), **data}
+    output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "all_news": data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     print(f"Translated news saved to {filename}")
@@ -95,9 +95,11 @@ def main():
     for news in all_news:
         if news["url"] in hot_urls:
             news["is_hot"] = True
+        else:
+            news["is_hot"] = False
 
-    # Translate news titles and descriptions
-    print("Translating news titles and descriptions...")
+    # Translate all news titles and descriptions
+    print("Translating all news titles and descriptions...")
     for news in all_news:
         news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
         news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
@@ -105,21 +107,15 @@ def main():
     # Load existing data and merge
     existing_data = load_existing_data()
     combined_all_news = remove_duplicates(all_news + existing_data.get("all_news", []))
-    combined_hot_news = remove_duplicates(hot_news + existing_data.get("hot_news", []))
 
     # Save combined data to JSON
-    save_to_json({"all_news": combined_all_news, "hot_news": combined_hot_news})
+    save_to_json(combined_all_news)
 
     # Print newly added news
-    print("\nNewly Added All News:")
-    new_all_news = [news for news in combined_all_news if news not in existing_data.get("all_news", [])]
-    for news in new_all_news:
+    print("\nNewly Added News:")
+    new_news = [news for news in combined_all_news if news not in existing_data.get("all_news", [])]
+    for news in new_news:
         print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
-
-    print("\nNewly Added Hot News:")
-    new_hot_news = [news for news in combined_hot_news if news not in existing_data.get("hot_news", [])]
-    for news in new_hot_news:
-        print(f"Title: {news['title']}\nURL: {news['url']}\n")
 
 # Run the main script
 if __name__ == "__main__":
