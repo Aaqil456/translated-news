@@ -4,9 +4,9 @@ import requests
 import json
 from datetime import datetime
 
-# Function to fetch news from CryptoPanic
+# Function to fetch news from CryptoPanic with metadata and Panic Score
 def fetch_news(api_key):
-    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true"
+    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true&panic_score=true"
     response = requests.get(url)
     if response.status_code == 200:
         news_data = response.json()
@@ -19,7 +19,8 @@ def fetch_news(api_key):
                 "title": news["title"],
                 "url": click_url,
                 "description": news.get("description", ""),
-                "image": news.get("metadata", {}).get("image", "")
+                "image": news.get("metadata", {}).get("image", ""),
+                "panic_score": news.get("panic_score")  # Fetch Panic Score if available
             })
         return news_list
     else:
@@ -76,7 +77,7 @@ def main():
         print("API keys are missing! Please set them as environment variables.")
         return
 
-    # Step 1: Fetch news
+    # Step 1: Fetch news with Panic Score
     print("Fetching news from CryptoPanic...")
     news_list = fetch_news(CRYPTOPANIC_API_KEY)
 
@@ -84,17 +85,24 @@ def main():
         print("No news fetched. Exiting.")
         return
 
-    # Step 2: Translate news titles and descriptions
+    # Step 2: Translate news titles, descriptions, and mark Panic Score
     print("Translating news titles and descriptions...")
     translated_news = []
     for news in news_list:
         malay_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
         malay_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        panic_score = news.get("panic_score", None)
+
+        # Mark the news if it has a Panic Score
+        is_important = "Yes" if panic_score is not None else "No"
+
         translated_news.append({
             "title": malay_title,
             "description": malay_description,
             "url": news["url"],
-            "image": news["image"]
+            "image": news["image"],
+            "panic_score": panic_score,
+            "important": is_important
         })
 
     # Step 3: Save translated news to JSON
@@ -103,7 +111,7 @@ def main():
     # Step 4: Print translated news (Optional for debugging/logging)
     print("\nTranslated News:")
     for news in translated_news:
-        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\n")
+        print(f"Title: {news['title']}\nDescription: {news['description']}\nURL: {news['url']}\nImage: {news['image']}\nPanic Score: {news['panic_score']}\nImportant: {news['important']}\n")
 
 # Run the main script
 if __name__ == "__main__":
