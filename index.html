@@ -69,18 +69,33 @@
             z-index: 1000;
             padding: 10px 0;
         }
-        .toggle-bar button {
-            background-color: #00e2b1;
-            border: none;
-            color: black;
-            padding: 10px 20px;
+        .toggle-bar .toggle {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            border-radius: 20px;
+            padding: 5px;
             cursor: pointer;
-            font-size: 16px;
-            margin: 0 10px;
-            border-radius: 5px;
+            width: 200px;
+            justify-content: space-between;
+            position: relative;
         }
-        .toggle-bar button.active {
-            background-color: #00c08a;
+        .toggle-bar .toggle span {
+            flex: 1;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+        .toggle-bar .toggle .toggle-slider {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background-color: #00e2b1;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        .toggle-bar .toggle.active .toggle-slider {
+            transform: translateX(100%);
         }
         /* Custom Scrollbar Styles */
         ::-webkit-scrollbar {
@@ -103,14 +118,19 @@
 </head>
 <body>
     <div class="toggle-bar">
-        <button id="all-news-btn" class="active">All News</button>
-        <button id="hot-news-btn">Hot News</button>
+        <div class="toggle" id="toggle">
+            <div class="toggle-slider"></div>
+            <span>All News</span>
+            <span>Hot News</span>
+        </div>
     </div>
     <div class="news-container" id="news-container">
         <!-- News will be dynamically added here -->
     </div>
     <script>
         let currentFilter = "all";
+
+        const toggleElement = document.getElementById("toggle");
 
         const fetchNews = (filter) => {
             fetch(`https://aaqil456.github.io/translated-news/translated_news.json?timestamp=${new Date().getTime()}`)
@@ -155,18 +175,14 @@
                 });
         };
 
-        document.getElementById('all-news-btn').addEventListener('click', () => {
-            currentFilter = "all";
-            document.getElementById('all-news-btn').classList.add('active');
-            document.getElementById('hot-news-btn').classList.remove('active');
-            fetchNews("all");
-        });
-
-        document.getElementById('hot-news-btn').addEventListener('click', () => {
-            currentFilter = "hot";
-            document.getElementById('hot-news-btn').classList.add('active');
-            document.getElementById('all-news-btn').classList.remove('active');
-            fetchNews("hot");
+        toggleElement.addEventListener("click", () => {
+            toggleElement.classList.toggle("active");
+            if (toggleElement.classList.contains("active")) {
+                currentFilter = "hot";
+            } else {
+                currentFilter = "all";
+            }
+            fetchNews(currentFilter);
         });
 
         // Initial fetch for all news
