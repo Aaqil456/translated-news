@@ -77,14 +77,7 @@
             padding: 5px;
             cursor: pointer;
             width: 200px;
-            justify-content: space-between;
             position: relative;
-        }
-        .toggle-bar .toggle span {
-            flex: 1;
-            text-align: center;
-            color: white;
-            font-size: 14px;
         }
         .toggle-bar .toggle .toggle-slider {
             position: absolute;
@@ -93,9 +86,21 @@
             background-color: #00e2b1;
             border-radius: 20px;
             transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
         }
         .toggle-bar .toggle.active .toggle-slider {
             transform: translateX(100%);
+        }
+        .toggle-bar .toggle span {
+            flex: 1;
+            text-align: center;
+            color: white;
+            font-size: 14px;
         }
         /* Custom Scrollbar Styles */
         ::-webkit-scrollbar {
@@ -119,7 +124,7 @@
 <body>
     <div class="toggle-bar">
         <div class="toggle" id="toggle">
-            <div class="toggle-slider"></div>
+            <div class="toggle-slider" id="toggle-slider">All News</div>
             <span>Berita</span>
             <span>Panas</span>
         </div>
@@ -131,6 +136,7 @@
         let currentFilter = "all";
 
         const toggleElement = document.getElementById("toggle");
+        const toggleSlider = document.getElementById("toggle-slider");
 
         const fetchNews = (filter) => {
             fetch(`https://aaqil456.github.io/translated-news/translated_news.json?timestamp=${new Date().getTime()}`)
@@ -179,8 +185,10 @@
             toggleElement.classList.toggle("active");
             if (toggleElement.classList.contains("active")) {
                 currentFilter = "hot";
+                toggleSlider.textContent = "Panas";
             } else {
                 currentFilter = "all";
+                toggleSlider.textContent = "Berita";
             }
             fetchNews(currentFilter);
         });
