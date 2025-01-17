@@ -1,6 +1,33 @@
 {
-    "timestamp": "2025-01-17 09:17:38",
+    "timestamp": "2025-01-17 09:24:42",
     "all_news": [
+        {
+            "title": "‘Definisi Kegilaan’ — CEO Ripple Menegaskan Ketika SEC Mencari Pembalikan Klasifikasi XRP Bukan Sekuriti.",
+            "url": "https://cryptopanic.com/news/click/20563670/",
+            "description": "",
+            "image": "https://zycrypto.com/wp-content/uploads/2024/04/Ripples-XRP-Price-to-20-—-Devs-Unveil-Super-Bullish-Proposal-That-Could-Massively-Advance-XRPL.jpeg",
+            "panic_score": null,
+            "timestamp": "2025-01-17T09:23:21.913297",
+            "is_hot": false
+        },
+        {
+            "title": "'Bitget Bekerjasama Dengan Jambo untuk Membiayai Pelancaran Satelit Telekomunikasi'",
+            "url": "https://cryptopanic.com/news/click/20563685/",
+            "description": "",
+            "image": "https://beincrypto.com/wp-content/uploads/2023/05/bic_sale_Bitget-1.png",
+            "panic_score": null,
+            "timestamp": "2025-01-17T09:23:21.913346",
+            "is_hot": false
+        },
+        {
+            "title": "Kenaikan Mingguan 22% Cardano Mengunci Zon Kunci $1",
+            "url": "https://cryptopanic.com/news/click/20563687/",
+            "description": "",
+            "image": "https://beincrypto.com/wp-content/uploads/2024/11/bic_cardano_ADA-covers_positive.jpg.optimal.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-17T09:23:21.913338",
+            "is_hot": false
+        },
         {
             "title": "Che Guevara adalah Meme yang pertama.",
             "url": "https://cryptopanic.com/news/click/20563505/",
