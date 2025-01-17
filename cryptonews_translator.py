@@ -105,31 +105,25 @@ def main():
         news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
         news["is_hot"] = True
 
-    # Combine hot news into all news
-    combined_news = remove_duplicates(hot_news + all_news)
+    # Combine all news and hot news, ensuring hot news is part of all news
+    combined_news = hot_news + all_news  # Hot news first
+    combined_news = remove_duplicates(combined_news)
 
-    # Load existing data
+    # Randomize the order of the combined news
+    random.shuffle(combined_news)
+    
+    # Load existing data and merge
     existing_data = load_existing_data()
-    existing_news = existing_data.get("all_news", [])
+    final_news_list = remove_duplicates(combined_news + existing_data.get("all_news", []))
 
-    # Identify new news
-    existing_urls = {news["url"] for news in existing_news}  # Set of existing URLs
-    new_news = [news for news in combined_news if news["url"] not in existing_urls]
-
-    # Randomize only the new news
-    random.shuffle(new_news)
-
-    # Combine new news (randomized) with old news (unchanged)
-    final_news_list = new_news + existing_news
-
-    # Save the combined data to JSON
+    # Save combined data to JSON
     save_to_json(final_news_list)
 
     # Print newly added news
     print("\nNewly Added News:")
+    new_news = [news for news in final_news_list if news not in existing_data.get("all_news", [])]
     for news in new_news:
         print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
-
 
 # Run the main script
 if __name__ == "__main__":
