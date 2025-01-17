@@ -124,7 +124,14 @@
                     const container = document.getElementById('news-container');
                     container.innerHTML = ''; // Clear old content
 
-                    const newsArray = data.all_news.filter(news => filter === "hot" ? news.is_hot : true);
+                    const newsArray = data.all_news.filter(news => {
+                        if (filter === "hot") {
+                            return news.is_hot;
+                        } else {
+                            return !news.is_hot;
+                        }
+                    });
+
                     if (Array.isArray(newsArray)) {
                         newsArray.forEach(news => {
                             const newsItem = document.createElement('div');
