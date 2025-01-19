@@ -1,40 +1,49 @@
 {
-    "timestamp": "2025-01-19 18:20:44",
+    "timestamp": "2025-01-19 19:12:47",
     "all_news": [
         {
-            "title": "Bolehkah Cardano (ADA) mengatasi Solana (SOL) dalam kitaran ini? (ChatGPT Menganalisis)",
+            "title": "Donald Trump akan menjadikan cryptocurrency sebagai keutamaan negara.",
+            "url": "https://cryptopanic.com/news/click/20572110/",
+            "description": "",
+            "image": "https://res.coinpaper.com/coinpaper/image/upload/v1737297554/photo_2025_01_19_17_38_28_0f46588230.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:29.359269",
+            "is_hot": true
+        },
+        {
+            "title": "Bolehkan Cardano (ADA) Mengganti Solana (SOL) Dalam Kitaran Ini? (ChatGPT Menganalisis)",
             "url": "https://cryptopanic.com/news/click/20571836/",
             "description": "",
             "image": "https://cryptopotato.com/wp-content/uploads/2025/01/ADAvsXRP_CB.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915326",
+            "timestamp": "2025-01-19T19:11:29.359280",
             "is_hot": true
         },
         {
-            "title": "Buterin: Yayasan Ethereum akan Membawa Bakat Baru",
+            "title": "Buterin: Yayasan Ethereum akan Membawa Bakat Baru.",
             "url": "https://cryptopanic.com/news/click/20571560/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5645.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915337",
+            "timestamp": "2025-01-19T19:11:29.359282",
             "is_hot": true
         },
         {
-            "title": "'Cardano Mengintai Lonjakan 400% Dalam Peningkatan Tadbir Urus'",
+            "title": "'Cardano Melihat Lonjakan 400% Di Tengah Peningkatan Tadbir Urus'",
             "url": "https://cryptopanic.com/news/click/20571261/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/cardano-12-1.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915339",
+            "timestamp": "2025-01-19T19:11:29.359284",
             "is_hot": true
         },
         {
-            "title": "Akan kah momentum Solana mendorong ia ke arah tanda $500?",
+            "title": "Akan kah Momentum Solana mendorongnya ke arah tanda $500?",
             "url": "https://cryptopanic.com/news/click/20571156/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/02/solanaaa2132131.jpeg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915341",
+            "timestamp": "2025-01-19T19:11:29.359285",
             "is_hot": true
         },
         {
@@ -43,16 +52,16 @@
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01947a62-1f57-7bfa-bff6-5ff206c21ef3",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915343",
+            "timestamp": "2025-01-19T19:11:29.359287",
             "is_hot": true
         },
         {
-            "title": "XRP – $84 juta dalam pengeluaran token, tetapi adakah lonjakan harga 45% seterusnya?",
+            "title": "XRP – $84 juta dalam aliran keluar token, tetapi adakah kenaikan harga 45% seterusnya?",
             "url": "https://cryptopanic.com/news/click/20569408/",
             "description": "",
             "image": "https://ambcrypto.com/wp-content/uploads/2025/01/create-an-image-ripple-s-native-token-xrp-as-whal-1_11zon-1000x600.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915345",
+            "timestamp": "2025-01-19T19:11:29.359288",
             "is_hot": true
         },
         {
@@ -61,116 +70,296 @@
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55451.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915346",
+            "timestamp": "2025-01-19T19:11:29.359290",
             "is_hot": true
         },
         {
-            "title": "Harga Cardano Melonjak 6% Apabila Penganalisis Meramalkan Sasaran $2",
+            "title": "Harga Cardano Melonjak 6% Ketika Penganalisis Ramal Sasaran $2",
             "url": "https://cryptopanic.com/news/click/20567779/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915348",
+            "timestamp": "2025-01-19T19:11:29.359291",
             "is_hot": true
         },
         {
-            "title": "'Sony Baru Sah Melancarkan Rangkaian Ethereum—Akan Kah Ia Mendapat Permainan PlayStation?'",
+            "title": "'Sony Baru Saja Melancarkan Rangkaian Ethereum—Akan Kah Ia Mendapat Permainan PlayStation?'",
             "url": "https://cryptopanic.com/news/click/20566919/",
             "description": "",
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/03/playstation-5-controllers-shutterstock-gID_7.png",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915350",
+            "timestamp": "2025-01-19T19:11:29.359293",
             "is_hot": true
         },
         {
-            "title": "Bolehkah harga Ethereum mencecah $4K? Minat terbuka ETH meningkat apabila institusi menjadi optimis.",
+            "title": "Bolehkah harga Ethereum naik ke $4K? Minat terbuka ETH meningkat apabila institusi menjadi optimis.",
             "url": "https://cryptopanic.com/news/click/20566888/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019475d9-6a8e-7f72-b3a9-8e5075bb9e9f",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915351",
+            "timestamp": "2025-01-19T19:11:29.359294",
             "is_hot": true
         },
         {
-            "title": "'Tarikh Kemas Kini Mainnet Pectra Ethereum (ETH) Disahkan oleh Pembangun'",
+            "title": "'Tarikh Peningkatan Mainnet Pectra Ethereum (ETH) Disahkan oleh Pembangun'",
             "url": "https://cryptopanic.com/news/click/20565974/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55441.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915353",
+            "timestamp": "2025-01-19T19:11:29.359296",
             "is_hot": true
         },
         {
-            "title": "'Cadangan Tadbir Urus Solana Mencari untuk Mengubah $SOL menjadi 'Wang Ultra-Sound''",
+            "title": "Cadangan Tadbir Urus Solana Berhasrat untuk Mengubah $SOL menjadi 'Wang Ultra-Sound'",
             "url": "https://cryptopanic.com/news/click/20563796/",
             "description": "",
             "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F3f8c6440-dcfd-4cd4-9f61-c074576c6f0d",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915354",
+            "timestamp": "2025-01-19T19:11:29.359297",
             "is_hot": true
         },
         {
-            "title": "Pembangun Ethereum bercadang untuk peningkatan mainnet Pectra pada bulan Mac.",
+            "title": "Pembangun Ethereum mensasarkan peningkatan mainnet Pectra pada bulan Mac.",
             "url": "https://cryptopanic.com/news/click/20564129/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915356",
+            "timestamp": "2025-01-19T19:11:29.359299",
             "is_hot": true
         },
         {
-            "title": "'Jumlah Perdagangan Kripto di Bursa Terpusat Mencapai Rekod $11.3 Trillion pada bulan Disember'",
+            "title": "\"Jumlah Perdagangan Crypto di Bursar Terpusat Mencapai Rekod $11.3 Trillion pada bulan Disember.\"",
             "url": "https://cryptopanic.com/news/click/20563859/",
             "description": "",
             "image": "h",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915357",
+            "timestamp": "2025-01-19T19:11:29.359302",
             "is_hot": true
         },
         {
-            "title": "'OKX Ventures Meramalkan Ejen AI Akan Mengubah 2025'",
+            "title": "OKX Ventures Ramal Ejen AI Akan Mengubah 2025",
             "url": "https://cryptopanic.com/news/click/20563481/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/dae0e7e044/dall-e-2025-01-17-09-49-18-a-futuristic-representation-of-an-ai-agent-in-a-2_1-aspect-ratio-designed-entirely-in-red-tones-the-image-features-a-humanoid-figure-with-a-sleek-r-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915364",
+            "timestamp": "2025-01-19T19:11:29.359304",
             "is_hot": true
         },
         {
-            "title": "'$3B dalam Pilihan Bitcoin, Ethereum Tamat Tempoh apabila Era Trump Bermula'",
+            "title": "'$3B dalam Pilihan Bitcoin, Ethereum Tamat Tempoh ketika Era Trump Bermula'",
             "url": "https://cryptopanic.com/news/click/20563473/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/3d9038fe31/dall-e-2025-01-17-09-43-42-a-professional-2_1-ratio-image-of-an-investment-chart-showing-a-bold-upward-trend-designed-entirely-in-red-tones-the-chart-features-sharp-clear-lin-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915366",
+            "timestamp": "2025-01-19T19:11:29.359305",
             "is_hot": true
         },
         {
-            "title": "'XRP Melonjak ke Paras Tertinggi Kapitalisasi Pasaran sebanyak $192 Bilion'",
+            "title": "'XRP Melonjak ke Puncak Tertinggi Kapital Pasaran sebanyak $192 Bilion'",
             "url": "https://cryptopanic.com/news/click/20561279/",
             "description": "",
             "image": "h",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915367",
+            "timestamp": "2025-01-19T19:11:29.359307",
             "is_hot": true
         },
         {
-            "title": "'Solana (SOL) Melepasi Kapitalisasi Pasaran $100 Bilion Di Tengah Kebangkitan Pasaran Kripto'",
+            "title": "Solana (SOL) Melepasi Kapitalisasi Pasaran $100 Bilion Di Tengah Kenaikan Pasaran Kripto.",
             "url": "https://cryptopanic.com/news/click/20560522/",
             "description": "",
             "image": "https://media.cryptoglobe.com/2022/08/amjith-s-BjmcuPtXWR0-unsplash-768x512.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915369",
+            "timestamp": "2025-01-19T19:11:29.359308",
             "is_hot": true
         },
         {
-            "title": "'XRP Menyaksikan Kejayaan Besar Berbanding Bitcoin dan Ethereum'",
+            "title": "'XRP Menyaksikan Pecahan Hebat Berbanding Bitcoin dan Ethereum'",
             "url": "https://cryptopanic.com/news/click/20560354/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55393.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.915370",
+            "timestamp": "2025-01-19T19:11:29.359310",
             "is_hot": true
+        },
+        {
+            "title": "Michael Saylor memberi petunjuk tentang berita besar Bitcoin di tengah majlis angkat sumpah Trump.",
+            "url": "https://cryptopanic.com/news/click/20572730/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/Billionaire-Michael-Saylor-Tries-to-Reassure-as-His-Bitcoin-Bet.jpeg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513802",
+            "is_hot": false
+        },
+        {
+            "title": "Peluang Ross Ulbricht untuk diampunkan oleh Trump meningkat kepada 79% di Kalshi.",
+            "url": "https://cryptopanic.com/news/click/20572722/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01947f97-40bb-71b0-a544-bac20d98c077",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513816",
+            "is_hot": false
+        },
+        {
+            "title": "Pengasas Helium berkata syarikat akan mempertahankan diri “dengan tegas” terhadap saman SEC.",
+            "url": "https://cryptopanic.com/news/click/20572704/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513819",
+            "is_hot": false
+        },
+        {
+            "title": "Scaramucci Mengkritik Pelancaran Koin Meme Donald Trump: 'Korupsi Tahap Idi Amin'",
+            "url": "https://cryptopanic.com/news/click/20572651/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/19/Anthony-Scaramucci.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513821",
+            "is_hot": false
+        },
+        {
+            "title": "Permintaan Ethereum yang menurun boleh menjadikannya jatuh di bawah $3,000.",
+            "url": "https://cryptopanic.com/news/click/20572700/",
+            "description": "",
+            "image": "https://beincrypto.com/wp-content/uploads/2025/01/bic_Ethereum_ETH_2-covers_bearish.jpg.optimal.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513822",
+            "is_hot": false
+        },
+        {
+            "title": "Harga Stellar (XLM) Berjuang Ketika Penganalisis Jangka Kenaikan Lebih 2000%",
+            "url": "https://cryptopanic.com/news/click/20572619/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513824",
+            "is_hot": false
+        },
+        {
+            "title": "TRUMP menyasarkan nilai pasaran $100B ketika Arthur Hayes mengajak 'degens' untuk merayakan.",
+            "url": "https://cryptopanic.com/news/click/20572610/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01947f91-68e6-777e-acee-6e8ba47b748d",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513825",
+            "is_hot": false
+        },
+        {
+            "title": "Bolehkah 2025 Membawa Kejatuhan Pasaran Kripto? Pakar Amaran tentang Risiko yang Meningkat.",
+            "url": "https://cryptopanic.com/news/click/20572615/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/10/datainfomonitor.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513827",
+            "is_hot": false
+        },
+        {
+            "title": "Bitcoin pada $105,000 – Menilai kemungkinan BTC mencapai ATH baru tidak lama lagi.",
+            "url": "https://cryptopanic.com/news/click/20572550/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Erastus-56-min-1000x600.png",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513828",
+            "is_hot": false
+        },
+        {
+            "title": "'Cara Memilih Pertukaran Crypto pada 2025: Panduan'",
+            "url": "https://cryptopanic.com/news/click/20572602/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/cover%20for%20guides%2013%20%281%29.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513830",
+            "is_hot": false
+        },
+        {
+            "title": "Brian Armstrong Menyokong Pembentukan Rizab Strategik Bitcoin, Menggembar-gemburkan Crypto sebagai Bab Seterusnya dalam Kapitalisme.",
+            "url": "https://cryptopanic.com/news/click/20572561/",
+            "description": "",
+            "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2024/08/cropped-ecoinimist-logo-7.jpg?fit=500%2C500&ssl=1",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513834",
+            "is_hot": false
+        },
+        {
+            "title": "AI16Z Menunjukkan Tanda Pusingan Selepas Memukul Julat Bawah Zon Penarikan Kembali Fibonacci Utama.",
+            "url": "https://cryptopanic.com/news/click/20572554/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513836",
+            "is_hot": false
+        },
+        {
+            "title": "'2 mata wang kripto untuk mencapai nilai pasaran $50 bilion pada suku pertama 2025'",
+            "url": "https://cryptopanic.com/news/click/20572555/",
+            "description": "",
+            "image": "https://assets.finbold.com/uploads/2025/01/2-cryptocurrencies-to-reach-50-billion-market-cap-in-Q1-2025.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513839",
+            "is_hot": false
+        },
+        {
+            "title": "VanEck dan Lain-Lain Fail untuk ETF Berkaitan Kripto Sementara Penerbit Menjangka Pemergian Pengerusi SEC Gary Gensler: Laporan",
+            "url": "https://cryptopanic.com/news/click/20572558/",
+            "description": "",
+            "image": "https://dailyhodl.com/wp-content/uploads/2023/09/multiple-altcoin-etfs-coming.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513841",
+            "is_hot": false
+        },
+        {
+            "title": "Nintendo Switch 2: Teori Peminat yang Meningkat tentang Bagaimana Ia Akan Mengubah Permainan",
+            "url": "https://cryptopanic.com/news/click/20572487/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/switch-2-mario-kart-gID_7.png",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513842",
+            "is_hot": false
+        },
+        {
+            "title": "Shiba Inu jatuh dari 15 kripto teratas apabila harga tidak berubah.",
+            "url": "https://cryptopanic.com/news/click/20572469/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Shiba-Inu-out-of-top-15-cryptos-price-stagnates.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513844",
+            "is_hot": false
+        },
+        {
+            "title": "Reaksi awal terhadap memecoin Donald Trump: Pelik, optimis dan 'baik untuk crypto, buruk untuk kemanusiaan'.",
+            "url": "https://cryptopanic.com/news/click/20572464/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513845",
+            "is_hot": false
+        },
+        {
+            "title": "Mata Wang Meme 'TRUMP' Donald Trump Meningkat 103% dalam Sehari, Mencipta Bilion dari Kosong.",
+            "url": "https://cryptopanic.com/news/click/20572491/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/19/New-York-Ny-Nov-12-2019-Donald-Trump-Coi.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513847",
+            "is_hot": false
+        },
+        {
+            "title": "SEC Denda Firma Wall Street $63 Juta kerana Pelanggaran Penyimpanan Rekod.",
+            "url": "https://cryptopanic.com/news/click/20572425/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/07/fine-us-dollars-court-law.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513849",
+            "is_hot": false
+        },
+        {
+            "title": "Adakah HODLing XRP langkah yang betul untuk pelabur altcoin sekarang?",
+            "url": "https://cryptopanic.com/news/click/20572432/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Ritika-1-13-1000x600.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-19T19:11:28.513850",
+            "is_hot": false
         },
         {
             "title": "Harga XRP boleh mencapai $10–$50 'realistik' jika ETF spot diluluskan, kata ChatGPT.",
@@ -180,141 +369,6 @@
             "panic_score": null,
             "timestamp": "2025-01-19T18:19:23.915372",
             "is_hot": true
-        },
-        {
-            "title": "Harga Stellar (XLM) Berjuang Ketika Penganalisis Jangka Lonjakan Lebih 2000%",
-            "url": "https://cryptopanic.com/news/click/20572619/",
-            "description": "",
-            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391733",
-            "is_hot": false
-        },
-        {
-            "title": "TRUMP sasarkan nilai pasaran $100B ketika Arthur Hayes mengajak 'degens' untuk meraikan.",
-            "url": "https://cryptopanic.com/news/click/20572610/",
-            "description": "",
-            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01947f91-68e6-777e-acee-6e8ba47b748d",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391747",
-            "is_hot": false
-        },
-        {
-            "title": "Bolehkah 2025 membawa kejatuhan Pasaran Kripto? Pakar memberi amaran tentang risiko yang semakin meningkat.",
-            "url": "https://cryptopanic.com/news/click/20572615/",
-            "description": "",
-            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/10/datainfomonitor.webp",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391750",
-            "is_hot": false
-        },
-        {
-            "title": "'Bitcoin pada $105,000 – Menilai kemungkinan BTC mencapai ATH baru tidak lama lagi'",
-            "url": "https://cryptopanic.com/news/click/20572550/",
-            "description": "",
-            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Erastus-56-min-1000x600.png",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391752",
-            "is_hot": false
-        },
-        {
-            "title": "'Bagaimana Memilih Pertukaran Kripto pada 2025: Panduan'",
-            "url": "https://cryptopanic.com/news/click/20572602/",
-            "description": "",
-            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/cover%20for%20guides%2013%20%281%29.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391754",
-            "is_hot": false
-        },
-        {
-            "title": "Brian Armstrong Menyokong Penciptaan Rizab Strategik Bitcoin, Menyatakan Crypto Sebagai Bab Seterusnya Dalam Kapitalisme.",
-            "url": "https://cryptopanic.com/news/click/20572561/",
-            "description": "",
-            "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2024/08/cropped-ecoinimist-logo-7.jpg?fit=500%2C500&ssl=1",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391757",
-            "is_hot": false
-        },
-        {
-            "title": "AI16Z Menunjukkan Tanda Pivot Selepas Mencapai Julat Bawah Zon Penarikan Semula Fibonacci Utama.",
-            "url": "https://cryptopanic.com/news/click/20572554/",
-            "description": "",
-            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391759",
-            "is_hot": false
-        },
-        {
-            "title": "'2 cryptocurrency untuk mencapai nilai pasaran $50 bilion pada suku pertama 2025'",
-            "url": "https://cryptopanic.com/news/click/20572555/",
-            "description": "",
-            "image": "https://assets.finbold.com/uploads/2025/01/2-cryptocurrencies-to-reach-50-billion-market-cap-in-Q1-2025.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391761",
-            "is_hot": false
-        },
-        {
-            "title": "VanEck dan Lain-lain Memfailkan ETF Berkaitan Kripto Ketika Penerbit Mengharapkan Pemergian Pengerusi SEC Gary Gensler: Laporan",
-            "url": "https://cryptopanic.com/news/click/20572558/",
-            "description": "",
-            "image": "https://dailyhodl.com/wp-content/uploads/2023/09/multiple-altcoin-etfs-coming.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391763",
-            "is_hot": false
-        },
-        {
-            "title": "Nintendo Switch 2: Teori Pemain yang Meningkat tentang Bagaimana Ia Akan Mengubah Permainan",
-            "url": "https://cryptopanic.com/news/click/20572487/",
-            "description": "",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/switch-2-mario-kart-gID_7.png",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391768",
-            "is_hot": false
-        },
-        {
-            "title": "Shiba Inu jatuh dari 15 kripto terbaik apabila harga tidak berubah.",
-            "url": "https://cryptopanic.com/news/click/20572469/",
-            "description": "",
-            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Shiba-Inu-out-of-top-15-cryptos-price-stagnates.webp",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391772",
-            "is_hot": false
-        },
-        {
-            "title": "Reaksi awal terhadap memecoin Donald Trump: Pelik, optimis dan ‘baik untuk kripto, buruk untuk kemanusiaan’.",
-            "url": "https://cryptopanic.com/news/click/20572464/",
-            "description": "",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391774",
-            "is_hot": false
-        },
-        {
-            "title": "Koin Meme Donald Trump 'TRUMP' Meningkat 103% dalam Sehari, Mencipta Bilion dari Hawa.",
-            "url": "https://cryptopanic.com/news/click/20572491/",
-            "description": "",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/01/19/New-York-Ny-Nov-12-2019-Donald-Trump-Coi.jpeg?width=1200&height=800&fit=crop",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391776",
-            "is_hot": false
-        },
-        {
-            "title": "SEC Denda Firma Wall Street $63 Juta kerana Pelanggaran Penyimpanan Rekod.",
-            "url": "https://cryptopanic.com/news/click/20572425/",
-            "description": "",
-            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/07/fine-us-dollars-court-law.webp",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391777",
-            "is_hot": false
-        },
-        {
-            "title": "Adakah HODLing XRP langkah yang betul untuk pelabur altcoin sekarang?",
-            "url": "https://cryptopanic.com/news/click/20572432/",
-            "description": "",
-            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Ritika-1-13-1000x600.webp",
-            "panic_score": null,
-            "timestamp": "2025-01-19T18:19:23.391779",
-            "is_hot": false
         },
         {
             "title": "'Acara Kripto Trump: Penyertaan Snoop Dogg Membuat Pemain Furi, Eksekutif Kripto Terkemuka Gembira'",
@@ -485,15 +539,6 @@
             "image": "https://beincrypto.com/wp-content/uploads/2024/09/bic_solana_ETF-covers_positive.jpg.optimal.jpg",
             "panic_score": null,
             "timestamp": "2025-01-19T17:13:42.896451",
-            "is_hot": false
-        },
-        {
-            "title": "Donald Trump akan menjadikan cryptocurrency sebagai keutamaan negara.",
-            "url": "https://cryptopanic.com/news/click/20572110/",
-            "description": "",
-            "image": "https://res.coinpaper.com/coinpaper/image/upload/v1737297554/photo_2025_01_19_17_38_28_0f46588230.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-19T16:17:23.368210",
             "is_hot": false
         },
         {
