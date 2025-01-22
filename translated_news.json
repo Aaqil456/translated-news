@@ -1,67 +1,76 @@
 {
-    "timestamp": "2025-01-22 14:16:30",
+    "timestamp": "2025-01-22 15:18:05",
     "all_news": [
         {
-            "title": "Rancangan 'ETH kepada $10,000' yang Dihasilkan oleh Pengasas Tron, Justin Sun.",
+            "title": "Justin Sun mencadangkan pelan untuk membawa Ethereum ke $10,000.",
+            "url": "https://cryptopanic.com/news/click/20588637/",
+            "description": "",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/22091901/6524b144-bfb8-492e-8beb-6c9020d710c3-800x420.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:51.742062",
+            "is_hot": true
+        },
+        {
+            "title": "Pelan 'ETH ke $10,000' yang Dipersembahkan oleh Pengasas Tron, Justin Sun.",
             "url": "https://cryptopanic.com/news/click/20588024/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5707.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043328",
+            "timestamp": "2025-01-22T15:16:51.742072",
             "is_hot": true
         },
         {
-            "title": "'Sanksi Tornado Cash Dihapus: Kemenangan Besar untuk Privasi dalam Kripto'",
+            "title": "Sanksi Tornado Cash Dihapus: Kemenangan Besar untuk Privasi dalam Crypto",
             "url": "https://cryptopanic.com/news/click/20587278/",
             "description": "",
             "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2025/01/Tornado-Cash.webp",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043338",
+            "timestamp": "2025-01-22T15:16:51.742074",
             "is_hot": true
         },
         {
-            "title": "'ZachXBT Memulihkan $20J untuk Kerajaan AS, Menyebabkan Perdebatan Gaji'",
+            "title": "'ZachXBT Memulihkan $20J untuk Kerajaan AS, Menyebabkan Perdebatan Bayaran'",
             "url": "https://cryptopanic.com/news/click/20586952/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1501x858/a119731c5a/dall-e-2025-01-22-10-46-44-a-dramatic-and-intense-digital-illustration-of-hackers-at-work-surrounded-by-glowing-red-computer-screens-and-digital-code-the-scene-is-entirely-in-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043342",
+            "timestamp": "2025-01-22T15:16:51.742076",
             "is_hot": true
         },
         {
-            "title": "Berita Terkini: Presiden Trump mengampunkan otak Silk Road, Ross Ulbricht.",
+            "title": "Berita Terkini: Presiden Trump memberi pengampunan kepada Ross Ulbricht, otak di sebalik Silk Road.",
             "url": "https://cryptopanic.com/news/click/20585058/",
             "description": "",
             "image": "https://statics.ambcrypto.com/wp-content/uploads/2023/04/cropped-ambcrypto-favicon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043345",
+            "timestamp": "2025-01-22T15:16:51.742078",
             "is_hot": true
         },
         {
-            "title": "Trump mengampunkan Ross Ulbricht, memenuhi janji kempen.",
+            "title": "'Trump memberi pengampunan kepada Ross Ulbricht, memenuhi janji kempen.'",
             "url": "https://cryptopanic.com/news/click/20585044/",
             "description": "",
             "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/21101246/bb81cb9c-feed-4582-a7af-2688af2f1ef9-800x420.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043347",
+            "timestamp": "2025-01-22T15:16:51.742079",
             "is_hot": true
         },
         {
-            "title": "Pesuruhjaya SEC Hester Peirce akan memimpin pasukan tugas crypto yang baru.",
+            "title": "Pesuruhjaya SEC Hester Peirce akan memimpin pasukan tugas kripto baharu.",
             "url": "https://cryptopanic.com/news/click/20583780/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043349",
+            "timestamp": "2025-01-22T15:16:51.742081",
             "is_hot": true
         },
         {
-            "title": "Vitalik mendakwa mempunyai kuasa mutlak ke atas kepimpinan Ethereum Foundation.",
+            "title": "Vitalik mendakwa mempunyai kuasa tunggal ke atas kepimpinan Yayasan Ethereum.",
             "url": "https://cryptopanic.com/news/click/20582483/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019488f3-bc31-788d-821a-499e3234e70d",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043350",
+            "timestamp": "2025-01-22T15:16:51.742083",
             "is_hot": true
         },
         {
@@ -70,97 +79,97 @@
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55511.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043352",
+            "timestamp": "2025-01-22T15:16:51.742085",
             "is_hot": true
         },
         {
-            "title": "Berita Tuntutan XRP: Deaton Kata Rayuan SEC Mungkin Akan Dismiss, Dedahkan Apa Seterusnya.",
+            "title": "Berita Tuntutan XRP: Deaton Kata Rayuan SEC Mungkin Akan Dismiss, Dedahkan Apa Yang Akan Datang.",
             "url": "https://cryptopanic.com/news/click/20581685/",
             "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/07173421/XRP-Lawsuit-News-Will-Genslers-Farewell-Move-Hurt-Ripple-in-the-SEC-Lawsuit.webp",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043353",
+            "timestamp": "2025-01-22T15:16:51.742086",
             "is_hot": true
         },
         {
-            "title": "Ramalan Harga Ethereum: Pandangan Optimis Boleh Mendorong ETH ke $14,000",
+            "title": "Ramalan Harga Ethereum: Pandangan Positif Boleh Mendorong ETH ke $14,000",
             "url": "https://cryptopanic.com/news/click/20580890/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/12/coin_ethereum-8-big.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043355",
+            "timestamp": "2025-01-22T15:16:51.742088",
             "is_hot": true
         },
         {
-            "title": "'Yayasan Ethereum Menimbang Staking untuk Membiayai Operasi, Kata Buterin'",
+            "title": "Yayasan Ethereum Pertimbangkan Staking untuk Membiayai Operasi, Kata Buterin.",
             "url": "https://cryptopanic.com/news/click/20580486/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/f35cd4ca54/dall-e-2025-01-21-09-41-10-a-visually-striking-2_1-rectangular-image-featuring-the-ethereum-logo-prominently-displayed-on-a-solid-red-background-the-ethereum-logo-is-centered-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043357",
+            "timestamp": "2025-01-22T15:16:51.742089",
             "is_hot": true
         },
         {
-            "title": "El Salvador membeli 12 Bitcoin lagi untuk simpanan negara walaupun ada perjanjian dengan IMF.",
+            "title": "El Salvador membeli 12 Bitcoin lagi untuk simpanan negara walaupun terdapat perjanjian dengan IMF.",
             "url": "https://cryptopanic.com/news/click/20579359/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/019485e5-dd02-7dbb-998e-d4c3d5aa17fe",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043358",
+            "timestamp": "2025-01-22T15:16:51.742091",
             "is_hot": true
         },
         {
-            "title": "'Akan Harga Ethereum Meningkat Melebihi $7,000? Pakar Menunjukkan Corak Positif Ini'",
+            "title": "\"Akan Harga Ethereum Meningkat Melepasi $7,000? Pakar Menunjukkan Corak Kenaikan Ini\"",
             "url": "https://cryptopanic.com/news/click/20578932/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043360",
+            "timestamp": "2025-01-22T15:16:51.742092",
             "is_hot": true
         },
         {
-            "title": "Trump melantik Pesuruhjaya SEC yang mesra kripto, Mark Uyeda, sebagai pengerusi sementara apabila Gensler pergi.",
+            "title": "Trump melantik Pesuruhjaya SEC yang mesra kripto, Mark Uyeda, sebagai pengerusi sementara apabila Gensler berundur.",
             "url": "https://cryptopanic.com/news/click/20578635/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043362",
+            "timestamp": "2025-01-22T15:16:51.742098",
             "is_hot": true
         },
         {
-            "title": "Donald Trump Mendapatkan Ethereum, Chainlink, Athena dan Lain-lain Bernilai $54,200,000 Beberapa Jam Sebelum Majlis Angkat Sumpah.",
+            "title": "\"Donald Trump Mengambil $54,200,000 Bernilai Ethereum, Chainlink, Athena dan Banyak Lagi Beberapa Jam Sebelum Majlis Perasmian\"",
             "url": "https://cryptopanic.com/news/click/20578201/",
             "description": "",
             "image": "https://dailyhodl.com/wp-content/uploads/2022/12/Alert-for-Altcoin-Holders.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043363",
+            "timestamp": "2025-01-22T15:16:51.742100",
             "is_hot": true
         },
         {
-            "title": "'Gary Gensler Secara Rasmi Mengundurkan Diri sebagai Pengerusi SEC'",
+            "title": "'Gary Gensler Secara Rasmi Mengundur Diri Sebagai Pengerusi SEC'",
             "url": "https://cryptopanic.com/news/click/20577548/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/gary-gensler.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043367",
+            "timestamp": "2025-01-22T15:16:51.742101",
             "is_hot": true
         },
         {
-            "title": "'XRP sebagai aset rizab A.S.? Mengapa spekulasi semakin meningkat'",
+            "title": "'XRP sebagai aset rizab AS? Kenapa spekulasi semakin meningkat'",
             "url": "https://cryptopanic.com/news/click/20576768/",
             "description": "",
             "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Samyukhtha-12-1000x600.webp",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043370",
+            "timestamp": "2025-01-22T15:16:51.742103",
             "is_hot": true
         },
         {
-            "title": "TRUMP memecoin membantu harga SOL mengatasi Ethereum — TVL Solana melonjak kepada $12B.",
+            "title": "'Memecoin TRUMP membantu harga SOL mengatasi Ethereum — TVL Solana melonjak kepada $12B'",
             "url": "https://cryptopanic.com/news/click/20576251/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01948384-2ea7-7ce9-b04a-b739da76c998",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043372",
+            "timestamp": "2025-01-22T15:16:51.742105",
             "is_hot": true
         },
         {
@@ -169,8 +178,188 @@
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-22T14:15:11.043374",
+            "timestamp": "2025-01-22T15:16:51.742106",
             "is_hot": true
+        },
+        {
+            "title": "Marc Fagel Menolak Khabar Angin Penyelesaian Ripple dengan SEC Sebelum Mesyuarat SEC",
+            "url": "https://cryptopanic.com/news/click/20588922/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/22114454/Is-the-Ripple-Lawsuit-Ending-SEC-to-Hold-First-Closed-Meeting-with-Acting-Chair-Mark-Uyeda-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881822",
+            "is_hot": false
+        },
+        {
+            "title": "'Dompet Bitcoin yang Dikaitkan dengan Pengasas Silk Road yang Dibebaskan Masih Bernilai Sekitar $47 Juta'",
+            "url": "https://cryptopanic.com/news/click/20588920/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5716.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881842",
+            "is_hot": false
+        },
+        {
+            "title": "'Bagaimana Untuk Menemui Airdrop Crypto Yang Paling Berbaloi?'",
+            "url": "https://cryptopanic.com/news/click/20588907/",
+            "description": "",
+            "image": "https://res.coinpaper.com/coinpaper/image/upload/v1737558308/Screen_0x_MC_86_W0_22_01_1604_2x_2220f2f4e1.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881846",
+            "is_hot": false
+        },
+        {
+            "title": "Aplikasi kripto menduduki ranking kewangan AS teratas di Apple semasa lonjakan koin meme Trump.",
+            "url": "https://cryptopanic.com/news/click/20588912/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Crypto-apps-Apple-US-Trump-memecoin-surge.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881853",
+            "is_hot": false
+        },
+        {
+            "title": "'Crypto.com Sasarkan Wall Street dengan Platform Likuiditi Tinggi dan Latensi Rendah'",
+            "url": "https://cryptopanic.com/news/click/20588909/",
+            "description": "",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/01/crypto-ftr-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881856",
+            "is_hot": false
+        },
+        {
+            "title": "'Bitcoin, Memecoin, dan Masa Depan Kripto di Forum Ekonomi Dunia 2025'",
+            "url": "https://cryptopanic.com/news/click/20588839/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/21192249/Trump-Skips-Crypto-in-Speech-Market-Signals-Bitcoins-Edge-Over-Ether.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881860",
+            "is_hot": false
+        },
+        {
+            "title": "'Bitcoin Mungkin Akan Melonjak Kepada $1.7 Juta, Menurut CryptoQuant Dan Glassnode'",
+            "url": "https://cryptopanic.com/news/click/20588854/",
+            "description": "",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/a_73b480.jpg?fit=3271%2C2181",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881863",
+            "is_hot": false
+        },
+        {
+            "title": "'Pembeli Runcit dan Pemegang Jangka Panjang Mendorong Lonjakan Rekod Bitcoin'",
+            "url": "https://cryptopanic.com/news/click/20588838/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2024/07/pexels-bitcoin-7116924_1280.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881867",
+            "is_hot": false
+        },
+        {
+            "title": "Aptos: Kenapa pecahan $10 boleh membantu APT mencapai $15.",
+            "url": "https://cryptopanic.com/news/click/20588816/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Editors-35-1000x600.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881870",
+            "is_hot": false
+        },
+        {
+            "title": "\"Krypto membuka dunia tanpa sempadan dan peniaga memegang kunci kepada masa depan.\"",
+            "url": "https://cryptopanic.com/news/click/20588876/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2024-12/01940815-6977-70ad-b91b-1b724641d83d",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881877",
+            "is_hot": false
+        },
+        {
+            "title": "Kerjasama antara MetaMask dan Ramp membolehkan pengguna mengeluarkan wang terus dari rangkaian L2.",
+            "url": "https://cryptopanic.com/news/click/20588878/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01948d8c-b066-7709-bbca-6151fed7781e",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881880",
+            "is_hot": false
+        },
+        {
+            "title": "'Mahkamah Lain Mengarahkan Kementerian Kewangan untuk Mengangkat Sekatan Tornado Cash'",
+            "url": "https://cryptopanic.com/news/click/20588823/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/02/Screenshot-2020-02-14-at-18.40.59-gID_7.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881883",
+            "is_hot": false
+        },
+        {
+            "title": "MEXC Mengukuhkan Komitmennya terhadap Web3 dengan Penyenaraian Jambo (J), Memperkasakan Pasaran yang Muncul.",
+            "url": "https://cryptopanic.com/news/click/20588804/",
+            "description": "",
+            "image": "https://coinjournal.net/wp-content/uploads/2025/01/Jambo-lists-on-MEXC.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881886",
+            "is_hot": false
+        },
+        {
+            "title": "'SEC Membentuk Pasukan Tugas Crypto Dipimpin oleh Hester Peirce untuk Menjelaskan Peraturan'",
+            "url": "https://cryptopanic.com/news/click/20588793/",
+            "description": "",
+            "image": "https://news.shib.io/wp-content/uploads/2025/01/Daily-template-2025-01-22T173922.528.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881889",
+            "is_hot": false
+        },
+        {
+            "title": "ZachXBT Dalam Pemerhatian Selepas Mengeluarkan $4J dari Koin Meme Yang Berkaitan Dengan Namanya.",
+            "url": "https://cryptopanic.com/news/click/20588791/",
+            "description": "",
+            "image": "https://news.shib.io/wp-content/uploads/2025/01/Daily-template-2025-01-22T160936.027.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881892",
+            "is_hot": false
+        },
+        {
+            "title": "Pengurus Aset AS Memfailkan ETF Crypto DOGE dan TRUMP Dalam Suasana Keriuhan.",
+            "url": "https://cryptopanic.com/news/click/20588789/",
+            "description": "",
+            "image": "https://news.shib.io/wp-content/uploads/2025/01/Daily-template-2025-01-22T134920.592.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881895",
+            "is_hot": false
+        },
+        {
+            "title": "Justin Sun menerangkan apa yang boleh jadi untuk Ethereum Foundation dan Ethereum di bawah pimpinannya.",
+            "url": "https://cryptopanic.com/news/click/20588744/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Justin-Sun-Ethereum-Foundation-leadership-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881898",
+            "is_hot": false
+        },
+        {
+            "title": "'Crypto.com Exchange Bersedia Menarik Institusi A.S., Inilah Caranya'",
+            "url": "https://cryptopanic.com/news/click/20588746/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881902",
+            "is_hot": false
+        },
+        {
+            "title": "Ray Dalio Dedahkan Pegangan Bitcoin 'Sedikit', Tekankan Keperluan Untuk Wang Alternatif, Tetapi Tidak Melihat Penerimaan Bank Pusat.",
+            "url": "https://cryptopanic.com/news/click/20588780/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/22/What-Happened-.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881905",
+            "is_hot": false
+        },
+        {
+            "title": "'Trump Bergabung dengan Pemimpin Teknologi untuk Pengembangan AI Bersejarah'",
+            "url": "https://cryptopanic.com/news/click/20588698/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/06/artificial-intelligenceai55621.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-22T15:16:50.881908",
+            "is_hot": false
         },
         {
             "title": "'World Liberty Financial membuka lebih banyak token untuk dijual di tengah permintaan yang meningkat.'",
