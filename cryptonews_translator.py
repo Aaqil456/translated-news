@@ -30,10 +30,20 @@ def fetch_news(api_key, filter_type=None):
         print(f"Failed to fetch news: {response.status_code}")
         return []
 
-# Function to translate text using Easy Peasy API with retries
+# Function to clean and truncate text
+def clean_text(text):
+    if not text:
+        return ""
+    return text.encode("ascii", errors="ignore").decode()
+
+def truncate_text(text, max_length=500):
+    return text if len(text) <= max_length else text[:max_length] + "..."
+
+# Function to translate text using Easy Peasy API with retries and logging
 def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     if not text:
         return None
+
     url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
     headers = {
         "content-type": "application/json",
@@ -48,11 +58,12 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     for attempt in range(1, retries + 1):
         try:
             response = requests.post(url, json=payload, headers=headers)
+            print(f"Request Payload: {payload}")  # Log the payload
+            print(f"Response Status: {response.status_code}")  # Log the status code
+            print(f"Response Body: {response.text}")  # Log the full response
             if response.status_code == 200:
                 response_data = response.json()
                 return response_data.get("bot", {}).get("text", None)
-            else:
-                print(f"Translation API error: {response.status_code}, {response.text}")
         except requests.exceptions.RequestException as e:
             print(f"Request failed (attempt {attempt}/{retries}): {e}")
         
@@ -60,7 +71,7 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
         if attempt < retries:
             time.sleep(delay)
 
-    print(f"Translation failed after {retries} attempts.")
+    print(f"Translation failed after {retries} attempts for text: {text}")
     return None
 
 # Function to load existing data
@@ -107,8 +118,10 @@ def main():
     print("Translating all news titles and descriptions...")
     translated_all_news = []
     for news in all_news:
-        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        title = clean_text(truncate_text(news["title"]))
+        description = clean_text(truncate_text(news["description"]))
+        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, title)
+        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, description)
         if translated_title and translated_description:
             news["title"] = translated_title
             news["description"] = translated_description
@@ -121,8 +134,10 @@ def main():
     print("Translating hot news titles and descriptions...")
     translated_hot_news = []
     for news in hot_news:
-        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        title = clean_text(truncate_text(news["title"]))
+        description = clean_text(truncate_text(news["description"]))
+        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, title)
+        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, description)
         if translated_title and translated_description:
             news["title"] = translated_title
             news["description"] = translated_description
