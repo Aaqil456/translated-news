@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install openai requests  # Add 'openai' here
 
       - name: Verify ACTIONS_PAT Secret
         env:
