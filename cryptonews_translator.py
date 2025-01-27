@@ -1,9 +1,9 @@
 # Import required libraries
+import random  # Import random module for shuffling
 import os
 import requests
 import json
 from datetime import datetime
-from openai import OpenAI  # Use the OpenAI SDK to interact with DeepSeek API
 
 # Function to fetch news from CryptoPanic with metadata and optional filters
 def fetch_news(api_key, filter_type=None):
@@ -29,30 +29,26 @@ def fetch_news(api_key, filter_type=None):
         print(f"Failed to fetch news: {response.status_code}")
         return []
 
-# Function to translate text using DeepSeek API
-def translate_text_deepseek(api_key, text):
+# Function to translate text using Easy Peasy API
+def translate_text_easypeasy(api_key, text):
     if not text:
         return ""
-    
-    # Initialize the OpenAI client with DeepSeek API configuration
-    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-    
-    try:
-        # Make the API call to DeepSeek
-        response = client.chat.completions.create(
-            model="deepseek-chat",  # Use the DeepSeek-V3 model
-            messages=[
-                {"role": "system", "content": "You are a helpful translator. Translate the following text into Malay."},
-                {"role": "user", "content": text},
-            ],
-            stream=False  # Disable streaming for simplicity
-        )
-        
-        # Extract the translated text from the response
-        translated_text = response.choices[0].message.content
-        return translated_text
-    except Exception as e:
-        print(f"DeepSeek API error: {e}")
+    url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
+    headers = {
+        "content-type": "application/json",
+        "x-api-key": api_key
+    }
+    payload = {
+        "message": f"translate this text '{text}' into Malay language. Your job is just to translate this text into Malay.",
+        "history": [],
+        "stream": False
+    }
+    response = requests.post(url, json=payload, headers=headers)
+    if response.status_code == 200:
+        response_data = response.json()
+        return response_data.get("bot", {}).get("text", "Translation failed")
+    else:
+        print(f"Translation API error: {response.status_code}, {response.text}")
         return "Translation failed"
 
 # Function to load existing data
@@ -82,9 +78,9 @@ def save_to_json(data, filename="translated_news.json"):
 # Main function
 def main():
     CRYPTOPANIC_API_KEY = os.getenv("CRYPTOPANIC_API_KEY")
-    DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+    EASY_PEASY_API_KEY = os.getenv("EASY_PEASY_API_KEY")
 
-    if not CRYPTOPANIC_API_KEY or not DEEPSEEK_API_KEY:
+    if not CRYPTOPANIC_API_KEY or not EASY_PEASY_API_KEY:
         print("API keys are missing! Please set them as environment variables.")
         return
 
@@ -98,15 +94,15 @@ def main():
     # Translate all news
     print("Translating all news titles and descriptions...")
     for news in all_news:
-        news["title"] = translate_text_deepseek(DEEPSEEK_API_KEY, news["title"])
-        news["description"] = translate_text_deepseek(DEEPSEEK_API_KEY, news["description"])
+        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
         news["is_hot"] = False  # Default value
 
     # Translate hot news and mark them
     print("Translating hot news titles and descriptions...")
     for news in hot_news:
-        news["title"] = translate_text_deepseek(DEEPSEEK_API_KEY, news["title"])
-        news["description"] = translate_text_deepseek(DEEPSEEK_API_KEY, news["description"])
+        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
         news["is_hot"] = True
 
     # Combine all news and hot news, ensuring hot news is part of all news
