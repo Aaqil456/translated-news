@@ -58,7 +58,7 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     for attempt in range(1, retries + 1):
         try:
             response = requests.post(url, json=payload, headers=headers)
-            print(f"Request Payload: {payload}")
+            print(f"Request Payload: {json.dumps(payload, indent=2)}")
             print(f"Response Status: {response.status_code}")
             print(f"Response Body: {response.text}")
 
@@ -130,9 +130,9 @@ def main():
         description = clean_text(truncate_text(news["description"]))
         translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, title)
         translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, description)
-        if translated_title and translated_description:
-            news["title"] = translated_title
-            news["description"] = translated_description
+        if translated_title or translated_description:
+            news["title"] = translated_title if translated_title else news["title"]
+            news["description"] = translated_description if translated_description else news["description"]
             news["is_hot"] = False  # Default value
             translated_all_news.append(news)
         else:
@@ -146,9 +146,9 @@ def main():
         description = clean_text(truncate_text(news["description"]))
         translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, title)
         translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, description)
-        if translated_title and translated_description:
-            news["title"] = translated_title
-            news["description"] = translated_description
+        if translated_title or translated_description:
+            news["title"] = translated_title if translated_title else news["title"]
+            news["description"] = translated_description if translated_description else news["description"]
             news["is_hot"] = True
             translated_hot_news.append(news)
         else:
