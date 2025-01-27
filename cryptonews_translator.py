@@ -1,9 +1,9 @@
 # Import required libraries
-import random  # Import random module for shuffling
 import os
 import requests
 import json
 from datetime import datetime
+from openai import OpenAI  # Use the OpenAI SDK to interact with DeepSeek API
 
 # Function to fetch news from CryptoPanic with metadata and optional filters
 def fetch_news(api_key, filter_type=None):
@@ -34,32 +34,25 @@ def translate_text_deepseek(api_key, text):
     if not text:
         return ""
     
-    # DeepSeek API endpoint for translation
-    url = "https://api.deepseek.com/v1/translate"
+    # Initialize the OpenAI client with DeepSeek API configuration
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
     
-    # Headers for the API request
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
-    
-    # Payload for the translation request
-    payload = {
-        "text": text,
-        "source_lang": "en",  # Assuming the source language is English
-        "target_lang": "ms"   # Target language is Malay
-    }
-    
-    # Make the POST request to the DeepSeek API
-    response = requests.post(url, json=payload, headers=headers)
-    
-    # Check if the request was successful
-    if response.status_code == 200:
-        response_data = response.json()
+    try:
+        # Make the API call to DeepSeek
+        response = client.chat.completions.create(
+            model="deepseek-chat",  # Use the DeepSeek-V3 model
+            messages=[
+                {"role": "system", "content": "You are a helpful translator. Translate the following text into Malay."},
+                {"role": "user", "content": text},
+            ],
+            stream=False  # Disable streaming for simplicity
+        )
+        
         # Extract the translated text from the response
-        return response_data.get("translated_text", "Translation failed")
-    else:
-        print(f"DeepSeek API error: {response.status_code}, {response.text}")
+        translated_text = response.choices[0].message.content
+        return translated_text
+    except Exception as e:
+        print(f"DeepSeek API error: {e}")
         return "Translation failed"
 
 # Function to load existing data
