@@ -32,7 +32,7 @@ def fetch_news(api_key, filter_type=None):
 # Function to translate text using Easy Peasy API
 def translate_text_easypeasy(api_key, text):
     if not text:
-        return ""
+        return None
     url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
     headers = {
         "content-type": "application/json",
@@ -46,10 +46,10 @@ def translate_text_easypeasy(api_key, text):
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
         response_data = response.json()
-        return response_data.get("bot", {}).get("text", "Translation failed")
+        return response_data.get("bot", {}).get("text", None)
     else:
         print(f"Translation API error: {response.status_code}, {response.text}")
-        return "Translation failed"
+        return None
 
 # Function to load existing data
 def load_existing_data(filename="translated_news.json"):
@@ -93,20 +93,30 @@ def main():
 
     # Translate all news
     print("Translating all news titles and descriptions...")
+    translated_all_news = []
     for news in all_news:
-        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
-        news["is_hot"] = False  # Default value
+        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        if translated_title and translated_description:
+            news["title"] = translated_title
+            news["description"] = translated_description
+            news["is_hot"] = False  # Default value
+            translated_all_news.append(news)
 
     # Translate hot news and mark them
     print("Translating hot news titles and descriptions...")
+    translated_hot_news = []
     for news in hot_news:
-        news["title"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
-        news["description"] = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
-        news["is_hot"] = True
+        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, news["title"])
+        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, news["description"])
+        if translated_title and translated_description:
+            news["title"] = translated_title
+            news["description"] = translated_description
+            news["is_hot"] = True
+            translated_hot_news.append(news)
 
     # Combine all news and hot news, ensuring hot news is part of all news
-    combined_news = hot_news + all_news  # Hot news first
+    combined_news = translated_hot_news + translated_all_news  # Hot news first
     combined_news = remove_duplicates(combined_news)
 
     # Load existing data and merge
@@ -114,7 +124,8 @@ def main():
     final_news_list = remove_duplicates(combined_news + existing_data.get("all_news", []))
 
     # Save combined data to JSON
-    save_to_json(final_news_list)
+    if final_news_list:
+        save_to_json(final_news_list)
 
     # Print newly added news
     print("\nNewly Added News:")
