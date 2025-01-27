@@ -3,6 +3,7 @@ import random  # Import random module for shuffling
 import os
 import requests
 import json
+import time
 from datetime import datetime
 
 # Function to fetch news from CryptoPanic with metadata and optional filters
@@ -29,8 +30,8 @@ def fetch_news(api_key, filter_type=None):
         print(f"Failed to fetch news: {response.status_code}")
         return []
 
-# Function to translate text using Easy Peasy API
-def translate_text_easypeasy(api_key, text):
+# Function to translate text using Easy Peasy API with retries
+def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     if not text:
         return None
     url = "https://bots.easy-peasy.ai/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"
@@ -43,13 +44,24 @@ def translate_text_easypeasy(api_key, text):
         "history": [],
         "stream": False
     }
-    response = requests.post(url, json=payload, headers=headers)
-    if response.status_code == 200:
-        response_data = response.json()
-        return response_data.get("bot", {}).get("text", None)
-    else:
-        print(f"Translation API error: {response.status_code}, {response.text}")
-        return None
+
+    for attempt in range(1, retries + 1):
+        try:
+            response = requests.post(url, json=payload, headers=headers)
+            if response.status_code == 200:
+                response_data = response.json()
+                return response_data.get("bot", {}).get("text", None)
+            else:
+                print(f"Translation API error: {response.status_code}, {response.text}")
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed (attempt {attempt}/{retries}): {e}")
+        
+        # Wait before retrying
+        if attempt < retries:
+            time.sleep(delay)
+
+    print(f"Translation failed after {retries} attempts.")
+    return None
 
 # Function to load existing data
 def load_existing_data(filename="translated_news.json"):
