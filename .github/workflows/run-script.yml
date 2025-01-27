@@ -1,8 +1,7 @@
-name: Run Translation Script and Deploy to Pages
 
 on:
-  #schedule:
-    #- cron: "0 * * * *"  # Run hourly at the start of every hour
+  schedule:
+    - cron: "0 * * * *"  # Run hourly at the start of every hour
   workflow_dispatch:  # Allows manual execution from the Actions tab
 
 permissions:
@@ -23,7 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install openai requests  # Add 'openai' here
+          pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers requests sentencepiece
 
       - name: Verify ACTIONS_PAT Secret
         env:
@@ -37,7 +37,7 @@ jobs:
       - name: Run translation script
         env:
           CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          EASY_PEASY_API_KEY: ${{ secrets.EASY_PEASY_API_KEY }}
         run: python cryptonews_translator.py
 
       - name: Commit and push changes
