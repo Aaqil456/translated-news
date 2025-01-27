@@ -102,6 +102,8 @@ def main():
             news["description"] = translated_description
             news["is_hot"] = False  # Default value
             translated_all_news.append(news)
+        else:
+            print(f"Translation failed for news: {news['title']}")
 
     # Translate hot news and mark them
     print("Translating hot news titles and descriptions...")
@@ -114,6 +116,8 @@ def main():
             news["description"] = translated_description
             news["is_hot"] = True
             translated_hot_news.append(news)
+        else:
+            print(f"Translation failed for hot news: {news['title']}")
 
     # Combine all news and hot news, ensuring hot news is part of all news
     combined_news = translated_hot_news + translated_all_news  # Hot news first
@@ -130,8 +134,11 @@ def main():
     # Print newly added news
     print("\nNewly Added News:")
     new_news = [news for news in final_news_list if news not in existing_data.get("all_news", [])]
-    for news in new_news:
-        print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
+    if new_news:
+        for news in new_news:
+            print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
+    else:
+        print("No new news was added.")
 
 # Run the main script
 if __name__ == "__main__":
