@@ -1,130 +1,157 @@
 {
-    "timestamp": "2025-01-27 14:02:34",
+    "timestamp": "2025-01-27 14:14:31",
     "all_news": [
         {
-            "title": "Harga Solana Menjunam 6.21%: $14.98 Juta Dilikuidasi dalam 24 Jam",
+            "title": "Berita Terkini: MicroStrategy Beli 10,107 Bitcoin dengan $1.1 Bilion",
+            "url": "https://cryptopanic.com/news/click/20610447/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/12/11172201/Bitcoin-Powered-MicroStrategy-Set-to-Join-Nasdaq-100.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.945319",
+            "is_hot": true
+        },
+        {
+            "title": "Here is the translation:\n\n'Coinbase Mengemas Kini Senarai Token Ketika Kenaikan Kripto'\n\n(Note: I've used simple vocabulary and sentence structure to ensure clarity and accessibility for the target audience.)",
+            "url": "https://cryptopanic.com/news/click/20609133/",
+            "description": "",
+            "image": "https://a.storyblok.com/f/182479/1792x1024/f7c7589eab/dall-e-2025-01-27-08-54-17-a-modern-corporate-office-building-with-the-text-coinbase-prominently-displayed-on-its-facade-the-entire-image-is-in-a-red-monochromatic-color-sche-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.945330",
+            "is_hot": true
+        },
+        {
+            "title": "Roger Ver Minta Bantuan Trump untuk Blok Ekstradisi ke AS.",
+            "url": "https://cryptopanic.com/news/click/20609121/",
+            "description": "",
+            "image": "https://a.storyblok.com/f/182479/1792x1024/a86cf85e9b/dall-e-2025-01-27-08-44-12-a-courtroom-scene-entirely-in-red-tones-featuring-a-judge-s-bench-witness-stand-and-rows-of-seating-for-the-public-and-jury-the-design-includes-tr-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.945332",
+            "is_hot": true
+        },
+        {
+            "title": "Harga Solana Jatuh 6.21%: $14.98 Juta Cecair Dalam 24 Jam.",
             "url": "https://cryptopanic.com/news/click/20607458/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371136",
+            "timestamp": "2025-01-27T14:13:14.945334",
             "is_hot": true
         },
         {
-            "title": "'Dogecoin Kelihatan Bersedia Untuk Kenaikan 10,000% Yang Hebat – Penganalisis'",
+            "title": "\"Dogecoin Berada Dalam Kedudukan Untuk Kenaikan 10,000% Yang Explosif - Analis\"\n\n(Note: I've translated \"poised\" to \"berada dalam kedudukan\" to convey the idea of being in a position or ready to do something, and \"explosive\" to \"explosif\" to maintain the original intensity of the word. I've also kept the percentage and the title \"Analyst\" as they are, assuming they are widely understood in Malay language.)",
             "url": "https://cryptopanic.com/news/click/20607366/",
             "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/dogecoin-og-logo.png?fit=1200%2C800",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371145",
+            "timestamp": "2025-01-27T14:13:14.945336",
             "is_hot": true
         },
         {
-            "title": "Corak carta yang optimis menunjukkan XRP akan mencapai $9.",
+            "title": "Polanya carta bullish menunjukkan XRP akan capai $9.",
             "url": "https://cryptopanic.com/news/click/20606902/",
             "description": "",
             "image": "https://assets.finbold.com/uploads/2025/01/Bullish-chart-pattern-hints-XRP-to-hit-9-1.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371148",
+            "timestamp": "2025-01-27T14:13:14.945337",
             "is_hot": true
         },
         {
-            "title": "'Ripple [XRP] terperangkap dalam masalah apabila rancangan simpanan digital AS membahagikan komuniti.'",
+            "title": "Here is the translation:\n\n'Ripple [XRP] terperangkap dalam api kerana rancangan rizab digital AS memecahbelahkan komuniti'",
             "url": "https://cryptopanic.com/news/click/20606654/",
             "description": "",
             "image": "https://ambcrypto.com/wp-content/uploads/2025/01/XRP-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371149",
+            "timestamp": "2025-01-27T14:13:14.945339",
             "is_hot": true
         },
         {
-            "title": "Senarai Kekayaan XRP: 20 Dompet Teratas Mengawal Lebih 50% Dari Bekalan, Tapi Siapa Nombor 1?",
+            "title": "Here is the translation:\n\n\"Senarai Kaya XRP: 20 Dompet Atas Kawal Lebih 50% Bekalan, Tetapi Siapa Nombor 1?\"",
             "url": "https://cryptopanic.com/news/click/20605556/",
             "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/XRP-from-Medium-2.jpg?fit=1024%2C474",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371151",
+            "timestamp": "2025-01-27T14:13:14.945341",
             "is_hot": true
         },
         {
-            "title": "Peningkatan Ethereum Pectra: Inilah Segala yang Akan Berubah",
+            "title": "Here is the translation:\n\n\"Naik Taraf Pectra Ethereum: Ini Segala Perubahan Yang Akan Berlaku\"\n\nNote: I translated \"Heres\" to \"Ini\" which means \"this\" or \"here\", as it is a more common and simple way to express the idea in Malay.",
             "url": "https://cryptopanic.com/news/click/20605423/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371153",
+            "timestamp": "2025-01-27T14:13:14.945343",
             "is_hot": true
         },
         {
-            "title": "Kesan Donald Trump Mendorong Paus Ke RLUSD dan XRP Ripple, Ini Yang Perlu Diharapkan.",
+            "title": "Kesan Donald Trump Mendorong Ikan Paus ke Gelombang RLUSD dan XRP, Ini Apa yang Diharapkan.",
             "url": "https://cryptopanic.com/news/click/20604616/",
             "description": "",
             "image": "https://zycrypto.com/wp-content/uploads/2023/09/Ripple-Continues-Its-Acquisitive-Streak-With-Deal-To-Acquire-Crypto-Infrastructure-Startup-Fortress-Trust.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371154",
+            "timestamp": "2025-01-27T14:13:14.945344",
             "is_hot": true
         },
         {
-            "title": "''Masa Depan Ethereum Cerah': Vitalik Buterin Mengatasi Kekecewaan Harga dan Layer-2''",
+            "title": "Here is the translation:\n\n\"'Masa Depan Ethereum Cerah': Vitalik Buterin Menangani Keresahan Harga dan Lapisan-2\"\n\nLet me know if you need any further assistance!",
             "url": "https://cryptopanic.com/news/click/20604365/",
             "description": "",
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/03/vitalik-buterin-2024-gID_7.png",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371158",
+            "timestamp": "2025-01-27T14:13:14.945346",
             "is_hot": true
         },
         {
-            "title": "'Ethereum Bersedia Untuk 'Kembali Dengan Kekuatan' Dalam Beberapa Bulan Akan Datang, Kata Penganalisis – Ini Sasaran Akhir Kitarannya'",
+            "title": "Here is the translation:\n\n'Eterium Bersedia Kembali Dengan Kekuatan Dalam Bulan-Bulan Yang Akan Datang, Kata Penganalisis  Inilah Sasaran Akhir-Kitarannya'\n\nHere's a breakdown of the translation:\n\n* 'Ethereum' is translated to 'Eterium' (as it's a proper noun, it remains similar)\n* 'Primed To Come Back' is translated to 'Bersedia Kembali' (meaning 'ready to return' or 'prepared to come back')\n* 'With a Vengeance' is translated to 'Dengan Kekuatan' (meaning 'with power' or 'with strength')\n* 'in Coming Months' is translated to 'Dalam Bulan-Bulan Yang Akan Datang' (meaning 'in the coming months')\n* 'Says Analyst' is translated to 'Kata Penganalisis' (meaning 'according to the analyst')\n* 'Here's' is translated to 'Inilah' (meaning 'here is' or 'this is')\n* 'His End-of-Cycle Target' is translated to 'Sasaran Akhir-Kitarannya' (meaning 'his end-of-cycle target')",
             "url": "https://cryptopanic.com/news/click/20603745/",
             "description": "",
             "image": "https://dailyhodl.com/wp-content/uploads/2025/01/Back-With-a-Vengeance.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371159",
+            "timestamp": "2025-01-27T14:13:14.945348",
             "is_hot": true
         },
         {
-            "title": "'Asas Kedua Ethereum': Spekulasi, Penafian dan Perubahan yang Akan Datang kepada Pasukan EF",
+            "title": "Yayasan Kedua Ethereum: Spekulasi, Penyanggahan dan Perubahan yang Akan Datang kepada Pasukan EF",
             "url": "https://cryptopanic.com/news/click/20601879/",
             "description": "",
             "image": "https://cdn.spaziocrypto.com/content/images/2025/01/La-Second-Foundation-di-Ethereum-Speculazioni--Smentite-e-Cambiamenti-in-Arrivo-nel-Team-EF.webp",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371161",
+            "timestamp": "2025-01-27T14:13:14.945351",
             "is_hot": true
         },
         {
-            "title": "'Adakah XRP akan menyertai Bitcoin dalam Simpanan Kripto Strategik AS Trump?'",
+            "title": "Adakah XRP Sertai Bitcoin dalam Reserv Crypto Strategik AS Trump?",
             "url": "https://cryptopanic.com/news/click/20601870/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371163",
+            "timestamp": "2025-01-27T14:13:14.945355",
             "is_hot": true
         },
         {
-            "title": "CEO Bank Of America Menunjukkan Penerimaan BTC, XRP apabila Trump Mengambil Jawatan.",
+            "title": "Here is the translation:\n\n\"Ketua Pegawai Eksekutif Bank of America Menandakan Penggunaan BTC, XRP Apabila Trump Mengambil Alih Jawatan\"\n\nLet me know if you need any further assistance!",
             "url": "https://cryptopanic.com/news/click/20601528/",
             "description": "",
             "image": "https://zycrypto.com/wp-content/uploads/2023/12/30-Trillion-Influx-into-Ether-XRP-Solana-Cardano-Shiba-Inu-Predicted-After-Spot-Bitcoin-ETF-Approval-Next-Month.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371164",
+            "timestamp": "2025-01-27T14:13:14.945357",
             "is_hot": true
         },
         {
-            "title": "'Ripple meraih kemenangan terhadap Rizab Strategik Bitcoin'",
+            "title": "Ripple mencetak kemenangan menentang Reserve Strategik Bitcoin.",
             "url": "https://cryptopanic.com/news/click/20601474/",
             "description": "",
             "image": "https://protos-media.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/01/24161126/Protos-Artwork-RippleANTIBTC-SIMG.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371168",
+            "timestamp": "2025-01-27T14:13:14.945358",
             "is_hot": true
         },
         {
-            "title": "\"Volume DEX Solana Meningkat Dalam Keghairahan Memecoin Didorong Oleh $VINE dan $TRUMP\"",
+            "title": "Here is the translation:\n\n'Jilid Solanas DEX Melonjak Tinggi Ketika Kegilaan Memecoin Dipacu oleh $VINE dan $TRUMP'\n\nLet me know if you need any further assistance!",
             "url": "https://cryptopanic.com/news/click/20600594/",
             "description": "",
             "image": "https://crypto-economy.com//wp-content/uploads/2025/01/CEFEAT1-14.png",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371169",
+            "timestamp": "2025-01-27T14:13:14.945360",
             "is_hot": true
         },
         {
@@ -133,26 +160,206 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/509d490b7c/dall-e-2025-01-24-15-22-24-a-striking-2_1-aspect-ratio-image-of-a-modern-corporate-building-with-the-word-microstrategy-prominently-displayed-on-the-facade-in-bold-red-letteri-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371171",
+            "timestamp": "2025-01-27T14:13:14.945362",
             "is_hot": true
         },
         {
-            "title": "Michael Saylor meraikan 'Renaissance Crypto' di bawah perintah eksekutif Trump.",
+            "title": "Michael Saylor merayakan Zaman Keemasan Kripto di bawah perintah eksekutif Trump.",
             "url": "https://cryptopanic.com/news/click/20600586/",
             "description": "",
             "image": "https://assets.finbold.com/uploads/2025/01/Michael-Saylor-celebrates-‘The-Crypto-Renaissance-under-Trumps-executive-order.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371172",
+            "timestamp": "2025-01-27T14:13:14.945364",
             "is_hot": true
         },
         {
-            "title": "'Upgrade Plomin Cardano Melepasi Halangan Penting — Adakah Harga ADA Akan Mengikut?'",
+            "title": "Naik taraf Plomin Cardano Menyelesaikan Halangan Penting, Adakah Harga ADA Akan Mengikuti?",
             "url": "https://cryptopanic.com/news/click/20600420/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55623.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-27T03:10:02.371174",
+            "timestamp": "2025-01-27T14:13:14.945365",
             "is_hot": true
+        },
+        {
+            "title": "Here is the translation:\n\n'Kripto Baru untuk Dilaburkan apabila Pelaburan TradFi Meningkat, Membuka Jalan untuk Larian Bull Lain'",
+            "url": "https://cryptopanic.com/news/click/20611000/",
+            "description": "",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/crypto-to-invest.png?fit=1323%2C752",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132476",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n'SHIB Membakar Mendadak 360%, Tetapi Harga Jatuh 11%, Ini Apa Yang Berlaku'",
+            "url": "https://cryptopanic.com/news/click/20610998/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/55665.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132492",
+            "is_hot": false
+        },
+        {
+            "title": "OKX dan Crypto.com menjadi yang terbaru menerima lesen MiCA penuh.",
+            "url": "https://cryptopanic.com/news/click/20610962/",
+            "description": "",
+            "image": "https://coinjournal.net/wp-content/uploads/2024/07/Circle-becomes-first-stablecoin-issuer-to-secure-EUs-MiCA-regulations.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132494",
+            "is_hot": false
+        },
+        {
+            "title": "Solana bakal mendapat manfaat dari pengembangan D.O.G.E Elon Musk. Inilah caranya.",
+            "url": "https://cryptopanic.com/news/click/20610960/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/01/Ritika-2-1-1000x600.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132496",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n\"Kejutan Bitcoin Tergugat: Harga Jatuh di Bawah Sokongan $100,000\"",
+            "url": "https://cryptopanic.com/news/click/20610970/",
+            "description": "",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Bitcoin-from-Unsplash-19.jpg?fit=3000%2C2000",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132498",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n\"Singularity Kewangan bergabung dengan Rangkaian Partikel\"\n\n(Note: I used \"Kewangan\" for Finance, \"bergabung\" for partners, and \"Rangkaian\" for Network to ensure the translation is accurate and easy to understand for the target audience.)",
+            "url": "https://cryptopanic.com/news/click/20610931/",
+            "description": "",
+            "image": "https://assets.finbold.com/uploads/2025/01/Singularity-Finance-partners-with-Particle-Network.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132500",
+            "is_hot": false
+        },
+        {
+            "title": "Trend masa lalu mencadangkan ETH boleh bangkit dalam Februari walaupun kejatuhan Januari.",
+            "url": "https://cryptopanic.com/news/click/20610916/",
+            "description": "",
+            "image": "https://res.coinpaper.com/coinpaper/image/upload/v1737979365/cp6225_bouncing_ethereum_coins_a968fe93_a52e_48b5_a913_eab2fbf54f3c_ba6f9bb2e2.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132501",
+            "is_hot": false
+        },
+        {
+            "title": "BlackRock Kini Memegang 2.7% Bekalan Bitcoin (BTC) Keseluruhan",
+            "url": "https://cryptopanic.com/news/click/20610924/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-01/s5756.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132503",
+            "is_hot": false
+        },
+        {
+            "title": "Episod 2: Bebanan Jangkaan",
+            "url": "https://cryptopanic.com/news/click/20610992/",
+            "description": "",
+            "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*u2p-IJ5DBXeRgdkLlYJ0Rw.png",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132504",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\nMicroStrategy Mengumumkan Tawaran 2.5 Juta Saham Siri A Saham Yang Dipilih",
+            "url": "https://cryptopanic.com/news/click/20610892/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/06192028/Microstrategy-Purchased-1070-BTC-for-101-Million.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132508",
+            "is_hot": false
+        },
+        {
+            "title": "Nasdaq Cadangkan Pemindahan Bitcoin untuk ETF Bitcoin Spot BlackRock",
+            "url": "https://cryptopanic.com/news/click/20610890/",
+            "description": "",
+            "image": "https://news.shib.io/wp-content/uploads/2025/01/Daily-template-2025-01-27T113705.287.png",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132510",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n\"Bitcoin atau Altcoins? Kami tanya AI mana yang lebih baik untuk beli sekarang bahawa 2025 telah bermula\"\n\n(Note: I used \"bahawa\" instead of \"sekarang\" to make the sentence structure clearer and more natural in Malay)",
+            "url": "https://cryptopanic.com/news/click/20610884/",
+            "description": "",
+            "image": "https://assets.finbold.com/uploads/2025/01/Bitcoin-or-Altcoins-We-asked-AI-which-is-a-better-buy-now-that-2025-started.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132511",
+            "is_hot": false
+        },
+        {
+            "title": "Yayasan Ethereum menghadapi tekanan kerana ia terus menjual 100 ETH ketika harga pasaran jatuh.",
+            "url": "https://cryptopanic.com/news/click/20610912/",
+            "description": "",
+            "image": "https://cryptoslate.com/wp-content/uploads/2025/01/ethereum-dump.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132513",
+            "is_hot": false
+        },
+        {
+            "title": "Pendapat: Pump.fun Adalah Perkara Terbaik Yang Berlaku Kepada Solana",
+            "url": "https://cryptopanic.com/news/click/20610852/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132515",
+            "is_hot": false
+        },
+        {
+            "title": "'Pemimpin Lapisan 2 Mendorong Inovasi Rollup untuk Menyatukan Ethereum'",
+            "url": "https://cryptopanic.com/news/click/20610788/",
+            "description": "",
+            "image": "https://res.coinpaper.com/coinpaper/image/upload/v1737982199/cp6225_Ethereum_connected_to_a_series_of_blockchain_networks_895a2fec_85e8_459f_86c0_de120f0294d6_a34f30c989.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132520",
+            "is_hot": false
+        },
+        {
+            "title": "\"Isyarat Bullish? Ethereum Lihat Kenaikan Tertinggi dalam Pertumbuhan Rangkaian Sejak Oktober 2022\"",
+            "url": "https://cryptopanic.com/news/click/20610790/",
+            "description": "",
+            "image": "https://cryptopotato.com/wp-content/uploads/2023/12/Ethereum_high.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132522",
+            "is_hot": false
+        },
+        {
+            "title": "XRP bersedia untuk pergerakan harga yang ketara, menurut pakar.",
+            "url": "https://cryptopanic.com/news/click/20610749/",
+            "description": "",
+            "image": "https://assets.finbold.com/uploads/2025/01/XRP-set-for-a-‘significant-price-move-according-to-expert-scaled.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132524",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n\"Bagaimana Melancarkan Syiling Meme Seperti $Trump pada Rantai BNB\"\n\nNote: I've kept the translation simple and easy to understand, using common Malay vocabulary and sentence structure.",
+            "url": "https://cryptopanic.com/news/click/20610727/",
+            "description": "",
+            "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132525",
+            "is_hot": false
+        },
+        {
+            "title": "Token Kripto Akan Mencapai 100 Juta menjelang Akhir 2025: Apa yang Ini Bermakna untuk Pelabur",
+            "url": "https://cryptopanic.com/news/click/20610857/",
+            "description": "",
+            "image": "https://beincrypto.com/wp-content/uploads/2024/07/bic_Altcoins_4-covers_neutral.jpg.optimal.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132527",
+            "is_hot": false
+        },
+        {
+            "title": "Here is the translation:\n\n\"Bitcoin Terjun Bebas ke $98,000 Akibat Kebimbangan AI China, Kegagalan Trump\"\n\nLet me know if you need any further assistance!",
+            "url": "https://cryptopanic.com/news/click/20610784/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/01/27/Panico-nel-mercato-crypto-Bitcoin-scende.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-01-27T14:13:14.132528",
+            "is_hot": false
         },
         {
             "title": "Ramalan Harga Solana (SOL) untuk 24 Januari",
