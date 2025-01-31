@@ -1,31 +1,67 @@
 {
-    "timestamp": "2025-01-31 11:18:14",
+    "timestamp": "2025-01-31 12:41:44",
     "all_news": [
         {
-            "title": "Pump.fun Didakwa Jual Sekuriti Tidak Berdaftar dalam Skandal Mata Wang Meme",
+            "title": "Robert Kiyosaki Tinggalkan Emas dan Perak, Bertaruh Semua pada Bitcoin",
+            "url": "https://cryptopanic.com/news/click/20631172/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/06/robert-kiyosaki-2.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:32.563681",
+            "is_hot": true
+        },
+        {
+            "title": "Syarikat Securitize yang Disokong Blackrock Berkongsi dengan Wormhole untuk Membawa Dana Kredit $1.3B ke Solana",
+            "url": "https://cryptopanic.com/news/click/20629928/",
+            "description": "",
+            "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F1b350dbf-7433-473d-abb6-ed6df868f7ce",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:32.563694",
+            "is_hot": true
+        },
+        {
+            "title": "Pump.fun Dituntut Kerana Menjual Sekuriti Tidak Berdaftar Dalam Skandal Mata Wang Meme",
             "url": "https://cryptopanic.com/news/click/20630773/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/b8af83b92f/dall-e-2025-01-31-09-57-54-a-2_1-wide-aspect-ratio-image-of-a-courtroom-using-only-red-colors-the-scene-should-depict-a-grand-courtroom-with-a-judge-s-bench-jury-seats-and-l-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546033",
+            "timestamp": "2025-01-31T12:40:32.563696",
             "is_hot": true
         },
         {
-            "title": "Tether Bawa USDT ke Rangkaian Kilat Bitcoin untuk Pembayaran Lebih Pantas, Lebih Murah",
+            "title": "Tether Bawa USDT ke Rangkaian Kilat Bitcoin untuk Pembayaran Lebih Cepat, Lebih Murah",
             "url": "https://cryptopanic.com/news/click/20630721/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/204c5f3709/dall-e-2025-01-31-09-46-20-a-2_1-wide-aspect-ratio-image-of-an-investing-chart-going-up-using-only-red-colors-the-chart-should-have-a-bold-upward-trend-with-candlestick-patte-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546043",
+            "timestamp": "2025-01-31T12:40:32.563698",
             "is_hot": true
         },
         {
-            "title": "Kraken Mengembalikan Staking untuk Pelanggan AS di 39 Negeri Selepas Penyelesaian SEC",
+            "title": "Bapa Elon Musk merancang mengumpul sehingga $200 juta dengan syiling meme Musk It untuk membiayai tangki pemikir baru.",
+            "url": "https://cryptopanic.com/news/click/20630323/",
+            "description": "",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/31015159/80198704-448d-4353-9e18-ec28428b6398-800x420.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:32.563700",
+            "is_hot": true
+        },
+        {
+            "title": "Suruhanjaya Sekuriti AS meluluskan ETF Bitcoin dan Ethereum gabungan Bitwise",
+            "url": "https://cryptopanic.com/news/click/20629271/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:32.563701",
+            "is_hot": true
+        },
+        {
+            "title": "Kraken Mengembalikan Staking untuk Pelanggan A.S. di 39 Negeri Selepas Penyelesaian SEC",
             "url": "https://cryptopanic.com/news/click/20628155/",
             "description": "",
             "image": "h",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546045",
+            "timestamp": "2025-01-31T12:40:32.563703",
             "is_hot": true
         },
         {
@@ -34,34 +70,34 @@
             "description": "",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546047",
+            "timestamp": "2025-01-31T12:40:32.563704",
             "is_hot": true
         },
         {
-            "title": "Texas Merancang Membina Rizab Kripto yang Luas untuk Menjamin Kebebasan Ekonomi",
+            "title": "Texas Merancang Bina Rizab Kripto Gergasi untuk Menjamin Kebebasan Ekonomi",
             "url": "https://cryptopanic.com/news/click/20627020/",
             "description": "",
             "image": "https://crypto-economy.com//wp-content/uploads/2025/01/CEFEAT1-18.png",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546048",
+            "timestamp": "2025-01-31T12:40:32.563706",
             "is_hot": true
         },
         {
-            "title": "Indiana Bergerak untuk Benarkan Bitcoin dalam Dana Pencen ketika Negeri Menyasar Rizab Kripto",
+            "title": "Indiana Mengambil Langkah untuk Benarkan Bitcoin dalam Dana Pencen sebagai Negeri Mengintai Rizab Kripto",
             "url": "https://cryptopanic.com/news/click/20626689/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/05/bitcoin-macbook.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546050",
+            "timestamp": "2025-01-31T12:40:32.563707",
             "is_hot": true
         },
         {
-            "title": "Trump dan Melania memecoins membuat dorongan untuk pembayaran dunia sebenar dalam wangian, kasut sukan dan perjalanan.",
+            "title": "\"Trump dan Melania mengeluarkan mata wang meme untuk pembayaran di dunia sebenar dalam wangian, kasut sukan dan perjalanan\"",
             "url": "https://cryptopanic.com/news/click/20625969/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546052",
+            "timestamp": "2025-01-31T12:40:32.563709",
             "is_hot": true
         },
         {
@@ -70,34 +106,34 @@
             "description": "",
             "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F90df6c75-c2c1-43fd-9e37-e67e7820caff",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546053",
+            "timestamp": "2025-01-31T12:40:32.563711",
             "is_hot": true
         },
         {
-            "title": "Illinois dan Indiana Mempromosikan Rizab Bitcoin dalam Rang Undang-Undang Baharu",
+            "title": "Illinois dan Indiana Mendorong Rizab Bitcoin dalam Rang Undang-Undang Baru",
             "url": "https://cryptopanic.com/news/click/20625322/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/01dfc8bc4a/dall-e-2025-01-30-10-18-22-a-highly-realistic-cityscape-of-illinois-featuring-iconic-buildings-and-skyline-completely-immersed-in-shades-of-red-the-entire-scene-should-be-dom-1.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546055",
+            "timestamp": "2025-01-31T12:40:32.563712",
             "is_hot": true
         },
         {
-            "title": "Arahan Trump Picu Kemuncak Bitcoin: Ramalan $200K untuk 2025",
+            "title": "Arahan Trump Menjadi Pendorong Kemunculan Bitcoin: Ramalan $200K untuk 2025",
             "url": "https://cryptopanic.com/news/click/20625275/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1536x768/4a4681d994/u5184394776_httpss-mj-runa3ip-bby78s_create_image_which_shows_79dc7f22-3e67-411f-8de8-fd4a5e9dc2fa_2_11zon.png",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546057",
+            "timestamp": "2025-01-31T12:40:32.563714",
             "is_hot": true
         },
         {
-            "title": "Timbalan Gabenor Texas mengumumkan Rizab Bitcoin sebagai rang undang-undang keutamaan untuk 2025",
+            "title": "Timbalan Gabenor Texas mengumumkan Rizab Bitcoin sebagai rang undang-undang keutamaan untuk 2025.",
             "url": "https://cryptopanic.com/news/click/20623627/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/0194b3ff-af66-713f-b69b-8f93848ed353",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546058",
+            "timestamp": "2025-01-31T12:40:32.563717",
             "is_hot": true
         },
         {
@@ -106,16 +142,16 @@
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546060",
+            "timestamp": "2025-01-31T12:40:32.563718",
             "is_hot": true
         },
         {
-            "title": "Berita Kes Mahkamah XRP: Pegawai Undang-Undang Ripple Kata Kes Akan Ditarik Balik Oleh SEC di Bawah Atkins pada 2025",
+            "title": "Berita Kes Saman XRP: Peguam Besar Ripple Kata Kes Akan Ditarik Balik oleh SEC di Bawah Atkins pada 2025",
             "url": "https://cryptopanic.com/news/click/20621922/",
             "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/21182724/XRP-Lawsuit-News-Deaton-Says-SEC-Appeal-Likely-to-Be-Dismissed-Reveals-Whats-Next.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546061",
+            "timestamp": "2025-01-31T12:40:32.563722",
             "is_hot": true
         },
         {
@@ -124,26 +160,206 @@
             "description": "",
             "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/20121954/Trump-Memecoin-Price-Sparks-648-Surge-How-TRUMP-Is-Boosting-Solana-Price.webp",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546063",
+            "timestamp": "2025-01-31T12:40:32.563724",
             "is_hot": true
         },
         {
-            "title": "Cardano merancang peralihan kepada kerajaan sepenuhnya desentralisasi selepas fork keras Plomin pada hari Rabu.",
+            "title": "Cardano merancang peralihan kepada kerajaan desentralisasi penuh selepas fork keras Plomin pada Rabu.",
             "url": "https://cryptopanic.com/news/click/20621532/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546066",
+            "timestamp": "2025-01-31T12:40:32.563725",
             "is_hot": true
         },
         {
-            "title": "Syarikat media Trump melancarkan Truth.Fi, sebuah fintech dengan hasrat kripto.",
+            "title": "Syarikat media Trump melancarkan Truth.Fi, sebuah fintech dengan hasrat kripto",
             "url": "https://cryptopanic.com/news/click/20621458/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-01-31T11:17:06.546068",
+            "timestamp": "2025-01-31T12:40:32.563727",
             "is_hot": true
+        },
+        {
+            "title": "Apollo dan Securitize Lancar Dana Kredit Swasta Bertoken di Solana",
+            "url": "https://cryptopanic.com/news/click/20631843/",
+            "description": "",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/01/ApolloSecuritizeSolana.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704134",
+            "is_hot": false
+        },
+        {
+            "title": "Masalah Undang-undang untuk Pump.fun: Mendakwa Mata Wang Meme Langgar Undang-undang Sekuriti",
+            "url": "https://cryptopanic.com/news/click/20631855/",
+            "description": "",
+            "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2024/08/cropped-ecoinimist-logo-7.jpg?fit=500%2C500&ssl=1",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704147",
+            "is_hot": false
+        },
+        {
+            "title": "Harga Bitcoin Memasuki Fasa Menanjak Selepas Pembentukan Cawan dan Pegangan pada $105,000, Ini Adalah Sasaran Seterusnya",
+            "url": "https://cryptopanic.com/news/click/20631850/",
+            "description": "",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/01/Bitcoin-from-iStock-15.jpg?fit=612%2C408",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704149",
+            "is_hot": false
+        },
+        {
+            "title": "Bapa Elon Musk Lancarkan Memecoin, tapi Tanpa Sokongan Anaknya, Bolehkah Ia Berjaya?",
+            "url": "https://cryptopanic.com/news/click/20631826/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2025/01/elon-musk-errol-musk-eugenics_6758943.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704151",
+            "is_hot": false
+        },
+        {
+            "title": "Bapa Elon Musk mahu mengumpul $200M untuk tangki pemikir melalui syiling meme Musk itu.",
+            "url": "https://cryptopanic.com/news/click/20631810/",
+            "description": "",
+            "image": "https://cryptoslate.com/wp-content/uploads/2023/07/cs-cover-main.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704153",
+            "is_hot": false
+        },
+        {
+            "title": "Pelabur Menang Besar dalam Pertaruhan Mesyuarat FOMC, Mendapat Keuntungan $35,000",
+            "url": "https://cryptopanic.com/news/click/20631805/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2024/10/20191659/btc-eth.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704154",
+            "is_hot": false
+        },
+        {
+            "title": "VIRTUEL melonjak kerana bursa kripto terbesar Korea senaraikan token",
+            "url": "https://cryptopanic.com/news/click/20631778/",
+            "description": "",
+            "image": "https://coinjournal.net/wp-content/uploads/2024/04/upbit-exchange-logo.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704158",
+            "is_hot": false
+        },
+        {
+            "title": "Peguam pro-XRP Deaton sedang mencari tuduhan terhadap ibu bapa SBF",
+            "url": "https://cryptopanic.com/news/click/20631813/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/Pro-XRP-lawyer-Deaton-is-seeking-an-indictment-of-SBF-parents.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704160",
+            "is_hot": false
+        },
+        {
+            "title": "Kumpulan Crypto dipenjara lebih 76 tahun selepas penculikan dan penyiksaan dalam rancangan pemerasan $124,000.",
+            "url": "https://cryptopanic.com/news/click/20631721/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704163",
+            "is_hot": false
+        },
+        {
+            "title": "Kripto tertipu lagi oleh perintah eksekutif palsu Trump",
+            "url": "https://cryptopanic.com/news/click/20631720/",
+            "description": "",
+            "image": "https://protos-media.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/01/31120943/Protos-Artwork-TrumpFakeNews-SIMG.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704165",
+            "is_hot": false
+        },
+        {
+            "title": "'Dompet Ross Ulbricht Hilang Jutaan Selepas Kesalahan Likuiditi Membawa Maut'",
+            "url": "https://cryptopanic.com/news/click/20631687/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/ross-ulbricht.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704167",
+            "is_hot": false
+        },
+        {
+            "title": "Syarikat Eaton Capai Penghasilan Saham Terbaik dalam Suku 4 2024",
+            "url": "https://cryptopanic.com/news/click/20631691/",
+            "description": "",
+            "image": "https://tokenist.com/wp-content/uploads/2022/06/TheTokenist.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704168",
+            "is_hot": false
+        },
+        {
+            "title": "Kerugian $12M Pengasas Jalan Sutera Ross Ulbricht di Pump.fun: Kegagalan Likuiditi",
+            "url": "https://cryptopanic.com/news/click/20631667/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704170",
+            "is_hot": false
+        },
+        {
+            "title": "Binance Menafikan Kaitan dengan Hamas, Minta Pembatalan Saman Pembiayaan Keganasan",
+            "url": "https://cryptopanic.com/news/click/20631671/",
+            "description": "",
+            "image": "https://news.shib.io/wp-content/uploads/2025/01/Daily-template-2025-01-31T173045.498.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704171",
+            "is_hot": false
+        },
+        {
+            "title": "ExxonMobil Lapor Hasil Kurang Baik Dari Jangkaan untuk Suku Keempat",
+            "url": "https://cryptopanic.com/news/click/20631655/",
+            "description": "",
+            "image": "https://tokenist.com/wp-content/uploads/2022/06/TheTokenist.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704175",
+            "is_hot": false
+        },
+        {
+            "title": "Grayscale Mahu Senaraikan ETF XRP Di Tengah-Tengah Minat Institusi Yang Meningkat",
+            "url": "https://cryptopanic.com/news/click/20631656/",
+            "description": "",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/01/GrayscaleXRPETF.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704176",
+            "is_hot": false
+        },
+        {
+            "title": "\"Pengasas Thodex Diberi Pelepasan Sebahagian dalam Kes Penipuan Crypto Berjumlah $2 Bilion\"",
+            "url": "https://cryptopanic.com/news/click/20631608/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/08/turkey-crypto-thodex-gID_7.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704178",
+            "is_hot": false
+        },
+        {
+            "title": "\"Pembeli ikan paus Liberty Fi dunia mungkin adalah dompet insider\"",
+            "url": "https://cryptopanic.com/news/click/20631739/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/01/world-liberty-fi-whale-buyer-insider.webp",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704180",
+            "is_hot": false
+        },
+        {
+            "title": "Prestasi Chevron pada Suku Keempat Tidak Mencapai Jangkaan Pasaran",
+            "url": "https://cryptopanic.com/news/click/20631584/",
+            "description": "",
+            "image": "https://tokenist.com/wp-content/uploads/2022/06/TheTokenist.png",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704181",
+            "is_hot": false
+        },
+        {
+            "title": "Pump.fun Hadapi Saman Berkenaan Pelanggaran Sekuriti yang Didakwa",
+            "url": "https://cryptopanic.com/news/click/20631561/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/legal_law_court_judge.jpg",
+            "panic_score": null,
+            "timestamp": "2025-01-31T12:40:31.704183",
+            "is_hot": false
         },
         {
             "title": "Crypto.com Mengalih Keluar USDT dan 9 Token Lain di Bawah MiCA",
@@ -308,15 +524,6 @@
             "is_hot": false
         },
         {
-            "title": "Robert Kiyosaki Tinggalkan Emas dan Perak, Bertaruh Sepenuhnya pada Bitcoin",
-            "url": "https://cryptopanic.com/news/click/20631172/",
-            "description": "",
-            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/06/robert-kiyosaki-2.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-31T11:17:05.887651",
-            "is_hot": false
-        },
-        {
             "title": "Bapa Elon Musk berhasrat mengutip $200M dengan token IT Musk.",
             "url": "https://cryptopanic.com/news/click/20631283/",
             "description": "",
@@ -395,15 +602,6 @@
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/0194bb7f-b080-7229-bbc5-cdfb70122ca2",
             "panic_score": null,
             "timestamp": "2025-01-31T10:21:48.479906",
-            "is_hot": false
-        },
-        {
-            "title": "Syarikat Securitize yang Disokong Blackrock Berkongsi dengan Wormhole untuk Membawa Dana Kredit $1.3B ke Solana",
-            "url": "https://cryptopanic.com/news/click/20629928/",
-            "description": "",
-            "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F1b350dbf-7433-473d-abb6-ed6df868f7ce",
-            "panic_score": null,
-            "timestamp": "2025-01-31T10:21:48.479909",
             "is_hot": false
         },
         {
@@ -755,15 +953,6 @@
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/bitcoin-magazine-Microstrategy-1200x794-1.png",
             "panic_score": null,
             "timestamp": "2025-01-31T08:26:26.040737",
-            "is_hot": false
-        },
-        {
-            "title": "Bapa Elon Musk merancang untuk mengumpul sehingga $200 juta dengan syiling meme Musk It untuk membiayai institut pemikir baru.",
-            "url": "https://cryptopanic.com/news/click/20630323/",
-            "description": "",
-            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/01/31015159/80198704-448d-4353-9e18-ec28428b6398-800x420.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-31T08:26:26.040738",
             "is_hot": false
         },
         {
@@ -1385,15 +1574,6 @@
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/07/gta6-art-gID_7.png",
             "panic_score": null,
             "timestamp": "2025-01-31T01:40:22.298910",
-            "is_hot": false
-        },
-        {
-            "title": "SURUHANJAYA SEC AS mengeluarkan kelulusan untuk ETF Bitcoin dan Ethereum gabungan Bitwise di AS",
-            "url": "https://cryptopanic.com/news/click/20629271/",
-            "description": "",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
-            "panic_score": null,
-            "timestamp": "2025-01-31T01:40:22.298912",
             "is_hot": false
         },
         {
