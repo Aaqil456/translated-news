@@ -1,6 +1,186 @@
 {
-    "timestamp": "2025-02-07 17:19:54",
+    "timestamp": "2025-02-07 18:29:39",
     "all_news": [
+        {
+            "title": "Pasaran Kripto Bergegar-gegar apabila Laporan Pekerjaan AS Menunjukkan Ekonomi yang Perlambatan",
+            "url": "https://cryptopanic.com/news/click/20665903/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573862",
+            "is_hot": false
+        },
+        {
+            "title": "\"Polkadots Meningkat 200% dalam TransaksiBolehkah Ia Mengatasi Ethereum?\"",
+            "url": "https://cryptopanic.com/news/click/20665892/",
+            "description": "",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/02/polkadot-ftr-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573878",
+            "is_hot": false
+        },
+        {
+            "title": "Pasaran Polymarket meramalkan peluang tipis 35% kelulusan ETF Solana sebelum 31 Julai",
+            "url": "https://cryptopanic.com/news/click/20665866/",
+            "description": "",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/02/07125916/329f5c54-73cc-4f56-90e0-2f70adc4bff2-800x420.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573881",
+            "is_hot": false
+        },
+        {
+            "title": "Permainan Telegram menghadapi masalah untuk mendapatkan pendapatan, mengekalkan pengguna dalam Q4: laporan",
+            "url": "https://cryptopanic.com/news/click/20665863/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573883",
+            "is_hot": false
+        },
+        {
+            "title": "Menilai peluang Ethereum melepasi sasaran jangka panjang $4K.",
+            "url": "https://cryptopanic.com/news/click/20665838/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/02/Gladys-14-1000x600.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573886",
+            "is_hot": false
+        },
+        {
+            "title": "SURUHANJAYA KEWANGAN MENGESAHKAN PERMOHONAN ETF Solana dan Litecoin",
+            "url": "https://cryptopanic.com/news/click/20665820/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2022/07/sec-takes-another-look-at-bitwise-etf-proposal-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573888",
+            "is_hot": false
+        },
+        {
+            "title": "Solana (SOL) Bersedia Meletup 171% Tahun Ini, Ramal Analis VanEck  Inilah Mengapa",
+            "url": "https://cryptopanic.com/news/click/20665810/",
+            "description": "",
+            "image": "https://dailyhodl.com/wp-content/uploads/2025/02/sol-primed-this-year.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573891",
+            "is_hot": false
+        },
+        {
+            "title": "\"Peguam kripto terkemuka frustrasi dengan pasaran mengabaikan kemenangan kripto besar di bawah Trump\"",
+            "url": "https://cryptopanic.com/news/click/20665864/",
+            "description": "",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjAzNzE5NTI3NjYwMjY3NDEw/donald-trump-just-vowed-to-block-a-us-cbdc-heres-why-thats-huge.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573893",
+            "is_hot": false
+        },
+        {
+            "title": "ChatGPT berkata harga XRP akan mencapai sasaran ini menjelang Q1 2025",
+            "url": "https://cryptopanic.com/news/click/20665768/",
+            "description": "",
+            "image": "https://assets.finbold.com/uploads/2025/02/ChatGPT-says-XRP-price-will-hit-this-target-by-Q1-2025.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573894",
+            "is_hot": false
+        },
+        {
+            "title": "CFTC menghimpun CEO crypto untuk melancarkan program pilot pasaran aset digital",
+            "url": "https://cryptopanic.com/news/click/20665841/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/The-CFTC-is-planning-to-hold-a-CEO-Forum-to-discuss-the-launch-of-the-agencys-digital-asset-markets-pilot-program-for-tokenized-non-cash-collateral-such-as-stablecoins.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573898",
+            "is_hot": false
+        },
+        {
+            "title": "Jalan Wall Street mengharapkan kenaikan harga saham Strategys yang ketara apabila rizab hampir 500,000 BTC.",
+            "url": "https://cryptopanic.com/news/click/20665746/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573900",
+            "is_hot": false
+        },
+        {
+            "title": "Pemindahan Bitcoin $69M oleh Grayscales Menimbulkan Kebimbangan Pasaran",
+            "url": "https://cryptopanic.com/news/click/20665734/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/02/01151819/Crypto-Market-Today-Feb-1st-2025-Bitcoin-Price-Dips-to-102k-Fear-Greed-Index-Drops-From-Greed.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573901",
+            "is_hot": false
+        },
+        {
+            "title": "BlackRock Meningkatkan Pelaburan Dalam Strategi Berat Bitcoin, Mencapai 5% Pemilikan",
+            "url": "https://cryptopanic.com/news/click/20665805/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/02/07/Bitcoins-Reserve-Asset-Appeal-Increased-.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573903",
+            "is_hot": false
+        },
+        {
+            "title": "Trump Akan Mengumumkan Tarif Balasan Hari Ini",
+            "url": "https://cryptopanic.com/news/click/20665732/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/30175101/Trump-Presidency-Could-Flip-Bitcoins-Historical-4-Year-Price-Cycle-%E2%80%93-Heres-How-1-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573904",
+            "is_hot": false
+        },
+        {
+            "title": "Bitcoin Mungkin Jatuh di Bawah $90K Di Tengah-tengah Kelemahan Pasaran Berterusan",
+            "url": "https://cryptopanic.com/news/click/20665731/",
+            "description": "",
+            "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2025/01/bitcoincrypto222.png",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573906",
+            "is_hot": false
+        },
+        {
+            "title": "Harga Syiling Binance (BNB) Menjadi Tumpuan untuk Pecah Keluar Seperti Solana Ketika Kembali Hype Syiling Mem.",
+            "url": "https://cryptopanic.com/news/click/20665705/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573908",
+            "is_hot": false
+        },
+        {
+            "title": "Bitcoin Melangkaui $100K dan Kemudian Jatuh: Pasaran Kripto Bertindak Balas kepada Faktor Ekonomi dan Politik",
+            "url": "https://cryptopanic.com/news/click/20665703/",
+            "description": "",
+            "image": "https://crypto-economy.com//wp-content/uploads/2025/02/bitcoin-us-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573909",
+            "is_hot": false
+        },
+        {
+            "title": "Peluang Kelulusan ETF Solana Spot Jatuh ke 35%",
+            "url": "https://cryptopanic.com/news/click/20665711/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/28194400/Solana-Price-Nears-250-Resistance-Is-300-the-Next-Stop.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573911",
+            "is_hot": false
+        },
+        {
+            "title": "Berachain: Skim Crypto Penipuan atau Projek Gagal Lagi?",
+            "url": "https://cryptopanic.com/news/click/20665760/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573914",
+            "is_hot": false
+        },
+        {
+            "title": "Pengasas kripto bernama samaran Loopify mengumpul $500,000 dalam kripto untuk membiayai kerja kemanusiaan di Gaza.",
+            "url": "https://cryptopanic.com/news/click/20665651/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T18:29:00.573916",
+            "is_hot": false
+        },
         {
             "title": "Laporan Binance: ETF Kripto Meningkat Ketika Syiling Meme Mencatatkan Rekod Bilangan.",
             "url": "https://cryptopanic.com/news/click/20662650/",
@@ -180,15 +360,6 @@
             "panic_score": null,
             "timestamp": "2025-02-07T17:18:23.785621",
             "is_hot": true
-        },
-        {
-            "title": "Pengasas kripto Loopify yang tidak dinamakan mengumpul $500,000 dalam kripto untuk membiayai kerja kemanusiaan di Gaza.",
-            "url": "https://cryptopanic.com/news/click/20665651/",
-            "description": "",
-            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
-            "panic_score": null,
-            "timestamp": "2025-02-07T17:18:23.371039",
-            "is_hot": false
         },
         {
             "title": "'RM2.9 Juta Akan Dibahagikan Selepas Syarikat Berbilion Dolar Didakwa Bekukan Akaun Bank, Paksa Pelanggan Membayar Yuran Yang Tidak Masuk Akal'",
