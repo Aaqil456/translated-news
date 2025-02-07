@@ -1,58 +1,76 @@
 {
-    "timestamp": "2025-02-07 21:20:32",
+    "timestamp": "2025-02-07 22:21:05",
     "all_news": [
         {
-            "title": "XRP dan Solana berlumba ke Kelulusan ETF Kripto Seterusnya",
+            "title": "XRP dan Solana berlumba ke kelulusan ETF kripto seterusnya",
             "url": "https://cryptopanic.com/news/click/20665473/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194e145-c3f3-7b3a-ab5d-a51cb2550507",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169761",
+            "timestamp": "2025-02-07T22:19:36.741753",
             "is_hot": true
         },
         {
-            "title": "Naik Taraf Pectra Ethereum, Rekod Tertinggi Baru Akan Tiba?",
+            "title": "\"Naik Taraf Pectra Ethereum: Rekod Tertinggi Baru Akan Tiba?\"",
             "url": "https://cryptopanic.com/news/click/20664665/",
             "description": "",
             "image": "https://media.assettype.com/voiceofcrypto%2F2025-02-07%2Fabhustpe%2FCover-Ethereum%E2%80%99s-Pectra-Upgrade%E2%80%94New-All-Time-High-Incoming.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169777",
+            "timestamp": "2025-02-07T22:19:36.741765",
             "is_hot": true
         },
         {
-            "title": "Laporan Binance: ETF Kripto Meningkat Ketika Mata Wang Meme Mencapai Rekod Bilangan.",
+            "title": "Laporan Binance: ETF Kripto Melonjak Ketika Mata Wang Meme Mencatat Nombor Rekod",
             "url": "https://cryptopanic.com/news/click/20662650/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/de79a80625/dall-e-2025-02-07-08-28-42-a-binance-logo-centered-on-a-red-background-designed-entirely-in-shades-of-red-the-logo-appears-bold-and-prominent-with-a-sleek-modern-aesthetic.webp",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169781",
+            "timestamp": "2025-02-07T22:19:36.741768",
             "is_hot": true
         },
         {
-            "title": "Suruhanjaya Sekuriti Menunjukkan Perubahan: ETF Solana & Litecoin Grayscale Bergerak Ke Hadapan",
+            "title": "SEC Menandakan Perubahan: ETF Solana & Litecoin Grayscale Bergerak Keadalan",
             "url": "https://cryptopanic.com/news/click/20662617/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/d74c649e95/dall-e-2025-02-07-08-19-28-a-modern-corporate-office-interior-designed-entirely-in-shades-of-red-the-space-features-sleek-red-desks-red-ergonomic-chairs-and-red-glass-partiti-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169785",
+            "timestamp": "2025-02-07T22:19:36.741771",
             "is_hot": true
         },
         {
-            "title": "Naik Taraf Pectra Ethereum Sedia untuk Ujian Testnet",
+            "title": "Naik Taraf Pectra Ethereum Siap Untuk Ujian Jaringan Ujian",
             "url": "https://cryptopanic.com/news/click/20661304/",
             "description": "",
             "image": "https://bankless.ghost.io/content/images/2025/02/0_0-1.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169789",
+            "timestamp": "2025-02-07T22:19:36.741774",
             "is_hot": true
         },
         {
-            "title": "\"Dana ETF Baru Cardano (ADA) Dilancarkan oleh Syarikat Pelaburan Sweden\"",
+            "title": "Republik Czech Meluluskan Undang-Undang: Tiada Cukai Bitcoin Selepas 3 Tahun!",
+            "url": "https://cryptopanic.com/news/click/20661273/",
+            "description": "",
+            "image": "https://a.storyblok.com/f/182479/1792x1024/609f0fd716/dall-e-2025-02-06-23-32-20-a-stack-of-tax-documents-with-financial-charts-and-numbers-all-in-red-tones-the-documents-should-have-an-official-and-slightly-worn-look-with-a-red-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.741777",
+            "is_hot": true
+        },
+        {
+            "title": "Presiden Czech Petr Pavel Menandatangani Undang-Undang Menghapuskan Cukai Kepentingan Modal pada Bitcoin untuk Pemegang Jangka Panjang Selepas 3+ Tahun",
+            "url": "https://cryptopanic.com/news/click/20660954/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.741780",
+            "is_hot": true
+        },
+        {
+            "title": "\"Dana ETF Baharu Cardano (ADA) Dilancarkan oleh Syarikat Pelaburan Sweden\"",
             "url": "https://cryptopanic.com/news/click/20659632/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/55936.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169801",
+            "timestamp": "2025-02-07T22:19:36.741783",
             "is_hot": true
         },
         {
@@ -61,70 +79,70 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/0c176bb1c6/dall-e-2025-02-06-09-44-31-a-striking-2_1-ratio-image-of-a-modern-corporate-building-with-the-word-strategy-prominently-displayed-on-its-exterior-the-entire-scene-is-depicted-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169805",
+            "timestamp": "2025-02-07T22:19:36.741786",
             "is_hot": true
         },
         {
-            "title": "Desentralisasi Tron Meningkat Momentum, Adakah Harga TRX Akan Menaik?",
+            "title": "Desentralisasi Tron Mendapat Momentum, Adakah Harga TRX Akan Meningkat?",
             "url": "https://cryptopanic.com/news/click/20656113/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169808",
+            "timestamp": "2025-02-07T22:19:36.741789",
             "is_hot": true
         },
         {
-            "title": "Harga XRP Jatuh Selepas Gangguan Ledger dan Minat Terbuka Mencapai Tahap Rendah Bulanan",
+            "title": "Harga XRP Jatuh Selepas Gangguan Ledger apabila Minat Terbuka Mencapai Tahap Terendah Bulanan",
             "url": "https://cryptopanic.com/news/click/20655156/",
             "description": "",
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/12/xrp-red-gID_7.png",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169812",
+            "timestamp": "2025-02-07T22:19:36.741792",
             "is_hot": true
         },
         {
-            "title": "\"Czarnya Crypto Trump Menjelajah Rizab Bitcoin Strategik\"",
+            "title": "'Czarnya Crypto Trump Meneroka Rizab Bitcoin Strategik'",
             "url": "https://cryptopanic.com/news/click/20653101/",
             "description": "",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169816",
+            "timestamp": "2025-02-07T22:19:36.741795",
             "is_hot": true
         },
         {
-            "title": "BlackRock dan Fidelity Mendorong Aliran Masuk ETF Ethereum Bernilai $307 Juta",
+            "title": "BlackRock dan Fidelity Membantu Aliran Masuk ETF Ethereum Bernilai $307 Juta",
             "url": "https://cryptopanic.com/news/click/20652970/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/s5968.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169819",
+            "timestamp": "2025-02-07T22:19:36.741798",
             "is_hot": true
         },
         {
-            "title": "Terima balik wang tunai $ADA dengan Sambungan Desktop Yoroi",
+            "title": "Terima Balik Tunai $ADA dengan Sambungan Desktop Yoroi",
             "url": "https://cryptopanic.com/news/click/20652615/",
             "description": "",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169827",
+            "timestamp": "2025-02-07T22:19:36.741801",
             "is_hot": true
         },
         {
-            "title": "Eterium Meningkat Had Gas untuk Meningkatkan Kemampuan Penskalaan",
+            "title": "Eterium Menambah Had Gas untuk Tingkatkan Kemampuan Penskalaan",
             "url": "https://cryptopanic.com/news/click/20652558/",
             "description": "",
             "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169830",
+            "timestamp": "2025-02-07T22:19:36.741806",
             "is_hot": true
         },
         {
-            "title": "David Sacks Mendorong Rizab Bitcoin, Rancangan Wang Kestabil di Pelan Kripto",
+            "title": "David Sacks Menggalakkan Rizab Bitcoin, Bil Mata Wang Stabil dalam Rancangan Kripto",
             "url": "https://cryptopanic.com/news/click/20651812/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/cac7c6c750/dall-e-2025-02-05-09-53-07-a-dramatic-2_1-ratio-image-of-a-government-official-in-a-suit-standing-with-authority-his-face-is-not-visible-only-his-torso-and-hands-the-entire-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169834",
+            "timestamp": "2025-02-07T22:19:36.741809",
             "is_hot": true
         },
         {
@@ -133,61 +151,178 @@
             "description": "",
             "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/12/xrp-tokens-gID_7.png",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169838",
+            "timestamp": "2025-02-07T22:19:36.741812",
             "is_hot": true
         },
         {
-            "title": "Ethereum Pecahkan Rekod Baru Yang Mengagumkan",
+            "title": "Ethereum Mencatat Rekod Baru Yang Luar Biasa",
             "url": "https://cryptopanic.com/news/click/20649372/",
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/41002_0.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169845",
+            "timestamp": "2025-02-07T22:19:36.741817",
             "is_hot": true
         },
         {
-            "title": "Eric Trump Menyarankan Membeli Ethereum Selepas Kebuncalan",
+            "title": "Eric Trump Menyarankan Membeli Ethereum Selepas Kebangkitan",
             "url": "https://cryptopanic.com/news/click/20648874/",
             "description": "",
             "image": "https://cdn.spaziocrypto.com/content/images/2025/02/Eric-Trump-Consiglia-Di-Comprare-Ethereum-Dopo-Il-Crollo.webp",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169849",
+            "timestamp": "2025-02-07T22:19:36.741819",
             "is_hot": true
         },
         {
-            "title": "Permainan Ethereum Moonray akan dilancarkan di Xbox dan PS5: Pengguna Web3",
+            "title": "Permainan Ethereum Moonray akan dilancarkan di Xbox dan PS5: Pemain Web3",
             "url": "https://cryptopanic.com/news/click/20648388/",
             "description": "",
             "image": "https://s3.magazine.cointelegraph.com/magazine/wp-content/uploads/2024/01/magazine-Web3-gamer-new-art-scaled.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:07.169852",
+            "timestamp": "2025-02-07T22:19:36.741822",
             "is_hot": true
         },
         {
-            "title": "Jumlah Pertukaran Kripto Menurun untuk Pertama Kali dalam Empat Bulan: CCData",
+            "title": "Duit TON: Sikap Bearish atau Peluang Beli?",
+            "url": "https://cryptopanic.com/news/click/20666640/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163569",
+            "is_hot": false
+        },
+        {
+            "title": "Kongres Bergerak untuk Mengawal Selamat Mata Wang, Larang Sementara Aset Digital Tertentu",
+            "url": "https://cryptopanic.com/news/click/20666628/",
+            "description": "",
+            "image": "https://cryptopotato.com/wp-content/uploads/2024/04/stablecoins_US.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163585",
+            "is_hot": false
+        },
+        {
+            "title": "Bilakah kripto akan naik semula? Perhatikan trend pasaran dan petunjuk utama ini!",
+            "url": "https://cryptopanic.com/news/click/20666624/",
+            "description": "",
+            "image": "https://statics.ambcrypto.com/wp-content/uploads/2023/04/cropped-ambcrypto-favicon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163590",
+            "is_hot": false
+        },
+        {
+            "title": "DarkFi, projek privasi yang dimulakan oleh anarkis kripto Amir Taaki, melancarkan aplikasi anonim dalam alpha.",
+            "url": "https://cryptopanic.com/news/click/20666599/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163593",
+            "is_hot": false
+        },
+        {
+            "title": "Dave Portnoy Berniaga Syiling Meme Solana dan Baru Sahaja Mendedahkan Dompetnya: 'Saya Tidak Cubalah Bersikap Gelap'",
+            "url": "https://cryptopanic.com/news/click/20666596/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/08/portnoy-aug17-gID_7.png",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163597",
+            "is_hot": false
+        },
+        {
+            "title": "Maryland Sertai Negeri yang Mencadangkan Rizab Bitcoin Strategik",
+            "url": "https://cryptopanic.com/news/click/20666592/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163600",
+            "is_hot": false
+        },
+        {
+            "title": "Krakens Ink saksikan pertumbuhan eksponen sebagai kuasa DeFi",
+            "url": "https://cryptopanic.com/news/click/20666574/",
+            "description": "",
+            "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/02/07162438/327e5bb4-a7a7-4ced-8e69-020447f0cecc-800x420.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163603",
+            "is_hot": false
+        },
+        {
+            "title": "Pembangun Tornado Cash, Alexey Pertsev keluar dari tahanan penjara.",
+            "url": "https://cryptopanic.com/news/click/20666544/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194e1fa-610e-7a17-9fec-94ed26a9dd28",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163607",
+            "is_hot": false
+        },
+        {
+            "title": "Strategi Pelaburan Mata Wang Meme Solana LP",
+            "url": "https://cryptopanic.com/news/click/20666527/",
+            "description": "",
+            "image": "https://bankless.ghost.io/content/images/2025/02/0_3.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163613",
+            "is_hot": false
+        },
+        {
+            "title": "Ketua Pegawai Eksekutif SafeMoon meminta untuk mengubah tarikh perbicaraan berdasarkan perubahan dasar SEC Trump.",
+            "url": "https://cryptopanic.com/news/click/20666526/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2024-12/01938c7d-8a21-704f-a968-24077c806732",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163616",
+            "is_hot": false
+        },
+        {
+            "title": "Ejen baharu dilancarkan di Virtuals jatuh mendadak ketika nilai token AI jatuh.",
+            "url": "https://cryptopanic.com/news/click/20666521/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2024-12/0194183b-b4c8-7d4a-9ab6-5f914b7fb159",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163620",
+            "is_hot": false
+        },
+        {
+            "title": "Penganalisis veteran yakin tentang stok aset digital Trump.",
+            "url": "https://cryptopanic.com/news/click/20666553/",
+            "description": "",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjExMzQ3ODI3Mzk2MTkxMzkx/golden-bitcoins-cryptocurrency-2023-11-27-05-06-42-utc-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163623",
+            "is_hot": false
+        },
+        {
+            "title": "Jumlah Pertukaran Kripto Turun untuk Pertama Kali dalam Empat Bulan: CCData",
             "url": "https://cryptopanic.com/news/click/20666470/",
             "description": "",
             "image": "h",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670130",
+            "timestamp": "2025-02-07T22:19:36.163626",
             "is_hot": false
         },
         {
-            "title": "Maryland, Iowa, dan Kentucky mencadangkan undang-undang untuk menubuhkan rizab Bitcoin.",
+            "title": "Maryland, Iowa, dan Kentucky mencadangkan undang-undang untuk menubuhkan simpanan Bitcoin",
             "url": "https://cryptopanic.com/news/click/20666448/",
             "description": "",
             "image": "https://cryptoslate.com/wp-content/uploads/2025/02/maryand-bitcoin-reserve.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670145",
+            "timestamp": "2025-02-07T22:19:36.163629",
             "is_hot": false
         },
         {
-            "title": "Pembangun Tornado Cash Alexey Pertsev Dibebaskan dari Penjara Belanda Semasa Dia Rayu Hukuman Lima Tahun",
+            "title": "Presiden AS Trump berkata D.O.G.E Elon Musk akan audit Pentagon.",
+            "url": "https://cryptopanic.com/news/click/20666563/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/Trump-3.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163635",
+            "is_hot": false
+        },
+        {
+            "title": "Pengembang Tornado Cash, Alexey Pertsev Dibebaskan dari Penjara Belanda Sementara Dia Rayu Hukuman Lima Tahun.",
             "url": "https://cryptopanic.com/news/click/20666417/",
             "description": "",
             "image": "https://dailyhodl.com/wp-content/uploads/2025/02/tornado-cash-dutch-prison.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670148",
+            "timestamp": "2025-02-07T22:19:36.163638",
             "is_hot": false
         },
         {
@@ -196,25 +331,34 @@
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01949112-d00f-723e-ba2f-95d470772800",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670150",
+            "timestamp": "2025-02-07T22:19:36.163641",
             "is_hot": false
         },
         {
-            "title": "Pedagang Keluarkan Amaran Bitcoin, Kata Masih Ada Kekurangan Asas Walaupun Bounce BTC, Ini Adalah Sasarannya",
+            "title": "Pengguna Isu Amaran Bitcoin, Kata Terdapat Kekuatan Lemah Di Sebalik Lompatan BTC Ini Adalah Sasarannya",
             "url": "https://cryptopanic.com/news/click/20666411/",
             "description": "",
             "image": "https://dailyhodl.com/wp-content/uploads/2023/09/Bitcoin-Weakness-Could-Present.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670151",
+            "timestamp": "2025-02-07T22:19:36.163645",
             "is_hot": false
         },
         {
-            "title": "Adakah Harga Dogecoin Jatuh Ke $0.12 Atau Pulih Melebihi $10?",
+            "title": "Aktiviti Rangkaian Bitcoin Turun 15%, Mencapai Tahap Terendah dalam Setahun",
+            "url": "https://cryptopanic.com/news/click/20666590/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-07T22:19:36.163648",
+            "is_hot": false
+        },
+        {
+            "title": "Adakah Harga Dogecoin Turun Ke $0.12 Atau Pulih Melebihi $10?",
             "url": "https://cryptopanic.com/news/click/20666384/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-02-07T21:19:06.670153",
+            "timestamp": "2025-02-07T22:19:36.163652",
             "is_hot": false
         },
         {
@@ -342,24 +486,6 @@
             "panic_score": null,
             "timestamp": "2025-02-07T21:19:06.670177",
             "is_hot": false
-        },
-        {
-            "title": "Republik Czech Meluluskan Undang-undang: Tiada Cukai Bitcoin Selepas 3 Tahun!",
-            "url": "https://cryptopanic.com/news/click/20661273/",
-            "description": "",
-            "image": "https://a.storyblok.com/f/182479/1792x1024/609f0fd716/dall-e-2025-02-06-23-32-20-a-stack-of-tax-documents-with-financial-charts-and-numbers-all-in-red-tones-the-documents-should-have-an-official-and-slightly-worn-look-with-a-red-1.webp",
-            "panic_score": null,
-            "timestamp": "2025-02-07T20:22:34.962227",
-            "is_hot": true
-        },
-        {
-            "title": "Presiden Czech, Petr Pavel, Menandatangani Undang-Undang Menghapuskan Cukai Kepentingan Modal pada Bitcoin untuk Pemegang Jangka Panjang Selepas 3+ Tahun",
-            "url": "https://cryptopanic.com/news/click/20660954/",
-            "description": "",
-            "image": "h",
-            "panic_score": null,
-            "timestamp": "2025-02-07T20:22:34.962229",
-            "is_hot": true
         },
         {
             "title": "Keputusan ETF Ethereum BlackRock Ditangguhkan oleh SEC",
