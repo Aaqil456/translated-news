@@ -1,76 +1,85 @@
 {
-    "timestamp": "2025-02-12 20:24:57",
+    "timestamp": "2025-02-12 21:21:09",
     "all_news": [
         {
-            "title": "SURHANJAYA KEWANGAN MUNGKIN AKUI Fail ETF XRP Grayscale seawal esok.",
+            "title": "Pemilik Besar Mengumpul ETH: Penganalisis Ramal Harga Ethereum Akan Naik Mendadak",
+            "url": "https://cryptopanic.com/news/click/20687995/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:49.225143",
+            "is_hot": true
+        },
+        {
+            "title": "Suruhanjaya Sekuriti mungkin mengakui fail ETF XRP Grayscale seawal esok.",
             "url": "https://cryptopanic.com/news/click/20686757/",
             "description": "",
             "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/02/12102825/70d6e106-923a-401f-b7af-bc4be6eb82e6-800x420.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695036",
+            "timestamp": "2025-02-12T21:19:49.225157",
             "is_hot": true
         },
         {
-            "title": "Pengerusi Fed Powell Menahan Kadar, Sokong Peraturan Stablecoin, Menentang Debanking",
+            "title": "Pengerusi Fed Powell Menahan Kadar, Menyokong Peraturan Stablecoin, Menentang Debanking",
             "url": "https://cryptopanic.com/news/click/20684107/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/18645d83bf/dall-e-2025-02-12-10-12-53-a-modern-corporate-office-depicted-entirely-in-shades-of-red-the-image-features-sleek-desks-large-windows-and-an-open-workspace-all-within-a-monoc-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695046",
+            "timestamp": "2025-02-12T21:19:49.225159",
             "is_hot": true
         },
         {
-            "title": "SEC Meninjau Lebih Banyak Permohonan ETF Solana, Peluang Kelulusan Meningkat",
+            "title": "SEC Semak Permohonan ETF Solana Tambahan, Peluang Kelulusan Meningkat",
             "url": "https://cryptopanic.com/news/click/20684105/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1361x778/630ac4f9fc/dall-e-2025-02-12-10-01-49-a-dramatic-courtroom-scene-depicted-entirely-in-shades-of-red-the-image-features-a-judge-s-bench-jury-box-and-legal-desks-in-a-classic-courtroom-se-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695049",
+            "timestamp": "2025-02-12T21:19:49.225161",
             "is_hot": true
         },
         {
-            "title": "Lebih daripada $287M dalam SOL Dikeluarkan dari Peredaran melalui Mekanisme Token Berperingkat Pump.funs",
+            "title": "Lebih $287M dalam SOL Dibuang dari Peredaran melalui Mekanisme Token Bertahap Pump.funs",
             "url": "https://cryptopanic.com/news/click/20677061/",
             "description": "",
             "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F161e2b4f-b506-486d-9919-f3571e51d92c",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695050",
+            "timestamp": "2025-02-12T21:19:49.225163",
             "is_hot": true
         },
         {
-            "title": "Dossier ETF XRP Didaftarkan dengan Nasdaq ketika Hubungan Ripple-CFTC Menguat.",
+            "title": "\"ETF XRP Didaftarkan dengan Nasdaq semasa Hubungan Ripple-CFTC Menguat\"",
             "url": "https://cryptopanic.com/news/click/20680535/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695052",
+            "timestamp": "2025-02-12T21:19:49.225165",
             "is_hot": true
         },
         {
-            "title": "Generasi Muda Berpaling Kepada Mata Wang Kripto untuk Simpanan Persaraan",
+            "title": "Generasi Muda Beralih ke Mata Wang Kripto untuk Simpanan Persaraan",
             "url": "https://cryptopanic.com/news/click/20680233/",
             "description": "",
             "image": "https://cryptovalleyjournal.com/wp-content/uploads/2025/02/CVJ.CH-Young-generations-Z-Alpha-Crypto.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695054",
+            "timestamp": "2025-02-12T21:19:49.225167",
             "is_hot": true
         },
         {
-            "title": "Grayscale Mendorong untuk ETF Kadano Spot dalam Penyertaan SEC Terkini",
+            "title": "Grayscale Tekan untuk ETF Kadano Spot dalam Fail SEC Terkini",
             "url": "https://cryptopanic.com/news/click/20680052/",
             "description": "",
             "image": "https://res.coinpaper.com/coinpaper/image/upload/v1739267497/cp6225_a_file_on_a_desk_in_a_grey_scale_room_33496eb2_1e10_4666_8fd0_c93465933735_e45a769f1d.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695056",
+            "timestamp": "2025-02-12T21:19:49.225169",
             "is_hot": true
         },
         {
-            "title": "ADA mengatasi Bitcoin ketika Grayscale mencari kelulusan untuk ETF Cardano AS pertama dalam fail SEC",
+            "title": "ADA mengatasi prestasi Bitcoin ketika Grayscale mencari kelulusan untuk ETF Cardano AS yang pertama dalam fail SEC.",
             "url": "https://cryptopanic.com/news/click/20679780/",
             "description": "",
             "image": "https://cryptoslate.com/wp-content/uploads/2025/02/grayscale-cardano-etf.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695057",
+            "timestamp": "2025-02-12T21:19:49.225171",
             "is_hot": true
         },
         {
@@ -79,16 +88,16 @@
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/56048.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695059",
+            "timestamp": "2025-02-12T21:19:49.225173",
             "is_hot": true
         },
         {
-            "title": "Strategi Memulakan Semula Pembelian Bitcoin Selepas Rejenama",
+            "title": "Strategi Sambung Beli Bitcoin Selepas Rejenama",
             "url": "https://cryptopanic.com/news/click/20679524/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/2e25482528/dall-e-2025-02-11-09-32-51-a-modern-corporate-building-with-the-word-strategy-prominently-displayed-on-its-facade-depicted-entirely-in-red-tones-the-building-has-a-sleek-fu-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695060",
+            "timestamp": "2025-02-12T21:19:49.225175",
             "is_hot": true
         },
         {
@@ -97,7 +106,7 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/a7e324357f/dall-e-2025-02-11-09-26-02-a-dramatic-courtroom-scene-depicted-entirely-in-red-tones-the-image-features-a-judge-s-bench-legal-documents-and-a-gavel-striking-the-podium-the-l-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695062",
+            "timestamp": "2025-02-12T21:19:49.225177",
             "is_hot": true
         },
         {
@@ -106,71 +115,242 @@
             "description": "",
             "image": "https://cryptopotato.com/wp-content/uploads/2024/02/Cardano_ADA.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695064",
+            "timestamp": "2025-02-12T21:19:49.225178",
             "is_hot": true
         },
         {
-            "title": "ETF Cardano Semakin Hampir: Grayscale Mengemukakan Dokumen kepada SEC",
+            "title": "ETF Cardano Semakin Dekat: Grayscale Mengemukakan Dokumen kepada SEC",
             "url": "https://cryptopanic.com/news/click/20678781/",
             "description": "",
             "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2025/02/Cardano-ETF.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695066",
+            "timestamp": "2025-02-12T21:19:49.225180",
             "is_hot": true
         },
         {
-            "title": "Grayscale, NYSE Arca failkan untuk melancarkan ETF Kadano Spot berbasis AS di Amerika Syarikat.",
+            "title": "Grayscale, NYSE Arca fail untuk lancarkan ETF Kadano Spot berdasarkan AS.",
             "url": "https://cryptopanic.com/news/click/20678043/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194f211-aba5-7343-b175-5bcb05bc1827",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695072",
+            "timestamp": "2025-02-12T21:19:49.225184",
             "is_hot": true
         },
         {
-            "title": "Bursa Nyse memfailkan senarai dan berniaga ETF Cardano Grayscale di bawah ticker GADA",
+            "title": "Bursa Nyse memfailkan untuk senarai dan berniaga ETF Cardano Grayscale di bawah tiket GADA.",
             "url": "https://cryptopanic.com/news/click/20677926/",
             "description": "",
             "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/02/10190715/4f2321b7-cbe5-4107-8e8f-23b5468c5e26-800x420.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695074",
+            "timestamp": "2025-02-12T21:19:49.225186",
             "is_hot": true
         },
         {
-            "title": "Bursa NYSE Arca memfailkan ETF Cardano bagi pihak Grayscale kerana cadangan crypto mendapat momentum.",
+            "title": "NYSE Arca memfailkan ETF Cardano bagi pihak Grayscale kerana cadangan crypto mendapat momentum.",
             "url": "https://cryptopanic.com/news/click/20677695/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695076",
+            "timestamp": "2025-02-12T21:19:49.225187",
             "is_hot": true
         },
         {
-            "title": "Carolina Utara menjadi negeri ke-20 AS untuk memperkenalkan undang-undang untuk rizab Bitcoin",
+            "title": " Carolina Utara menjadi negeri AS ke-20 untuk memperkenalkan undang-undang untuk rizab Bitcoin.",
             "url": "https://cryptopanic.com/news/click/20677530/",
             "description": "",
             "image": "https://cryptoslate.com/wp-content/uploads/2025/01/us-bitcoin-reserve.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695077",
+            "timestamp": "2025-02-12T21:19:49.225189",
             "is_hot": true
         },
         {
-            "title": "Jumlah Taruhan Pendek Ethereum di Wall Street Meletup, Adakah Pelabur Perlu Risau?",
+            "title": "\"Taruhan Pendek Ethereum Wall Street Meletup, Adakah Pelabur Perlu Risau?\"",
             "url": "https://cryptopanic.com/news/click/20673852/",
             "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/02/e2d99ff3-5daf-42be-873b-11ae6976eacb.png?fit=1792%2C1024",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695079",
+            "timestamp": "2025-02-12T21:19:49.225191",
             "is_hot": true
         },
         {
-            "title": "Eterium sebagai 'beli yang jelas' apabila alamat pengumpulan mencatatkan aliran masuk ETH bernilai $883M rekod.",
+            "title": "Eterium adalah 'beli yang jelas' kerana alamat pengumpulan melihat kemasukan rekod $883M ETH.",
             "url": "https://cryptopanic.com/news/click/20671277/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194ea01-dd69-78fc-82a3-c7ab902eab78",
             "panic_score": null,
-            "timestamp": "2025-02-12T20:23:25.695081",
+            "timestamp": "2025-02-12T21:19:49.225193",
             "is_hot": true
+        },
+        {
+            "title": "Syarikat broker Webull melancarkan kontrak ramalan Kalshi di platform.",
+            "url": "https://cryptopanic.com/news/click/20688235/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2024-12/01938dd9-2140-7320-97cf-782592333b1c",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415476",
+            "is_hot": false
+        },
+        {
+            "title": "Harga Uniswap Melonjak Sebelum Pelancaran Mainnet",
+            "url": "https://cryptopanic.com/news/click/20688223/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415491",
+            "is_hot": false
+        },
+        {
+            "title": "Naik Taraf Rangkaian Pectra Ethereum: Apa Yang Diharapkan",
+            "url": "https://cryptopanic.com/news/click/20688212/",
+            "description": "",
+            "image": "h",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415494",
+            "is_hot": false
+        },
+        {
+            "title": "Pelabur Ramal Kenaikan Harga ke Tingkat Rekod Baru untuk Crypto Besar, Kata Altcoin Menunjukkan Setup Bersih",
+            "url": "https://cryptopanic.com/news/click/20688200/",
+            "description": "",
+            "image": "https://dailyhodl.com/wp-content/uploads/2025/02/rallies-all-time-setup.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415496",
+            "is_hot": false
+        },
+        {
+            "title": "Pemilik Ethereum Bergerak224,000+ ETH Dikeluarkan Dalam Aliran Keluar Rekod",
+            "url": "https://cryptopanic.com/news/click/20688156/",
+            "description": "",
+            "image": "https://www.newsbtc.com/wp-content/uploads/2025/02/a_4ab3c2.jpg?fit=3408%2C2272",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415499",
+            "is_hot": false
+        },
+        {
+            "title": "Negeri-negeri AS memimpin dalam penciptaan rizab Bitcoin strategik Adakah Trump akan menunaikan janjinya mengenai BTC?",
+            "url": "https://cryptopanic.com/news/click/20688208/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194efb5-1045-70e0-8bee-871332844f72",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415503",
+            "is_hot": false
+        },
+        {
+            "title": "Trump Calon Ketua Dasar Crypto a16z untuk Pengerusi CFTC",
+            "url": "https://cryptopanic.com/news/click/20688157/",
+            "description": "",
+            "image": "https://bankless.ghost.io/content/images/2025/02/0_0-1-1.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415505",
+            "is_hot": false
+        },
+        {
+            "title": "Amerika Syarikat Membebaskan Pengasas Bersama Bursa Bitcoin Rusia, Alexander Vinnik, Dalam Perjanjian Tahanan dengan Moscow.",
+            "url": "https://cryptopanic.com/news/click/20688218/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/02/12/Bitcoin-a-90-000-o-30-000--Dipende-tutto.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415507",
+            "is_hot": false
+        },
+        {
+            "title": "Cathie Wood Berkata Peluang Harga Bitcoin $1,500,000 Kini Lebih Tinggi - Inilah Mengapa",
+            "url": "https://cryptopanic.com/news/click/20688149/",
+            "description": "",
+            "image": "https://dailyhodl.com/wp-content/uploads/2024/05/Jack-Mallers-Says-Bitcoin.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415509",
+            "is_hot": false
+        },
+        {
+            "title": "Jam Digital Hive mencatatkan $29.2 juta dalam pendapatan suku ketiga apabila kedudukan hodl Bitcoin meningkat.",
+            "url": "https://cryptopanic.com/news/click/20688139/",
+            "description": "",
+            "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194fb8f-45e0-737b-8736-c4df1ea7d9a2",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415513",
+            "is_hot": false
+        },
+        {
+            "title": "Makmal Avalon sedang meneroka Hutang Awam yang Disokong Bitcoin di bawah kerangka SEC.",
+            "url": "https://cryptopanic.com/news/click/20688199/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/Avalon-Labs-Bitcoin-Backed-Public-Debt-Fund-SEC.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415515",
+            "is_hot": false
+        },
+        {
+            "title": "Apa yang Bererti Gencatan Senjata SEC dengan Binance bagi Coinbase dan Saman Kripto Lain",
+            "url": "https://cryptopanic.com/news/click/20688109/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/03/legal-court-judge-ruling-gID_4.jpeg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415517",
+            "is_hot": false
+        },
+        {
+            "title": "Scarlett Johansson, Peminat AI Mengutuk Video Anti-Kanye West Yang Menggunakan Deepfakes Selebriti",
+            "url": "https://cryptopanic.com/news/click/20688094/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/02/scarlet-gID_7.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415519",
+            "is_hot": false
+        },
+        {
+            "title": "AS, UK Kenakan Sekatan Terhadap Pelayan Rusia Berikutan Perisian Malware LockBit",
+            "url": "https://cryptopanic.com/news/click/20688092/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/05/us-treasury-ofac-gID_7.jpeg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415521",
+            "is_hot": false
+        },
+        {
+            "title": "Rancangan undang-undang simpanan Bitcoin peringkat negeri boleh mendorong pembelian bernilai $23 bilion, kata VanEck.",
+            "url": "https://cryptopanic.com/news/click/20688086/",
+            "description": "",
+            "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415523",
+            "is_hot": false
+        },
+        {
+            "title": "Protokol Liquity menyiasat isu berpotensi dengan kolam kestabilan V2, menyeru pengguna untuk tutup kedudukan.",
+            "url": "https://cryptopanic.com/news/click/20688131/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/Liquity-Protocol-investigates-potential-issue-with-its-V2-stability-pools-urges-users-to-close-positions.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415525",
+            "is_hot": false
+        },
+        {
+            "title": "Bitcoin boleh mengalami kejatuhan, kata CEO Foundation Devices",
+            "url": "https://cryptopanic.com/news/click/20688113/",
+            "description": "",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/MjExNDg5NDU5NTc5OTIxNTY3/bitcoins-coins-on-blue-circuit-board-2023-11-27-05-19-05-utc.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415527",
+            "is_hot": false
+        },
+        {
+            "title": "\"'Fikir-ke-Jatuhan Udara': Startup Neuroteknologi Rusia Merancang Menawarkan Token Solana untuk Gelombang Otak\"",
+            "url": "https://cryptopanic.com/news/click/20687990/",
+            "description": "",
+            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Bright-lens-flares-streak-across-a-delicate-watercolor-painting-of-robotic-brain-schematics-translucent-washes-and-fluid-brushstrokes-create-vibrant-colors-and-a-luminous-effect-gID_7.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415529",
+            "is_hot": false
+        },
+        {
+            "title": "Bitcoin, Ethereum, XRP, Dogecoin Menaik Nilai Apabila Ketidakstabilan Inflasi Berkurang: 'Tidak Lihat Sebab Kembali Ke Paras Rendah,' Pedagang Kata",
+            "url": "https://cryptopanic.com/news/click/20688064/",
+            "description": "",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/02/12/Cryptocurrency-Photo-by-SvetlanaParnikov.jpeg?width=1200&height=800&fit=crop",
+            "panic_score": null,
+            "timestamp": "2025-02-12T21:19:48.415533",
+            "is_hot": false
         },
         {
             "title": "XRP Bakal Capai Rekod Tertinggi Sepanjang Masa jika Tutup Minggu Melebihi Tahap Ini, Kata Penganalisis Kripto",
@@ -180,24 +360,6 @@
             "panic_score": null,
             "timestamp": "2025-02-12T20:23:25.695082",
             "is_hot": true
-        },
-        {
-            "title": "\"'Fikir-ke-Jatuhan Udara': Startup Neurotech Rusia Merancang Menawarkan Token Solana untuk Gelombang Otak\"",
-            "url": "https://cryptopanic.com/news/click/20687990/",
-            "description": "",
-            "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Bright-lens-flares-streak-across-a-delicate-watercolor-painting-of-robotic-brain-schematics-translucent-washes-and-fluid-brushstrokes-create-vibrant-colors-and-a-luminous-effect-gID_7.jpg",
-            "panic_score": null,
-            "timestamp": "2025-02-12T20:23:24.873630",
-            "is_hot": false
-        },
-        {
-            "title": "Paus Mengumpul ETH: Ahli Ramal Harga Ethereum Akan Menaik Mendadak",
-            "url": "https://cryptopanic.com/news/click/20687995/",
-            "description": "",
-            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
-            "panic_score": null,
-            "timestamp": "2025-02-12T20:23:24.873644",
-            "is_hot": false
         },
         {
             "title": "Adakah Litecoin Akan Bangkit Semula? $113 Menjadi Kunci Selepas Penolakan Terkini",
