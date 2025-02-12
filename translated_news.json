@@ -1,22 +1,40 @@
 {
-    "timestamp": "2025-02-12 09:23:58",
+    "timestamp": "2025-02-12 10:23:51",
     "all_news": [
         {
-            "title": "Lebih $287M dalam SOL Dikeluarkan dari Peredaran melalui Mekanisme Token Bertahap Pump.funs",
+            "title": "Pengerusi Fed Powell Menahan Kadar, Sokong Peraturan Stablecoin, Menentang Debanking",
+            "url": "https://cryptopanic.com/news/click/20684107/",
+            "description": "",
+            "image": "https://a.storyblok.com/f/182479/1792x1024/18645d83bf/dall-e-2025-02-12-10-12-53-a-modern-corporate-office-depicted-entirely-in-shades-of-red-the-image-features-sleek-desks-large-windows-and-an-open-workspace-all-within-a-monoc-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.780264",
+            "is_hot": true
+        },
+        {
+            "title": "Suruhanjaya Sekuriti Meninjau Lebih Banyak Permohonan ETF Solana, Peluang Kelulusan Meningkat",
+            "url": "https://cryptopanic.com/news/click/20684105/",
+            "description": "",
+            "image": "https://a.storyblok.com/f/182479/1361x778/630ac4f9fc/dall-e-2025-02-12-10-01-49-a-dramatic-courtroom-scene-depicted-entirely-in-shades-of-red-the-image-features-a-judge-s-bench-jury-box-and-legal-desks-in-a-classic-courtroom-se-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.780275",
+            "is_hot": true
+        },
+        {
+            "title": "Lebih $287 juta dalam SOL Dikeluarkan dari Peredaran melalui Mekanisme Token Bertahap Pump.funs",
             "url": "https://cryptopanic.com/news/click/20677061/",
             "description": "",
             "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F161e2b4f-b506-486d-9919-f3571e51d92c",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.900997",
+            "timestamp": "2025-02-12T10:22:35.780277",
             "is_hot": true
         },
         {
-            "title": "Dokumen ETF XRP Didaftarkan dengan Nasdaq Ketika Hubungan Ripple-CFTC Bertambah Kuat",
+            "title": "Dokumen ETF XRP Didaftarkan dengan Nasdaq Semasa Hubungan Ripple-CFTC Bertambah Kuat",
             "url": "https://cryptopanic.com/news/click/20680535/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901009",
+            "timestamp": "2025-02-12T10:22:35.780279",
             "is_hot": true
         },
         {
@@ -25,25 +43,25 @@
             "description": "",
             "image": "https://cryptovalleyjournal.com/wp-content/uploads/2025/02/CVJ.CH-Young-generations-Z-Alpha-Crypto.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901015",
+            "timestamp": "2025-02-12T10:22:35.780280",
             "is_hot": true
         },
         {
-            "title": "Grayscale Mendorong untuk ETF Kadano Spot dalam Fail SEC Terkini",
+            "title": "Grayscale Mendesak ETF Kadano Spot dalam Penyertaan SEC Terkini",
             "url": "https://cryptopanic.com/news/click/20680052/",
             "description": "",
             "image": "https://res.coinpaper.com/coinpaper/image/upload/v1739267497/cp6225_a_file_on_a_desk_in_a_grey_scale_room_33496eb2_1e10_4666_8fd0_c93465933735_e45a769f1d.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901017",
+            "timestamp": "2025-02-12T10:22:35.780282",
             "is_hot": true
         },
         {
-            "title": "ADA mengatasi Bitcoin ketika Grayscale mencari kelulusan untuk ETF Cardano AS pertama dalam fail SEC",
+            "title": "ADA mengatasi Bitcoin apabila Grayscale mencari kelulusan untuk ETF Cardano AS pertama dalam fail SEC",
             "url": "https://cryptopanic.com/news/click/20679780/",
             "description": "",
             "image": "https://cryptoslate.com/wp-content/uploads/2025/02/grayscale-cardano-etf.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901019",
+            "timestamp": "2025-02-12T10:22:35.780284",
             "is_hot": true
         },
         {
@@ -52,7 +70,7 @@
             "description": "",
             "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/56048.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901021",
+            "timestamp": "2025-02-12T10:22:35.780288",
             "is_hot": true
         },
         {
@@ -61,16 +79,16 @@
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/2e25482528/dall-e-2025-02-11-09-32-51-a-modern-corporate-building-with-the-word-strategy-prominently-displayed-on-its-facade-depicted-entirely-in-red-tones-the-building-has-a-sleek-fu-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901023",
+            "timestamp": "2025-02-12T10:22:35.780289",
             "is_hot": true
         },
         {
-            "title": "Jepun Mungkin Meluluskan ETF Bitcoin dan Kurangkan Cukai Kripto",
+            "title": "Jepun Mungkin Lulus ETF Bitcoin dan Kurangkan Cukai Kripto",
             "url": "https://cryptopanic.com/news/click/20679491/",
             "description": "",
             "image": "https://a.storyblok.com/f/182479/1792x1024/a7e324357f/dall-e-2025-02-11-09-26-02-a-dramatic-courtroom-scene-depicted-entirely-in-red-tones-the-image-features-a-judge-s-bench-legal-documents-and-a-gavel-striking-the-podium-the-l-1.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901024",
+            "timestamp": "2025-02-12T10:22:35.780291",
             "is_hot": true
         },
         {
@@ -79,7 +97,7 @@
             "description": "",
             "image": "https://cryptopotato.com/wp-content/uploads/2024/02/Cardano_ADA.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901026",
+            "timestamp": "2025-02-12T10:22:35.780293",
             "is_hot": true
         },
         {
@@ -88,80 +106,251 @@
             "description": "",
             "image": "https://i0.wp.com/ecoinimist.com/wp-content/uploads/2025/02/Cardano-ETF.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901028",
+            "timestamp": "2025-02-12T10:22:35.780294",
             "is_hot": true
         },
         {
-            "title": "Grayscale, NYSE Arca memfailkan untuk melancarkan ETF Kadano spot berbasis AS di Amerika Syarikat.",
+            "title": "Grayscale, NYSE Arca failkan untuk melancarkan ETF Kadano spot berbasis AS.",
             "url": "https://cryptopanic.com/news/click/20678043/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194f211-aba5-7343-b175-5bcb05bc1827",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901029",
+            "timestamp": "2025-02-12T10:22:35.780295",
             "is_hot": true
         },
         {
-            "title": "Bursa Nyse memfailkan untuk senaraikan dan berniaga ETF Kadano Grayscale di bawah tiket GADA",
+            "title": "Bursa Nyse memfailkan senarai dan perdagangan ETF Cardano Grayscale di bawah ticker GADA.",
             "url": "https://cryptopanic.com/news/click/20677926/",
             "description": "",
             "image": "https://static.cryptobriefing.com/wp-content/uploads/2025/02/10190715/4f2321b7-cbe5-4107-8e8f-23b5468c5e26-800x420.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901033",
+            "timestamp": "2025-02-12T10:22:35.780297",
             "is_hot": true
         },
         {
-            "title": "NYSE Arca memfailkan ETF Cardano bagi pihak Grayscale ketika cadangan kripto mendapat momentum.",
+            "title": "NYSE Arca memfailkan ETF Cardano bagi pihak Grayscale ketika cadangan crypto mendapat momentum.",
             "url": "https://cryptopanic.com/news/click/20677695/",
             "description": "",
             "image": "https://www.tbstat.com/wp/uploads/2023/06/20230606_GeneralFeaturedImage.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901035",
+            "timestamp": "2025-02-12T10:22:35.780303",
             "is_hot": true
         },
         {
-            "title": "Carolina Utara menjadi negeri ke-20 AS yang memperkenalkan undang-undang untuk rizab Bitcoin",
+            "title": " Carolina Utara menjadi negeri ke-20 AS yang memperkenalkan undang-undang untuk rizab Bitcoin",
             "url": "https://cryptopanic.com/news/click/20677530/",
             "description": "",
             "image": "https://cryptoslate.com/wp-content/uploads/2025/01/us-bitcoin-reserve.jpg",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901036",
+            "timestamp": "2025-02-12T10:22:35.780304",
             "is_hot": true
         },
         {
-            "title": "\"Taruhan Pendek Ethereum Wall Street Meletup, Adakah Pelabur Perlu Risau?\"",
+            "title": "\"Taruhan Ethereum Wall Street Meletup, Adakah Pelabur Perlu Risau?\"",
             "url": "https://cryptopanic.com/news/click/20673852/",
             "description": "",
             "image": "https://www.newsbtc.com/wp-content/uploads/2025/02/e2d99ff3-5daf-42be-873b-11ae6976eacb.png?fit=1792%2C1024",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901038",
+            "timestamp": "2025-02-12T10:22:35.780306",
             "is_hot": true
         },
         {
-            "title": "Eterium 'beli yang jelas' kerana alamat pengumpulan melihat rekod $883M ETH masuk rekod",
+            "title": "Eterium 'beli yang jelas' kerana alamat pengumpulan melihat aliran masuk ETH rekod $883M",
             "url": "https://cryptopanic.com/news/click/20671277/",
             "description": "",
             "image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194ea01-dd69-78fc-82a3-c7ab902eab78",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901042",
+            "timestamp": "2025-02-12T10:22:35.780307",
             "is_hot": true
         },
         {
-            "title": "XRP Bertujuan Rekod Tinggi Sepanjang Zaman jika Tutup Mingguan Melebihi Tahap Ini, Kata Penganalisis Kripto.",
+            "title": "XRP Berkemungkinan Capai Rekod Tinggi Sepanjang Masa Jika Tutup Minggu Ini Melebihi Tahap Ini, Kata Penganalisis Kripto",
             "url": "https://cryptopanic.com/news/click/20670542/",
             "description": "",
             "image": "https://cryptodnes.bg/en/wp-content/uploads/sites/2/2023/12/ripple-xrp.webp",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901043",
+            "timestamp": "2025-02-12T10:22:35.780309",
             "is_hot": true
         },
         {
-            "title": "BlackRock Membeli Ethereum secara Senyap Mengapa Kita Takut?",
+            "title": "BlackRock Beli Ethereum Secara Senyap Mengapa Kita Takut?",
             "url": "https://cryptopanic.com/news/click/20670198/",
             "description": "",
             "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
             "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.901045",
+            "timestamp": "2025-02-12T10:22:35.780310",
             "is_hot": true
+        },
+        {
+            "title": "Perhatian Berkurang dari Memecoins ke Bitcoin, Ethereum, Solana dan Cardano: Santiment",
+            "url": "https://cryptopanic.com/news/click/20684775/",
+            "description": "",
+            "image": "https://dailyhodl.com/wp-content/uploads/2025/02/Shifting-Away-From-Memecoins.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118020",
+            "is_hot": false
+        },
+        {
+            "title": "Adakah $LAYER Menghancurkan Kutukan Airdrop Dump?",
+            "url": "https://cryptopanic.com/news/click/20684807/",
+            "description": "",
+            "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F7a5ad092-064d-48b4-b4ca-08ef2eca415d",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118032",
+            "is_hot": false
+        },
+        {
+            "title": "Pemilik Ikan Paus Cardano Membeli Lebih Banyak ADA, Inilah Mengapa Harga Mungkin Naik Mendadak",
+            "url": "https://cryptopanic.com/news/click/20684762/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/56082.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118034",
+            "is_hot": false
+        },
+        {
+            "title": "Ulasan Pra-Jualan Kripto BTC Bull: Adakah Token $BULL Penipuan atau Pelaburan Sah?",
+            "url": "https://cryptopanic.com/news/click/20684777/",
+            "description": "",
+            "image": "https://cdn.sanity.io/images/8dw1xhz4/production/179e3fce1cad189b812ee7696db09ee255b5974e-2808x1632.png",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118036",
+            "is_hot": false
+        },
+        {
+            "title": "Trump Berancang untuk Melantik Brian Quintenz yang Sokong Crypto sebagai Pengerusi CFTC",
+            "url": "https://cryptopanic.com/news/click/20684745/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/30175101/Trump-Presidency-Could-Flip-Bitcoins-Historical-4-Year-Price-Cycle-%E2%80%93-Heres-How-1-1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118038",
+            "is_hot": false
+        },
+        {
+            "title": "Harga Bitcoin Meniru Kenaikan Emas, Rekod Baru Mungkin Segera",
+            "url": "https://cryptopanic.com/news/click/20684759/",
+            "description": "",
+            "image": "https://www.thecoinrepublic.com/wp-content/uploads/2024/06/cropped-The-coin-Republic-icon-270x270.png",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118039",
+            "is_hot": false
+        },
+        {
+            "title": "Shiba Inu teguh di Sokongan INI Adakah masa untuk membeli SHIB?",
+            "url": "https://cryptopanic.com/news/click/20684710/",
+            "description": "",
+            "image": "https://ambcrypto.com/wp-content/uploads/2025/02/Ritika-1-7-1000x600.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118043",
+            "is_hot": false
+        },
+        {
+            "title": "Hester Peirce berkata kerajaan tidak sepatutnya menghalang orang yang ingin mencuba perkara baru.",
+            "url": "https://cryptopanic.com/news/click/20684664/",
+            "description": "",
+            "image": "https://coinjournal.net/wp-content/uploads/2024/04/sec-logo.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118045",
+            "is_hot": false
+        },
+        {
+            "title": "Powell menutup pintu kepada mata wang digital Persekutuan: Tiada dolar digital di bawah kepimpinan saya.",
+            "url": "https://cryptopanic.com/news/click/20684663/",
+            "description": "",
+            "image": "https://i0.wp.com/atlas21.com/wp-content/uploads/2023/10/atlas21.png?fit=2400%2C1350&ssl=1",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118048",
+            "is_hot": false
+        },
+        {
+            "title": "Rangkaian Pi (PI) disenaraikan di Pionex Spot dan Perdagangan bermula 20 Februari 2025",
+            "url": "https://cryptopanic.com/news/click/20684670/",
+            "description": "",
+            "image": "http://image.coinpedia.org/wp-content/uploads/2025/01/23123413/Is-Pi-Coin-the-Next-Bitcoin-Mainnet-Launch-To-Expected-By-The-End-Of-Q1.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118052",
+            "is_hot": false
+        },
+        {
+            "title": "Binance Dan SEC Mahu Berhenti 60 Hari Berhubung Pasukan Tugas Kripto",
+            "url": "https://cryptopanic.com/news/click/20684660/",
+            "description": "",
+            "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118053",
+            "is_hot": false
+        },
+        {
+            "title": "Shiba Inu (SHIB) Terus Jatuh: Sifar Lain Akan Ditambah?",
+            "url": "https://cryptopanic.com/news/click/20684604/",
+            "description": "",
+            "image": "https://u.today/sites/default/files/styles/twitterwithoutlogo/public/2025-02/56081.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118055",
+            "is_hot": false
+        },
+        {
+            "title": "Syarikat TradFi Berbilion Dolar Berat Mengemukakan Permohonan untuk Amanah Solana di Delaware",
+            "url": "https://cryptopanic.com/news/click/20684602/",
+            "description": "",
+            "image": "https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F29770240-650d-48ff-9d1d-991e153f61bb",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118056",
+            "is_hot": false
+        },
+        {
+            "title": "Hukum Kuasa Bitcoin mencadangkan puncak November melebihi $200,000 dan tidak pernah kembali ke $70k.",
+            "url": "https://cryptopanic.com/news/click/20684576/",
+            "description": "",
+            "image": "https://cryptoslate.com/wp-content/uploads/2025/02/Screenshot-2025-02-12-at-09.31.00-scaled.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118058",
+            "is_hot": false
+        },
+        {
+            "title": "BlackRock dan FDIC dalam perbincangan mengenai pematuhan pegangan bank di tengah-tengah pengaruh kripto yang berkembang.",
+            "url": "https://cryptopanic.com/news/click/20684713/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/BlackRock-and-FDIC-in-talks-over-bank-stakes-compliance.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118059",
+            "is_hot": false
+        },
+        {
+            "title": "Gate.io Berkongsi dengan Oracle Red Bull Racing untuk 2025",
+            "url": "https://cryptopanic.com/news/click/20684547/",
+            "description": "",
+            "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118061",
+            "is_hot": false
+        },
+        {
+            "title": "Rangkaian Utama Unichain Langsung: Pantas, Rendah Kos, Desentralisasi",
+            "url": "https://cryptopanic.com/news/click/20684394/",
+            "description": "",
+            "image": "https://www.altcoinbuzz.io/wp-content/uploads/2021/02/Altcoin-Buzz-Facebook-Logo-300x300.jpg",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118062",
+            "is_hot": false
+        },
+        {
+            "title": "Shiba Inus Runtuh atau Kembali? Ramalan Harga Suku 1 2025",
+            "url": "https://cryptopanic.com/news/click/20684034/",
+            "description": "",
+            "image": "https://media.assettype.com/voiceofcrypto%2F2024-12-30%2Fqx4i0gtu%2FShiba-Inu-Goes-Multichain-Could-SHIBs-Price-Soar-1100.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118064",
+            "is_hot": false
+        },
+        {
+            "title": "WhiteBIT membekukan lebih $150M: bagaimana pertukaran itu melawan jenayah kripto",
+            "url": "https://cryptopanic.com/news/click/20684577/",
+            "description": "",
+            "image": "https://www.cryptopolitan.com/wp-content/uploads/2025/02/whitebit-freezes-over-150m-fighting-crypto-crime.webp",
+            "panic_score": null,
+            "timestamp": "2025-02-12T10:22:35.118065",
+            "is_hot": false
         },
         {
             "title": "ETF Solana Semakin Berkemungkinan Selepas Langkah Tidak Terduga SEC",
@@ -180,15 +369,6 @@
             "panic_score": null,
             "timestamp": "2025-02-12T09:22:42.901048",
             "is_hot": true
-        },
-        {
-            "title": "Shiba Inus Runtuh atau Kembali? Ramalan Harga Suku 1 2025",
-            "url": "https://cryptopanic.com/news/click/20684034/",
-            "description": "",
-            "image": "https://media.assettype.com/voiceofcrypto%2F2024-03%2F7001c4a6-9632-4127-8a6c-f5abcbc4a1e1%2FVOCQuintype_16_9__1_.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true",
-            "panic_score": null,
-            "timestamp": "2025-02-12T09:22:42.309955",
-            "is_hot": false
         },
         {
             "title": "Bitkoin: Bagaimana pandangan potongan kadarFed yang tidak tergesa-gesa oleh Jerome Powell akan memberi impak kepada BTC?",
