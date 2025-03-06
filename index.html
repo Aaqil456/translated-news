@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
 
-    <title>Translated News</title>
+    <title>Hot News Only</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -75,17 +75,15 @@
             background-color: #333;
             border-radius: 20px;
             padding: 5px;
-            cursor: pointer;
             width: 200px;
             position: relative;
         }
         .toggle-bar .toggle .toggle-slider {
             position: absolute;
             height: 100%;
-            width: 50%;
+            width: 100%;
             background-color: #00e2b1;
             border-radius: 20px;
-            transition: all 0.3s ease;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -93,29 +91,22 @@
             font-size: 14px;
             font-weight: bold;
         }
-        .toggle-bar .toggle.active .toggle-slider {
-            transform: translateX(100%);
-        }
         .toggle-bar .toggle span {
             flex: 1;
             text-align: center;
             color: white;
             font-size: 14px;
         }
-        /* Custom Scrollbar Styles */
         ::-webkit-scrollbar {
             width: 10px;
         }
-
         ::-webkit-scrollbar-track {
             background: #1a1a1a;
         }
-
         ::-webkit-scrollbar-thumb {
             background: #00e2b1;
             border-radius: 5px;
         }
-
         ::-webkit-scrollbar-thumb:hover {
             background: #00c08a;
         }
@@ -123,22 +114,15 @@
 </head>
 <body>
     <div class="toggle-bar">
-        <div class="toggle" id="toggle">
-            <div class="toggle-slider" id="toggle-slider">Berita</div>
-            <span>Berita</span>
-            <span>Panas</span>
+        <div class="toggle">
+            <div class="toggle-slider">Panas</div>
         </div>
     </div>
     <div class="news-container" id="news-container">
-        <!-- News will be dynamically added here -->
+        <!-- Hot news will be dynamically added here -->
     </div>
     <script>
-        let currentFilter = "all";
-
-        const toggleElement = document.getElementById("toggle");
-        const toggleSlider = document.getElementById("toggle-slider");
-
-        const fetchNews = (filter) => {
+        const fetchHotNews = () => {
             fetch(`https://aaqil456.github.io/translated-news/translated_news.json?timestamp=${new Date().getTime()}`)
                 .then(response => {
                     if (!response.ok) {
@@ -148,18 +132,12 @@
                 })
                 .then(data => {
                     const container = document.getElementById('news-container');
-                    container.innerHTML = ''; // Clear old content
+                    container.innerHTML = '';
 
-                    const newsArray = data.all_news.filter(news => {
-                        if (filter === "hot") {
-                            return news.is_hot;
-                        } else {
-                            return !news.is_hot;
-                        }
-                    });
+                    const hotNews = data.all_news.filter(news => news.is_hot);
 
-                    if (Array.isArray(newsArray)) {
-                        newsArray.forEach(news => {
+                    if (hotNews.length > 0) {
+                        hotNews.forEach(news => {
                             const newsItem = document.createElement('div');
                             newsItem.classList.add('news-item');
                             newsItem.innerHTML = `
@@ -167,12 +145,12 @@
                                 <img src="${news.image}" alt="${news.title}" class="news-image">
                                 <div class="news-description">${news.description}</div>
                                 <a href="${news.url}" class="news-link" target="_blank">Baca Lagi</a>
-                                ${news.is_hot ? '<div class="hot-badge"><span>🔥</span></div>' : ''}
+                                <div class="hot-badge"><span>🔥</span></div>
                             `;
                             container.appendChild(newsItem);
                         });
                     } else {
-                        container.innerHTML = '<div>Error: Data format is invalid.</div>';
+                        container.innerHTML = '<div>No hot news available at the moment.</div>';
                     }
                 })
                 .catch(err => {
@@ -181,20 +159,8 @@
                 });
         };
 
-        toggleElement.addEventListener("click", () => {
-            toggleElement.classList.toggle("active");
-            if (toggleElement.classList.contains("active")) {
-                currentFilter = "hot";
-                toggleSlider.textContent = "Panas";
-            } else {
-                currentFilter = "all";
-                toggleSlider.textContent = "Berita";
-            }
-            fetchNews(currentFilter);
-        });
-
-        // Initial fetch for all news
-        fetchNews("all");
+        // Fetch only hot news on page load
+        fetchHotNews();
     </script>
 </body>
 </html>
