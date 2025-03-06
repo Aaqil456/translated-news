@@ -4,7 +4,7 @@ import os
 import requests
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Function to fetch hot news from CryptoPanic
 def fetch_news(api_key, filter_type="hot"):
@@ -37,7 +37,7 @@ def clean_text(text):
 def truncate_text(text, max_length=500):
     return text if len(text) <= max_length else text[:max_length] + "..."
 
-# Function to translate text using Easy Peasy API with retries
+# Function to translate text using Easy Peasy API
 def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     if not text:
         return None
@@ -56,17 +56,11 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     for attempt in range(1, retries + 1):
         try:
             response = requests.post(url, json=payload, headers=headers)
-            print(f"Request Payload: {json.dumps(payload, indent=2)}")
-            print(f"Response Status: {response.status_code}")
-            print(f"Response Body: {response.text}")
-
             if response.status_code == 200:
                 response_data = response.json()
                 translated_text = response_data.get("bot", {}).get("text", None)
                 if translated_text:
                     return translated_text
-                else:
-                    print("Translation text is missing in the API response.")
             else:
                 print(f"Translation API error: {response.status_code}, {response.text}")
 
@@ -78,6 +72,31 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
 
     print(f"Translation failed after {retries} attempts for text: {text}")
     return None
+
+# Function to load existing data
+def load_existing_data(filename="translated_news.json"):
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f).get("all_news", [])
+    return []
+
+# Function to remove duplicates
+def remove_duplicates(news_list):
+    seen_urls = set()
+    unique_news = []
+    for news in news_list:
+        if news["url"] not in seen_urls:
+            unique_news.append(news)
+            seen_urls.add(news["url"])
+    return unique_news
+
+# Function to filter out news older than 3 days
+def filter_old_news(news_list, days=3):
+    cutoff_time = datetime.now() - timedelta(days=days)
+    return [
+        news for news in news_list
+        if datetime.fromisoformat(news["timestamp"]) >= cutoff_time
+    ]
 
 # Function to save news to JSON
 def save_to_json(data, filename="translated_news.json"):
@@ -95,11 +114,16 @@ def main():
         print("API keys are missing! Please set them as environment variables.")
         return
 
-    # Fetch only hot news
+    # Load and filter existing news (keep only news from the last 3 days)
+    print("Loading existing news and filtering old news...")
+    existing_news = load_existing_data()
+    recent_news = filter_old_news(existing_news, days=3)
+    print(f"{len(recent_news)} recent news retained.")
+
+    # Fetch and translate latest hot news
     print("Fetching latest hot news from CryptoPanic...")
     hot_news = fetch_news(CRYPTOPANIC_API_KEY)
 
-    # Translate hot news and mark them
     print("Translating hot news titles and descriptions...")
     translated_hot_news = []
     for news in hot_news:
@@ -115,15 +139,18 @@ def main():
         else:
             print(f"Translation failed for hot news: {news['title']}")
 
-    # Save only latest hot news (clear old JSON)
-    if translated_hot_news:
-        save_to_json(translated_hot_news)
-        print(f"\n{len(translated_hot_news)} hot news saved.")
-    else:
-        print("No hot news to save.")
+    # Combine recent news with new hot news
+    combined_news = remove_duplicates(recent_news + translated_hot_news)
 
-    # Print saved hot news
-    print("\nLatest Hot News:")
+    # Save combined news
+    if combined_news:
+        save_to_json(combined_news)
+        print(f"\n{len(combined_news)} total news saved.")
+    else:
+        print("No news to save.")
+
+    # Print latest added hot news
+    print("\nLatest Hot News Added:")
     for news in translated_hot_news:
         print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
 
