@@ -1,16 +1,14 @@
 # Import required libraries
-import random  # Import random module for shuffling
+import random
 import os
 import requests
 import json
 import time
 from datetime import datetime
 
-# Function to fetch news from CryptoPanic with metadata and optional filters
-def fetch_news(api_key, filter_type=None):
-    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true"
-    if filter_type:
-        url += f"&filter={filter_type}"
+# Function to fetch hot news from CryptoPanic
+def fetch_news(api_key, filter_type="hot"):
+    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={api_key}&metadata=true&filter={filter_type}"
     response = requests.get(url)
     if response.status_code == 200:
         news_data = response.json()
@@ -39,7 +37,7 @@ def clean_text(text):
 def truncate_text(text, max_length=500):
     return text if len(text) <= max_length else text[:max_length] + "..."
 
-# Function to translate text using Easy Peasy API with proper response handling
+# Function to translate text using Easy Peasy API with retries
 def translate_text_easypeasy(api_key, text, retries=3, delay=2):
     if not text:
         return None
@@ -65,7 +63,7 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
             if response.status_code == 200:
                 response_data = response.json()
                 translated_text = response_data.get("bot", {}).get("text", None)
-                if translated_text:  # Ensure the translation exists
+                if translated_text:
                     return translated_text
                 else:
                     print("Translation text is missing in the API response.")
@@ -75,36 +73,18 @@ def translate_text_easypeasy(api_key, text, retries=3, delay=2):
         except requests.exceptions.RequestException as e:
             print(f"Request failed (attempt {attempt}/{retries}): {e}")
 
-        # Wait before retrying
         if attempt < retries:
             time.sleep(delay)
 
     print(f"Translation failed after {retries} attempts for text: {text}")
     return None
 
-# Function to load existing data
-def load_existing_data(filename="translated_news.json"):
-    if os.path.exists(filename):
-        with open(filename, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"all_news": []}
-
-# Function to remove duplicates
-def remove_duplicates(news_list):
-    seen_urls = set()
-    unique_news = []
-    for news in news_list:
-        if news["url"] not in seen_urls:
-            unique_news.append(news)
-            seen_urls.add(news["url"])
-    return unique_news
-
 # Function to save news to JSON
 def save_to_json(data, filename="translated_news.json"):
     output = {"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "all_news": data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print(f"Translated news saved to {filename}")
+    print(f"Translated hot news saved to {filename}")
 
 # Main function
 def main():
@@ -115,28 +95,9 @@ def main():
         print("API keys are missing! Please set them as environment variables.")
         return
 
-    # Fetch all news and hot news
-    print("Fetching all news from CryptoPanic...")
-    all_news = fetch_news(CRYPTOPANIC_API_KEY)
-
-    print("Fetching hot news from CryptoPanic...")
-    hot_news = fetch_news(CRYPTOPANIC_API_KEY, filter_type="hot")
-
-    # Translate all news
-    print("Translating all news titles and descriptions...")
-    translated_all_news = []
-    for news in all_news:
-        title = clean_text(truncate_text(news["title"]))
-        description = clean_text(truncate_text(news["description"]))
-        translated_title = translate_text_easypeasy(EASY_PEASY_API_KEY, title)
-        translated_description = translate_text_easypeasy(EASY_PEASY_API_KEY, description)
-        if translated_title or translated_description:
-            news["title"] = translated_title if translated_title else news["title"]
-            news["description"] = translated_description if translated_description else news["description"]
-            news["is_hot"] = False  # Default value
-            translated_all_news.append(news)
-        else:
-            print(f"Translation failed for news: {news['title']}")
+    # Fetch only hot news
+    print("Fetching latest hot news from CryptoPanic...")
+    hot_news = fetch_news(CRYPTOPANIC_API_KEY)
 
     # Translate hot news and mark them
     print("Translating hot news titles and descriptions...")
@@ -154,26 +115,17 @@ def main():
         else:
             print(f"Translation failed for hot news: {news['title']}")
 
-    # Combine all news and hot news, ensuring hot news is part of all news
-    combined_news = translated_hot_news + translated_all_news  # Hot news first
-    combined_news = remove_duplicates(combined_news)
-
-    # Load existing data and merge
-    existing_data = load_existing_data()
-    final_news_list = remove_duplicates(combined_news + existing_data.get("all_news", []))
-
-    # Save combined data to JSON
-    if final_news_list:
-        save_to_json(final_news_list)
-
-    # Print newly added news
-    print("\nNewly Added News:")
-    new_news = [news for news in final_news_list if news not in existing_data.get("all_news", [])]
-    if new_news:
-        for news in new_news:
-            print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
+    # Save only latest hot news (clear old JSON)
+    if translated_hot_news:
+        save_to_json(translated_hot_news)
+        print(f"\n{len(translated_hot_news)} hot news saved.")
     else:
-        print("No new news was added.")
+        print("No hot news to save.")
+
+    # Print saved hot news
+    print("\nLatest Hot News:")
+    for news in translated_hot_news:
+        print(f"Title: {news['title']}\nURL: {news['url']}\nIs Hot: {news['is_hot']}\n")
 
 # Run the main script
 if __name__ == "__main__":
